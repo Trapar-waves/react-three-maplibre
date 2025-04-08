@@ -46,7 +46,7 @@ importers:
         specifier: ^4.11.0
         version: 4.11.0(@typescript-eslint/utils@8.29.1(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3))(@vue/compiler-sfc@3.5.13)(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3)
       '@iconify/json':
-        specifier: ^2.2.323
+        specifier: ^2.2.324
         version: 2.2.324
       '@iconify/tailwind4':
         specifier: ^1.0.6
