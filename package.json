@@ -2,6 +2,26 @@
   "name": "@trapar-waves/react-three-maplibre",
   "type": "module",
   "version": "1.0.0",
+  "author": {
+    "email": "admin@rikka.cc",
+    "name": "Rikka",
+    "url": "https://github.com/Muromi-Rikka"
+  },
+  "homepage": "https://github.com/Trapar-waves/react-three-maplibre",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trapar-waves/react-three-maplibre.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Trapar-waves/react-three-maplibre/issues"
+  },
+  "keywords": [
+    "react",
+    "antv",
+    "maplibre",
+    "three",
+    "r3f"
+  ],
   "publishConfig": {
     "access": "public"
   },
