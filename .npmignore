@@ -1,3 +1,5 @@
 renovate.json
 .github
 !pnpm-lock.yaml
+
+*.local
