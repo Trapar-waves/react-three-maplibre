@@ -23,6 +23,7 @@ const latLon = {
   latitude: 31.215175,
   longitude: 121.417463,
 };
+const MAPTILER_KEY = import.meta.env.PUBLIC_MAPTILER_KEY;
 
 function App() {
   const ref = useRef<HTMLDivElement>(null!);
@@ -67,7 +68,7 @@ function App() {
           zoom: 11,
           pitch: 64.88,
         }}
-        mapStyle="https://api.maptiler.com/maps/streets/style.json?key=YbCPLULzWdf1NplssEIc"
+        mapStyle={`https://api.maptiler.com/maps/streets/style.json?key=${MAPTILER_KEY}`}
         onLoad={initL7}
       >
         <Stats className="stats" parent={ref} />
