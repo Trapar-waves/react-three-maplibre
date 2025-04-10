@@ -30,11 +30,11 @@ importers:
         specifier: ^19.1.0
         version: 19.1.0(react@19.1.0)
       react-map-gl:
-        specifier: ^8.0.2
-        version: 8.0.2(mapbox-gl@3.11.0)(maplibre-gl@4.7.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: ^8.0.3
+        version: 8.0.3(mapbox-gl@3.11.0)(maplibre-gl@4.7.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react-three-map:
         specifier: 1.0.0-next.2
-        version: 1.0.0-next.2(@react-three/fiber@9.1.2(@types/react@19.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.175.0))(mapbox-gl@3.11.0)(maplibre-gl@4.7.1)(react-map-gl@8.0.2(mapbox-gl@3.11.0)(maplibre-gl@4.7.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)(three@0.175.0)
+        version: 1.0.0-next.2(@react-three/fiber@9.1.2(@types/react@19.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.175.0))(mapbox-gl@3.11.0)(maplibre-gl@4.7.1)(react-map-gl@8.0.3(mapbox-gl@3.11.0)(maplibre-gl@4.7.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)(three@0.175.0)
       three:
         specifier: ^0.175.0
         version: 0.175.0
@@ -43,11 +43,11 @@ importers:
         version: 2.35.15(three@0.175.0)
     devDependencies:
       '@antfu/eslint-config':
-        specifier: ^4.11.0
-        version: 4.11.0(@typescript-eslint/utils@8.29.1(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3))(@vue/compiler-sfc@3.5.13)(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3)
+        specifier: ^4.12.0
+        version: 4.12.0(@vue/compiler-sfc@3.5.13)(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3)
       '@iconify/json':
-        specifier: ^2.2.324
-        version: 2.2.324
+        specifier: ^2.2.325
+        version: 2.2.325
       '@iconify/tailwind4':
         specifier: ^1.0.6
         version: 1.0.6(tailwindcss@4.1.3)
@@ -64,8 +64,8 @@ importers:
         specifier: ^19.1.0
         version: 19.1.0
       '@types/react-dom':
-        specifier: ^19.1.1
-        version: 19.1.1(@types/react@19.1.0)
+        specifier: ^19.1.2
+        version: 19.1.2(@types/react@19.1.0)
       '@types/three':
         specifier: ^0.175.0
         version: 0.175.0
@@ -91,11 +91,11 @@ packages:
   '@amap/amap-jsapi-loader@1.0.1':
     resolution: {integrity: sha512-nPyLKt7Ow/ThHLkSvn2etQlUzqxmTVgK7bIgwdBRTg2HK5668oN7xVxkaiRe3YZEzGzfV2XgH5Jmu2T73ljejw==}
 
-  '@antfu/eslint-config@4.11.0':
-    resolution: {integrity: sha512-KMLIrZflEFsOEF/N0Xl8iVaheLTdgT3gAwXVzdG5Ng8ieNhBsRsaThnqI7of10kh6psSBLJ6SkNK+ZF98fQIXQ==}
+  '@antfu/eslint-config@4.12.0':
+    resolution: {integrity: sha512-8NszLFXu9/cwOP/qliYS3heD+9ZCouGgOWQmsXgDHLNkjC9IjI1yXBOp6Xs4EvwTKsSAZp3SVw382M8naqMQUg==}
     hasBin: true
     peerDependencies:
-      '@eslint-react/eslint-plugin': ^1.19.0
+      '@eslint-react/eslint-plugin': ^1.38.4
       '@prettier/plugin-xml': ^3.4.1
       '@unocss/eslint-plugin': '>=0.50.0'
       astro-eslint-parser: ^1.0.2
@@ -318,8 +318,8 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@iconify/json@2.2.324':
-    resolution: {integrity: sha512-7rx2pY2NH4zn/7q04zFiiD3o7eQ8ZV0F0nf7Rkn2DyI272OWzDMw5goSULOyDdiW9sdfBLeZod/TRxEilaNNsA==}
+  '@iconify/json@2.2.325':
+    resolution: {integrity: sha512-DKBZY0nXvllakPDUHpxmETE4y6hOHkBfr3IHTxGxHmoXWCCynEPMocXSui8BO9GLEYSV+ztkh/aacgxSFKl+JQ==}
 
   '@iconify/tailwind4@1.0.6':
     resolution: {integrity: sha512-43ZXe+bC7CuE2LCgROdqbQeFYJi/J7L/k1UpSy8KDQlWVsWxPzLSWbWhlJx4uRYLOh1NRyw02YlDOgzBOFNd+A==}
@@ -715,8 +715,8 @@ packages:
   '@types/pbf@3.0.5':
     resolution: {integrity: sha512-j3pOPiEcWZ34R6a6mN07mUkM4o4Lwf6hPNt8eilOeZhTFbxFXmKhvXl9Y28jotFPaI1bpPDJsbCprUoNke6OrA==}
 
-  '@types/react-dom@19.1.1':
-    resolution: {integrity: sha512-jFf/woGTVTjUJsl2O7hcopJ1r0upqoq/vIOoCj0yLh3RIXxWcljlpuZ+vEBRXsymD1jhfeJrlyTy/S1UW+4y1w==}
+  '@types/react-dom@19.1.2':
+    resolution: {integrity: sha512-XGJkWF41Qq305SKWEILa1O8vzhb3aOo3ogBlSmiqNko/WmRb6QIaweuZCXjKygVDXpzXb5wyxKTSOsmkuqj+Qw==}
     peerDependencies:
       '@types/react': ^19.0.0
 
@@ -873,8 +873,8 @@ packages:
     peerDependencies:
       react: '>= 16.8.0'
 
-  '@vis.gl/react-mapbox@8.0.2':
-    resolution: {integrity: sha512-6WS+VOPzcgG0+Rsz5sPPyUwg/oNtbvV0nWnCaSm7tHGnylK8aDhZwXJnEjDeGlo/sh1h/PbCCgzUBBRt7u7rsg==}
+  '@vis.gl/react-mapbox@8.0.3':
+    resolution: {integrity: sha512-/0YcgWOYNU+gPuX5PCZ8ZjbV28d3hYewhGa8MK8q70LbEqhOZycdDP/1taS8ro6vkCpmmuAJUzL24f93Y1Fh/Q==}
     peerDependencies:
       mapbox-gl: '>=3.5.0'
       react: '>=16.3.0'
@@ -883,8 +883,8 @@ packages:
       mapbox-gl:
         optional: true
 
-  '@vis.gl/react-maplibre@8.0.2':
-    resolution: {integrity: sha512-2Vbkp0D6S1z97GadNyVRErslgr7IdI8ZmFpGsJz8x2TRpNTYUyHXHHeC5hzyLWHHz6KQhuUD/EQuJoy6GQ5TOQ==}
+  '@vis.gl/react-maplibre@8.0.3':
+    resolution: {integrity: sha512-mc5RYZP0t6pVn/x5h2+e2lODd8H7YZElVOLiboXFCBRvOQOyZfFzEXqcEpQHaqOQgdpgozCieKOBr4Q7gql8mw==}
     peerDependencies:
       maplibre-gl: '>=4.0.0'
       react: '>=16.3.0'
@@ -893,10 +893,9 @@ packages:
       maplibre-gl:
         optional: true
 
-  '@vitest/eslint-plugin@1.1.39':
-    resolution: {integrity: sha512-l5/MUFCYI8nxwr62JHlWwXfeQNS8E7xy71lSLGQ3CrjGjBdWLs1Rtee+BvYwy2m4YVPwYqUwdcAIOaZOwPUpfg==}
+  '@vitest/eslint-plugin@1.1.40':
+    resolution: {integrity: sha512-M7RpSSVa98U0gtDcLfoZqLuv4Wk/G7o6TqTULwVbPO/TU7qaw41XNP0t68+JVgtgy/WkVGbxVQMBdj3XsywKcQ==}
     peerDependencies:
-      '@typescript-eslint/utils': ^8.24.0
       eslint: '>= 8.57.0'
       typescript: '>= 5.0.0'
       vitest: '*'
@@ -999,8 +998,8 @@ packages:
   buffer@6.0.3:
     resolution: {integrity: sha512-FTiCpNxtwiZZHEZbcbTIcZjERVICn9yq/pDFkTl95/AxzD1naBctN7YO68riM/gLSDY7sdrMby8hofADYuuqOA==}
 
-  builtin-modules@4.0.0:
-    resolution: {integrity: sha512-p1n8zyCkt1BVrKNFymOHjcDSAl7oq/gUvfgULv2EblgpPVQlQr9yHnWjg9IJ2MhfwPqiYqMMrr01OY7yQoK2yA==}
+  builtin-modules@5.0.0:
+    resolution: {integrity: sha512-bkXY9WsVpY7CvMhKSR6pZilZu9Ln5WDrKVBUXf2S443etkmEO4V58heTecXcUIsNsi4Rx8JUO4NfX1IcQl4deg==}
     engines: {node: '>=18.20'}
 
   bytewise-core@1.2.3:
@@ -1321,11 +1320,11 @@ packages:
     peerDependencies:
       eslint: '>=6.0.0'
 
-  eslint-plugin-unicorn@57.0.0:
-    resolution: {integrity: sha512-zUYYa6zfNdTeG9BISWDlcLmz16c+2Ck2o5ZDHh0UzXJz3DEP7xjmlVDTzbyV0W+XksgZ0q37WEWzN2D2Ze+g9Q==}
-    engines: {node: '>=18.18'}
+  eslint-plugin-unicorn@58.0.0:
+    resolution: {integrity: sha512-fc3iaxCm9chBWOHPVjn+Czb/wHS0D2Mko7wkOdobqo9R2bbFObc4LyZaLTNy0mhZOP84nKkLhTUQxlLOZ7EjKw==}
+    engines: {node: ^18.20.0 || ^20.10.0 || >=21.0.0}
     peerDependencies:
-      eslint: '>=9.20.0'
+      eslint: '>=9.22.0'
 
   eslint-plugin-unused-imports@4.1.4:
     resolution: {integrity: sha512-YptD6IzQjDardkl0POxnnRBhU1OEePMV0nd6siHaRBbd+lyh6NAhFEobiznKU7kTsSsDeSD62Pe7kAM1b7dAZQ==}
@@ -1605,8 +1604,8 @@ packages:
   internmap@1.0.1:
     resolution: {integrity: sha512-lDB5YccMydFBtasVtxnZ3MRBHuaoE8GKsppq+EchKL2U4nK/DmEpPHNH8MZe5HkMtpSiTSOZwfN0tzYjO/lJEw==}
 
-  is-builtin-module@4.0.0:
-    resolution: {integrity: sha512-rWP3AMAalQSesXO8gleROyL2iKU73SX5Er66losQn9rWOWL4Gef0a/xOEOVqjWGMuR2vHG3FJ8UUmT700O8oFg==}
+  is-builtin-module@5.0.0:
+    resolution: {integrity: sha512-f4RqJKBUe5rQkJ2eJEJBXSticB3hGbN9j0yxxMQFqIW89Jp9WYFtzfTcRlstDKVUTRzSOTLKRfO9vIztenwtxA==}
     engines: {node: '>=18.20'}
 
   is-core-module@2.16.1:
@@ -2146,8 +2145,8 @@ packages:
     peerDependencies:
       react: ^19.1.0
 
-  react-map-gl@8.0.2:
-    resolution: {integrity: sha512-290CDxlvb9Fgbzvg2DgoMlAa5YjdHRZkJ9V0kAnxcD+F1fmYVegQDMevLJu5bcTZ0WKOzli3Os+rNtecLuNu7A==}
+  react-map-gl@8.0.3:
+    resolution: {integrity: sha512-RZ93PKfJtXGIfx+hT5drLeiEwrbQnMAhI8YWq02OwfFIEIEQU/KnlJlFCvFCS+ezj9VExl7gQHJu5b1TC+U3EA==}
     peerDependencies:
       mapbox-gl: '>=1.13.0'
       maplibre-gl: '>=1.13.0'
@@ -2621,7 +2620,7 @@ snapshots:
 
   '@amap/amap-jsapi-loader@1.0.1': {}
 
-  '@antfu/eslint-config@4.11.0(@typescript-eslint/utils@8.29.1(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3))(@vue/compiler-sfc@3.5.13)(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3)':
+  '@antfu/eslint-config@4.12.0(@vue/compiler-sfc@3.5.13)(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3)':
     dependencies:
       '@antfu/install-pkg': 1.0.0
       '@clack/prompts': 0.10.1
@@ -2630,7 +2629,7 @@ snapshots:
       '@stylistic/eslint-plugin': 4.2.0(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3)
       '@typescript-eslint/eslint-plugin': 8.29.1(@typescript-eslint/parser@8.29.1(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3)
       '@typescript-eslint/parser': 8.29.1(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3)
-      '@vitest/eslint-plugin': 1.1.39(@typescript-eslint/utils@8.29.1(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3)
+      '@vitest/eslint-plugin': 1.1.40(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3)
       ansis: 3.17.0
       cac: 6.7.14
       eslint: 9.24.0(jiti@2.4.2)
@@ -2648,7 +2647,7 @@ snapshots:
       eslint-plugin-pnpm: 0.3.1(eslint@9.24.0(jiti@2.4.2))
       eslint-plugin-regexp: 2.7.0(eslint@9.24.0(jiti@2.4.2))
       eslint-plugin-toml: 0.12.0(eslint@9.24.0(jiti@2.4.2))
-      eslint-plugin-unicorn: 57.0.0(eslint@9.24.0(jiti@2.4.2))
+      eslint-plugin-unicorn: 58.0.0(eslint@9.24.0(jiti@2.4.2))
       eslint-plugin-unused-imports: 4.1.4(@typescript-eslint/eslint-plugin@8.29.1(@typescript-eslint/parser@8.29.1(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.24.0(jiti@2.4.2))
       eslint-plugin-vue: 10.0.0(eslint@9.24.0(jiti@2.4.2))(vue-eslint-parser@10.1.3(eslint@9.24.0(jiti@2.4.2)))
       eslint-plugin-yml: 1.17.0(eslint@9.24.0(jiti@2.4.2))
@@ -2662,7 +2661,6 @@ snapshots:
       yaml-eslint-parser: 1.3.0
     transitivePeerDependencies:
       - '@eslint/json'
-      - '@typescript-eslint/utils'
       - '@vue/compiler-sfc'
       - supports-color
       - typescript
@@ -2975,7 +2973,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@iconify/json@2.2.324':
+  '@iconify/json@2.2.325':
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.2
@@ -3403,7 +3401,7 @@ snapshots:
 
   '@types/pbf@3.0.5': {}
 
-  '@types/react-dom@19.1.1(@types/react@19.1.0)':
+  '@types/react-dom@19.1.2(@types/react@19.1.0)':
     dependencies:
       '@types/react': 19.1.0
 
@@ -3565,14 +3563,14 @@ snapshots:
       '@use-gesture/core': 10.3.1
       react: 19.1.0
 
-  '@vis.gl/react-mapbox@8.0.2(mapbox-gl@3.11.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@vis.gl/react-mapbox@8.0.3(mapbox-gl@3.11.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
     optionalDependencies:
       mapbox-gl: 3.11.0
 
-  '@vis.gl/react-maplibre@8.0.2(maplibre-gl@4.7.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@vis.gl/react-maplibre@8.0.3(maplibre-gl@4.7.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@maplibre/maplibre-gl-style-spec': 19.3.3
       react: 19.1.0
@@ -3580,9 +3578,8 @@ snapshots:
     optionalDependencies:
       maplibre-gl: 4.7.1
 
-  '@vitest/eslint-plugin@1.1.39(@typescript-eslint/utils@8.29.1(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3)':
+  '@vitest/eslint-plugin@1.1.40(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3)':
     dependencies:
-      '@typescript-eslint/utils': 8.29.1(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3)
       eslint: 9.24.0(jiti@2.4.2)
     optionalDependencies:
       typescript: 5.8.3
@@ -3689,7 +3686,7 @@ snapshots:
       base64-js: 1.5.1
       ieee754: 1.2.1
 
-  builtin-modules@4.0.0: {}
+  builtin-modules@5.0.0: {}
 
   bytewise-core@1.2.3:
     dependencies:
@@ -4026,18 +4023,19 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-unicorn@57.0.0(eslint@9.24.0(jiti@2.4.2)):
+  eslint-plugin-unicorn@58.0.0(eslint@9.24.0(jiti@2.4.2)):
     dependencies:
       '@babel/helper-validator-identifier': 7.25.9
       '@eslint-community/eslint-utils': 4.5.1(eslint@9.24.0(jiti@2.4.2))
+      '@eslint/plugin-kit': 0.2.8
       ci-info: 4.2.0
       clean-regexp: 1.0.0
       core-js-compat: 3.41.0
       eslint: 9.24.0(jiti@2.4.2)
       esquery: 1.6.0
-      globals: 15.15.0
+      globals: 16.0.0
       indent-string: 5.0.0
-      is-builtin-module: 4.0.0
+      is-builtin-module: 5.0.0
       jsesc: 3.1.0
       pluralize: 8.0.0
       read-package-up: 11.0.0
@@ -4320,9 +4318,9 @@ snapshots:
 
   internmap@1.0.1: {}
 
-  is-builtin-module@4.0.0:
+  is-builtin-module@5.0.0:
     dependencies:
-      builtin-modules: 4.0.0
+      builtin-modules: 5.0.0
 
   is-core-module@2.16.1:
     dependencies:
@@ -5080,10 +5078,10 @@ snapshots:
       react: 19.1.0
       scheduler: 0.26.0
 
-  react-map-gl@8.0.2(mapbox-gl@3.11.0)(maplibre-gl@4.7.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
+  react-map-gl@8.0.3(mapbox-gl@3.11.0)(maplibre-gl@4.7.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
-      '@vis.gl/react-mapbox': 8.0.2(mapbox-gl@3.11.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      '@vis.gl/react-maplibre': 8.0.2(maplibre-gl@4.7.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@vis.gl/react-mapbox': 8.0.3(mapbox-gl@3.11.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@vis.gl/react-maplibre': 8.0.3(maplibre-gl@4.7.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
     optionalDependencies:
@@ -5097,11 +5095,11 @@ snapshots:
 
   react-refresh@0.17.0: {}
 
-  react-three-map@1.0.0-next.2(@react-three/fiber@9.1.2(@types/react@19.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.175.0))(mapbox-gl@3.11.0)(maplibre-gl@4.7.1)(react-map-gl@8.0.2(mapbox-gl@3.11.0)(maplibre-gl@4.7.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)(three@0.175.0):
+  react-three-map@1.0.0-next.2(@react-three/fiber@9.1.2(@types/react@19.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.175.0))(mapbox-gl@3.11.0)(maplibre-gl@4.7.1)(react-map-gl@8.0.3(mapbox-gl@3.11.0)(maplibre-gl@4.7.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)(three@0.175.0):
     dependencies:
       '@react-three/fiber': 9.1.2(@types/react@19.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.175.0)
       react: 19.1.0
-      react-map-gl: 8.0.2(mapbox-gl@3.11.0)(maplibre-gl@4.7.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      react-map-gl: 8.0.3(mapbox-gl@3.11.0)(maplibre-gl@4.7.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       three: 0.175.0
     optionalDependencies:
       mapbox-gl: 3.11.0
