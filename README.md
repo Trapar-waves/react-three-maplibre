@@ -3,21 +3,21 @@
 ![npm version](https://img.shields.io/npm/v/@trapar-waves/react-three-maplibre)
 ![npm dm](https://img.shields.io/npm/dm/@trapar-waves/react-three-maplibre)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![GitHub last commit](https://img.shields.io/github/last-commit/trapar-waves/react-three-maplibre)
-> A React-based project integrating Three.js and MapLibre for advanced geospatial visualization.
+![GitHub last commit](https://img.shields.io/github/last-commit/Trapar-waves/react-three-maplibre)
+
+> A React-based library integrating Three.js, MapLibre, and AntV for advanced geospatial 3D visualizations.
 
 ## ✨ Features
 
-* **3D Geospatial Visualization:** Combines [Three.js](https://threejs.org/) with [MapLibre](https://maplibre.org/) to enable highly interactive and visually rich 3D maps.
-* **React Integration:** Built using [@react-three/fiber](https://github.com/pmndrs/react-three-fiber) and [@react-three/drei](https://github.com/pmndrs/drei) for seamless integration of Three.js within a React environment.
-* **Advanced Mapping Capabilities:** Leverages [@antv/l7](https://l7.antv.vision/en-US) and [@antv/l7-maps](https://l7.antv.vision/en-US) for data-driven geospatial visualizations like heatmaps, choropleth maps, and more.
-* **Utility-First Styling:** Employs [Tailwind CSS](https://tailwindcss.com/) for flexible and rapid styling customization.
-* **Type Safety:** Utilizes TypeScript across the project (via `@types/react`, `@types/three`, etc.) to ensure type safety and improve code reliability.
-* **Fast Development Workflow:** Uses [Rsbuild](https://rsbuild.dev/) as the build tool for optimized builds and fast development cycles with features like HMR (Hot Module Replacement).
-* **Iconography Support:** Integrates [@iconify/tailwind4](https://iconify.design/) for scalable and customizable SVG icons.
-* **Code Quality Focus:** Includes ESLint configurations via [@antfu/eslint-config](https://github.com/antfu/eslint-config) to maintain high code quality standards.
-* **Customizable Maps:** Supports [react-map-gl](https://visgl.github.io/react-map-gl/) for creating interactive and customizable map experiences.
-* **Rich 3D Ecosystem:** Likely includes additional Three.js utilities from [three-stdlib](https://github.com/pmndrs/three-stdlib), offering pre-built helpers and components for common 3D tasks.
+* **Geospatial Visualization:** Combines `@antv/l7` and `maplibre-gl` for powerful geospatial data rendering with custom map layers.
+* **3D Rendering with React:** Leverages `@react-three/fiber` and `@react-three/drei` to integrate Three.js into a React-based workflow for declarative 3D scene management.
+* **Customizable UI Integration:** Offers seamless integration with React (`react`, `react-dom`) for building interactive geospatial applications.
+* **Utility-First Styling:** Employs `tailwindcss` for flexible and rapid styling of components and layouts.
+* **Type Safety:** Uses TypeScript to ensure type safety and improve developer experience during development.
+* **Fast Development Workflow:** Utilizes `rsbuild` for optimized builds and efficient development server performance.
+* **Rich Component Library:** Integrates with `three-stdlib` and `@react-three/drei` for reusable Three.js utilities and components.
+* **Map Interactivity:** Implements `react-map-gl` for interactive map controls and client-side navigation in geospatial contexts.
+* **AntV Enhancements:** Incorporates `@antv/l7-maps` for additional map layering capabilities and visualization tools.
 
 ## 🚀 Getting Started
 
@@ -27,7 +27,7 @@ Follow these instructions to get the project running locally.
 
 * Ensure you have the following installed:
     * Node.js (>= 18.x recommended)
-    * Package manager (`npm`, `yarn`, or `pnpm`)
+    * Package manager (npm, yarn, or pnpm)
     ```bash
     node -v
     npm -v # or yarn -v or pnpm -v
@@ -52,13 +52,15 @@ Follow these instructions to get the project running locally.
 
 ## 🛠️ Usage
 
+Explain how to run and use the project after installation.
+
 ### Available Scripts
 
 Common scripts available via `npm run <script>`, `yarn <script>`, or `pnpm <script>`:
 
-* `dev`: Starts the development server with automatic browser opening.
-* `build`: Creates a production-ready build.
-* `preview`: Serves the production build locally for testing purposes.
+* `dev`: Starts the development server with hot module replacement (HMR) using Rsbuild.
+* `build`: Creates a production-ready build of the project.
+* `preview`: Previews the production build locally.
 
 Example:
 ```bash
@@ -76,13 +78,12 @@ npm run preview
 
 Key technologies used in this project include:
 
-* **Framework/Library:** React (with [@react-three/fiber](https://github.com/pmndrs/react-three-fiber) for Three.js integration)
+* **Framework/Library:** React
 * **UI Toolkit/Styling:** Tailwind CSS
-* **Mapping Libraries:** [@antv/l7](https://l7.antv.vision/en-US), [MapLibre](https://maplibre.org/)
-* **3D Rendering:** Three.js (enhanced by [@react-three/drei](https://github.com/pmndrs/drei) and [three-stdlib](https://github.com/pmndrs/three-stdlib))
+* **3D Rendering:** Three.js (`@react-three/fiber`, `@react-three/drei`)
+* **Geospatial Libraries:** MapLibre GL, AntV L7
 * **Build Tool:** Rsbuild
 * **Language:** TypeScript
-* **Iconography:** Iconify
 
 See the [package.json](package.json) for a full list of dependencies.
 
@@ -96,8 +97,7 @@ Distributed under the **MIT** License. See `LICENSE` file for more information.
 
 ## 👤 Author
 
-* **Rikka**
-* Email: [admin@rikka.cc](mailto:admin@rikka.cc)
+* **Rikka** ([admin@rikka.cc](mailto:admin@rikka.cc))
 * GitHub: [@Muromi-Rikka](https://github.com/Muromi-Rikka)
 
 ## 🔗 Links
