@@ -52,7 +52,7 @@
     "@tailwindcss/postcss": "^4.1.4",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
-    "@types/three": "^0.175.0",
+    "@types/three": "^0.176.0",
     "eslint": "^9.25.1",
     "mapbox-gl": "^3.11.0",
     "tailwindcss": "^4.1.4",
