@@ -33,8 +33,8 @@ importers:
         specifier: ^8.0.4
         version: 8.0.4(mapbox-gl@3.11.0)(maplibre-gl@4.7.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react-three-map:
-        specifier: 1.0.0-next.2
-        version: 1.0.0-next.2(@react-three/fiber@9.1.2(@types/react@19.1.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.175.0))(mapbox-gl@3.11.0)(maplibre-gl@4.7.1)(react-map-gl@8.0.4(mapbox-gl@3.11.0)(maplibre-gl@4.7.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)(three@0.175.0)
+        specifier: 1.0.0
+        version: 1.0.0(@react-three/fiber@9.1.2(@types/react@19.1.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.175.0))(mapbox-gl@3.11.0)(maplibre-gl@4.7.1)(react-map-gl@8.0.4(mapbox-gl@3.11.0)(maplibre-gl@4.7.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)(three@0.175.0)
       three:
         specifier: ^0.175.0
         version: 0.175.0
@@ -2176,8 +2176,8 @@ packages:
     resolution: {integrity: sha512-z6F7K9bV85EfseRCp2bzrpyQ0Gkw1uLoCel9XBVWPg/TjRj94SkJzUTGfOa4bs7iJvBWtQG0Wq7wnI0syw3EBQ==}
     engines: {node: '>=0.10.0'}
 
-  react-three-map@1.0.0-next.2:
-    resolution: {integrity: sha512-TU4NN2veC3muuQ+t4BfWTdEzKGfP3S5fFRyKtTIWulplxlUmTVjoRPfSuDo0t3EpjaIivjTJkfMGjPRfbrRxlg==}
+  react-three-map@1.0.0:
+    resolution: {integrity: sha512-ctmuJlEawPDMi0dJvfGEgbkkRQHRZgqY3f8pTmbN0i9EqJGsayXoHi9t/2etdJDx69IkJZWgCUNGUFs4yb06/A==}
     peerDependencies:
       '@react-three/fiber': '>=8.13'
       mapbox-gl: '>=3.5.0'
@@ -5103,7 +5103,7 @@ snapshots:
 
   react-refresh@0.17.0: {}
 
-  react-three-map@1.0.0-next.2(@react-three/fiber@9.1.2(@types/react@19.1.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.175.0))(mapbox-gl@3.11.0)(maplibre-gl@4.7.1)(react-map-gl@8.0.4(mapbox-gl@3.11.0)(maplibre-gl@4.7.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)(three@0.175.0):
+  react-three-map@1.0.0(@react-three/fiber@9.1.2(@types/react@19.1.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.175.0))(mapbox-gl@3.11.0)(maplibre-gl@4.7.1)(react-map-gl@8.0.4(mapbox-gl@3.11.0)(maplibre-gl@4.7.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)(three@0.175.0):
     dependencies:
       '@react-three/fiber': 9.1.2(@types/react@19.1.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.175.0)
       react: 19.1.0
