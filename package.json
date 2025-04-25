@@ -54,7 +54,7 @@
     "@types/react-dom": "^19.1.2",
     "@types/three": "^0.175.0",
     "eslint": "^9.25.1",
-    "mapbox-gl": "^3.11.0",
+    "mapbox-gl": "^3.11.1",
     "tailwindcss": "^4.1.4",
     "typescript": "^5.8.3"
   }
