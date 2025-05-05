@@ -46,8 +46,8 @@ importers:
         specifier: ^4.12.0
         version: 4.12.0(@vue/compiler-sfc@3.5.13)(eslint@9.26.0(jiti@2.4.2))(typescript@5.8.3)
       '@iconify/json':
-        specifier: ^2.2.334
-        version: 2.2.334
+        specifier: ^2.2.335
+        version: 2.2.335
       '@iconify/tailwind4':
         specifier: ^1.0.6
         version: 1.0.6(tailwindcss@4.1.5)
@@ -317,8 +317,8 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@iconify/json@2.2.334':
-    resolution: {integrity: sha512-VcnEHMZs1VT8QvU5dzT1Eau35nGSZdIcJlBRHkxe/HLS1kKkyuFFrsA5aIaHeM7vvU6Y8rPS4DDD2xDmnNgP3g==}
+  '@iconify/json@2.2.335':
+    resolution: {integrity: sha512-EOUM9843cxiwA19cORaz6t+fpn1LhZr5la+Oot7gzt8M5SRjOqvXfMZKcc/VkytRHaaNd2y0dKhA8H7/sP1stQ==}
 
   '@iconify/tailwind4@1.0.6':
     resolution: {integrity: sha512-43ZXe+bC7CuE2LCgROdqbQeFYJi/J7L/k1UpSy8KDQlWVsWxPzLSWbWhlJx4uRYLOh1NRyw02YlDOgzBOFNd+A==}
@@ -3253,7 +3253,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@iconify/json@2.2.334':
+  '@iconify/json@2.2.335':
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.2
