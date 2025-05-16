@@ -2,6 +2,7 @@
   "name": "@trapar-waves/react-three-maplibre",
   "type": "module",
   "version": "1.0.6",
+  "description": "A React library integrating Three.js and MapLibre for 3D map visualization",
   "author": {
     "email": "admin@rikka.cc",
     "name": "Rikka",
