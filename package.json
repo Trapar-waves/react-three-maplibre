@@ -20,8 +20,10 @@
     "react",
     "antv",
     "maplibre",
-    "three",
-    "r3f"
+    "three.js",
+    "react-three-fiber",
+    "geospatial",
+    "3d-visualization"
   ],
   "publishConfig": {
     "access": "public"
