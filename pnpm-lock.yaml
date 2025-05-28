@@ -16,10 +16,10 @@ importers:
         version: 2.22.5
       '@react-three/drei':
         specifier: ^10.0.8
-        version: 10.0.8(@react-three/fiber@9.1.2(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0))(@types/react@19.1.5)(@types/three@0.176.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0)
+        version: 10.0.8(@react-three/fiber@9.1.2(@types/react@19.1.6)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0))(@types/react@19.1.6)(@types/three@0.176.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0)
       '@react-three/fiber':
         specifier: ^9.1.2
-        version: 9.1.2(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0)
+        version: 9.1.2(@types/react@19.1.6)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0)
       maplibre-gl:
         specifier: 5.5.0
         version: 5.5.0
@@ -34,7 +34,7 @@ importers:
         version: 8.0.4(mapbox-gl@3.12.0)(maplibre-gl@5.5.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react-three-map:
         specifier: 1.0.0
-        version: 1.0.0(@react-three/fiber@9.1.2(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0))(mapbox-gl@3.12.0)(maplibre-gl@5.5.0)(react-map-gl@8.0.4(mapbox-gl@3.12.0)(maplibre-gl@5.5.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)(three@0.176.0)
+        version: 1.0.0(@react-three/fiber@9.1.2(@types/react@19.1.6)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0))(mapbox-gl@3.12.0)(maplibre-gl@5.5.0)(react-map-gl@8.0.4(mapbox-gl@3.12.0)(maplibre-gl@5.5.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)(three@0.176.0)
       three:
         specifier: ^0.176.0
         version: 0.176.0
@@ -61,11 +61,11 @@ importers:
         specifier: ^4.1.7
         version: 4.1.7
       '@types/react':
-        specifier: ^19.1.5
-        version: 19.1.5
+        specifier: ^19.1.6
+        version: 19.1.6
       '@types/react-dom':
         specifier: ^19.1.5
-        version: 19.1.5(@types/react@19.1.5)
+        version: 19.1.5(@types/react@19.1.6)
       '@types/three':
         specifier: ^0.176.0
         version: 0.176.0
@@ -749,8 +749,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
 
-  '@types/react@19.1.5':
-    resolution: {integrity: sha512-piErsCVVbpMMT2r7wbawdZsq4xMvIAhQuac2gedQHysu1TZYEigE6pnFfgZT+/jQnrRuF5r+SHzuehFjfRjr4g==}
+  '@types/react@19.1.6':
+    resolution: {integrity: sha512-JeG0rEWak0N6Itr6QUx+X60uQmN+5t3j9r/OVDtWzFXKaj6kD1BwJzOksD0FF6iWxZlbE1kB0q9vtnU2ekqa1Q==}
 
   '@types/stats.js@0.17.3':
     resolution: {integrity: sha512-pXNfAD3KHOdif9EQXZ9deK82HVNaXP5ZIF5RP2QG6OQFNTaY2YIetfrE9t528vEreGQvEPRDDc8muaoYeK0SxQ==}
@@ -3174,12 +3174,12 @@ snapshots:
 
   '@pkgr/core@0.2.4': {}
 
-  '@react-three/drei@10.0.8(@react-three/fiber@9.1.2(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0))(@types/react@19.1.5)(@types/three@0.176.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0)':
+  '@react-three/drei@10.0.8(@react-three/fiber@9.1.2(@types/react@19.1.6)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0))(@types/react@19.1.6)(@types/three@0.176.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0)':
     dependencies:
       '@babel/runtime': 7.27.0
       '@mediapipe/tasks-vision': 0.10.17
       '@monogrid/gainmap-js': 3.1.0(three@0.176.0)
-      '@react-three/fiber': 9.1.2(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0)
+      '@react-three/fiber': 9.1.2(@types/react@19.1.6)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0)
       '@use-gesture/react': 10.3.1(react@19.1.0)
       camera-controls: 2.10.0(three@0.176.0)
       cross-env: 7.0.3
@@ -3196,10 +3196,10 @@ snapshots:
       three-mesh-bvh: 0.8.3(three@0.176.0)
       three-stdlib: 2.36.0(three@0.176.0)
       troika-three-text: 0.52.4(three@0.176.0)
-      tunnel-rat: 0.1.2(@types/react@19.1.5)(react@19.1.0)
+      tunnel-rat: 0.1.2(@types/react@19.1.6)(react@19.1.0)
       use-sync-external-store: 1.5.0(react@19.1.0)
       utility-types: 3.11.0
-      zustand: 5.0.3(@types/react@19.1.5)(react@19.1.0)(use-sync-external-store@1.5.0(react@19.1.0))
+      zustand: 5.0.3(@types/react@19.1.6)(react@19.1.0)(use-sync-external-store@1.5.0(react@19.1.0))
     optionalDependencies:
       react-dom: 19.1.0(react@19.1.0)
     transitivePeerDependencies:
@@ -3207,14 +3207,14 @@ snapshots:
       - '@types/three'
       - immer
 
-  '@react-three/fiber@9.1.2(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0)':
+  '@react-three/fiber@9.1.2(@types/react@19.1.6)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0)':
     dependencies:
       '@babel/runtime': 7.27.0
-      '@types/react-reconciler': 0.28.9(@types/react@19.1.5)
+      '@types/react-reconciler': 0.28.9(@types/react@19.1.6)
       '@types/webxr': 0.5.21
       base64-js: 1.5.1
       buffer: 6.0.3
-      its-fine: 2.0.0(@types/react@19.1.5)(react@19.1.0)
+      its-fine: 2.0.0(@types/react@19.1.6)(react@19.1.0)
       react: 19.1.0
       react-reconciler: 0.31.0(react@19.1.0)
       react-use-measure: 2.1.7(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -3222,7 +3222,7 @@ snapshots:
       suspend-react: 0.1.3(react@19.1.0)
       three: 0.176.0
       use-sync-external-store: 1.5.0(react@19.1.0)
-      zustand: 5.0.3(@types/react@19.1.5)(react@19.1.0)(use-sync-external-store@1.5.0(react@19.1.0))
+      zustand: 5.0.3(@types/react@19.1.6)(react@19.1.0)(use-sync-external-store@1.5.0(react@19.1.0))
     optionalDependencies:
       react-dom: 19.1.0(react@19.1.0)
     transitivePeerDependencies:
@@ -3469,15 +3469,15 @@ snapshots:
 
   '@types/pbf@3.0.5': {}
 
-  '@types/react-dom@19.1.5(@types/react@19.1.5)':
+  '@types/react-dom@19.1.5(@types/react@19.1.6)':
     dependencies:
-      '@types/react': 19.1.5
+      '@types/react': 19.1.6
 
-  '@types/react-reconciler@0.28.9(@types/react@19.1.5)':
+  '@types/react-reconciler@0.28.9(@types/react@19.1.6)':
     dependencies:
-      '@types/react': 19.1.5
+      '@types/react': 19.1.6
 
-  '@types/react@19.1.5':
+  '@types/react@19.1.6':
     dependencies:
       csstype: 3.1.3
 
@@ -4425,9 +4425,9 @@ snapshots:
 
   isobject@3.0.1: {}
 
-  its-fine@2.0.0(@types/react@19.1.5)(react@19.1.0):
+  its-fine@2.0.0(@types/react@19.1.6)(react@19.1.0):
     dependencies:
-      '@types/react-reconciler': 0.28.9(@types/react@19.1.5)
+      '@types/react-reconciler': 0.28.9(@types/react@19.1.6)
       react: 19.1.0
     transitivePeerDependencies:
       - '@types/react'
@@ -5190,9 +5190,9 @@ snapshots:
 
   react-refresh@0.17.0: {}
 
-  react-three-map@1.0.0(@react-three/fiber@9.1.2(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0))(mapbox-gl@3.12.0)(maplibre-gl@5.5.0)(react-map-gl@8.0.4(mapbox-gl@3.12.0)(maplibre-gl@5.5.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)(three@0.176.0):
+  react-three-map@1.0.0(@react-three/fiber@9.1.2(@types/react@19.1.6)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0))(mapbox-gl@3.12.0)(maplibre-gl@5.5.0)(react-map-gl@8.0.4(mapbox-gl@3.12.0)(maplibre-gl@5.5.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)(three@0.176.0):
     dependencies:
-      '@react-three/fiber': 9.1.2(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0)
+      '@react-three/fiber': 9.1.2(@types/react@19.1.6)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(three@0.176.0)
       react: 19.1.0
       react-map-gl: 8.0.4(mapbox-gl@3.12.0)(maplibre-gl@5.5.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       three: 0.176.0
@@ -5429,9 +5429,9 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  tunnel-rat@0.1.2(@types/react@19.1.5)(react@19.1.0):
+  tunnel-rat@0.1.2(@types/react@19.1.6)(react@19.1.0):
     dependencies:
-      zustand: 4.5.6(@types/react@19.1.5)(react@19.1.0)
+      zustand: 4.5.6(@types/react@19.1.6)(react@19.1.0)
     transitivePeerDependencies:
       - '@types/react'
       - immer
@@ -5574,16 +5574,16 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zustand@4.5.6(@types/react@19.1.5)(react@19.1.0):
+  zustand@4.5.6(@types/react@19.1.6)(react@19.1.0):
     dependencies:
       use-sync-external-store: 1.5.0(react@19.1.0)
     optionalDependencies:
-      '@types/react': 19.1.5
+      '@types/react': 19.1.6
       react: 19.1.0
 
-  zustand@5.0.3(@types/react@19.1.5)(react@19.1.0)(use-sync-external-store@1.5.0(react@19.1.0)):
+  zustand@5.0.3(@types/react@19.1.6)(react@19.1.0)(use-sync-external-store@1.5.0(react@19.1.0)):
     optionalDependencies:
-      '@types/react': 19.1.5
+      '@types/react': 19.1.6
       react: 19.1.0
       use-sync-external-store: 1.5.0(react@19.1.0)
 
