@@ -85,6 +85,6 @@ Contributions are welcome and greatly appreciated! Please follow these steps to 
 
 ## 🔗 Links
 
-- **Repository:** [https://github.com/react-three-maplibre/Trapar-waves](https://github.com/react-three-maplibre/Trapar-waves)
-- **Homepage:** [https://github.com/react-three-maplibre/Trapar-waves](https://github.com/react-three-maplibre/Trapar-waves)
-- **Issues:** [https://github.com/react-three-maplibre/Trapar-waves/issues](https://github.com/react-three-maplibre/Trapar-waves/issues)
+- **Repository:** [https://github.com/Trapar-waves/react-three-maplibre](https://github.com/Trapar-waves/react-three-maplibre)
+- **Homepage:** [https://github.com/Trapar-waves/react-three-maplibre](https://github.com/Trapar-waves/react-three-maplibre)
+- **Issues:** [https://github.com/Trapar-waves/react-three-maplibre/issues](https://github.com/Trapar-waves/react-three-maplibre/issues)
