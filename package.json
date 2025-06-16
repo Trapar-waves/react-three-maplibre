@@ -8,6 +8,7 @@
     "name": "Rikka",
     "url": "https://github.com/Muromi-Rikka"
   },
+  "license": "MIT",
   "homepage": "https://github.com/Trapar-waves/react-three-maplibre",
   "repository": {
     "type": "git",
