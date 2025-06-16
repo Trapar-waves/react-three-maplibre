@@ -85,6 +85,6 @@ pnpm install
 
 ## 🔗 Links
 
-- **仓库:** [https://github.com/react-three-maplibre/Trapar-waves](https://github.com/react-three-maplibre/Trapar-waves)
-- **主页:** [https://github.com/react-three-maplibre/Trapar-waves](https://github.com/react-three-maplibre/Trapar-waves)
-- **问题:** [https://github.com/react-three-maplibre/Trapar-waves/issues](https://github.com/react-three-maplibre/Trapar-waves/issues)
+- **仓库:** [https://github.com/Trapar-waves/react-three-maplibre](https://github.com/Trapar-waves/react-three-maplibre)
+- **主页:** [https://github.com/Trapar-waves/react-three-maplibre](https://github.com/Trapar-waves/react-three-maplibre)
+- **问题:** [https://github.com/Trapar-waves/react-three-maplibre/issues](https://github.com/Trapar-waves/react-three-maplibre/issues)
