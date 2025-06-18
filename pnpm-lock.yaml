@@ -49,8 +49,8 @@ importers:
         specifier: ^1.52.2
         version: 1.52.2(eslint@9.29.0(jiti@2.4.2))(ts-api-utils@2.1.0(typescript@5.8.3))(typescript@5.8.3)
       '@iconify/json':
-        specifier: ^2.2.349
-        version: 2.2.349
+        specifier: ^2.2.350
+        version: 2.2.350
       '@iconify/tailwind4':
         specifier: ^1.0.6
         version: 1.0.6(tailwindcss@4.1.10)
@@ -366,8 +366,8 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@iconify/json@2.2.349':
-    resolution: {integrity: sha512-0uWIZXsRomSeeFpAGTlOtt6q9U4wfh4ghS7uBaXytNcVrklAXTDRqrH5tjbMCfLUSBTCEoF70UzrMCg012U7/g==}
+  '@iconify/json@2.2.350':
+    resolution: {integrity: sha512-ywxrku6FYmZ8PsZ7ZzwaMNErqfP9CG5/g93QMDy9FqYGx0a/XgZ/q0PFpd0IrgjSiByJis5X4oJTKMpu91whGQ==}
 
   '@iconify/tailwind4@1.0.6':
     resolution: {integrity: sha512-43ZXe+bC7CuE2LCgROdqbQeFYJi/J7L/k1UpSy8KDQlWVsWxPzLSWbWhlJx4uRYLOh1NRyw02YlDOgzBOFNd+A==}
@@ -3209,7 +3209,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@iconify/json@2.2.349':
+  '@iconify/json@2.2.350':
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.2
