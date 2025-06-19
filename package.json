@@ -32,7 +32,9 @@
   "scripts": {
     "dev": "rsbuild dev --open",
     "build": "rsbuild build",
-    "preview": "rsbuild preview"
+    "preview": "rsbuild preview",
+    "lint": "eslint . --cache --max-warnings=0 --no-warn-ignored",
+    "prepare": "husky"
   },
   "dependencies": {
     "@antv/l7": "^2.22.5",
@@ -62,6 +64,8 @@
     "eslint-plugin-format": "^1.0.1",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2",
     "mapbox-gl": "^3.12.0",
     "tailwindcss": "^4.1.10",
     "typescript": "^5.8.3"
