@@ -34,7 +34,7 @@
     "build": "rsbuild build",
     "preview": "rsbuild preview",
     "lint": "eslint . --cache --max-warnings=0 --no-warn-ignored",
-    "prepare": "husky"
+    "postinstall": "husky"
   },
   "dependencies": {
     "@antv/l7": "^2.22.5",
