@@ -56,7 +56,7 @@
     "@iconify/tailwind4": "^1.0.6",
     "@rsbuild/core": "^1.3.22",
     "@rsbuild/plugin-react": "^1.3.2",
-    "@tailwindcss/postcss": "^4.1.10",
+    "@tailwindcss/postcss": "^4.1.11",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "@types/three": "^0.177.0",
@@ -67,7 +67,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
     "mapbox-gl": "^3.13.0",
-    "tailwindcss": "^4.1.10",
+    "tailwindcss": "^4.1.11",
     "typescript": "^5.8.3"
   }
 }
