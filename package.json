@@ -55,7 +55,7 @@
     "@iconify/json": "^2.2.354",
     "@iconify/tailwind4": "^1.0.6",
     "@rsbuild/core": "^1.4.3",
-    "@rsbuild/plugin-react": "^1.3.2",
+    "@rsbuild/plugin-react": "^1.3.3",
     "@tailwindcss/postcss": "^4.1.11",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
