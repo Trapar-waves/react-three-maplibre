@@ -4,6 +4,7 @@ name: Release
 
 permissions:
   contents: write
+  id-token: write
 
 on:
   push:
@@ -34,6 +35,6 @@ jobs:
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org/
+      - name: Update npm
+        run: npm install -g npm@latest
       - run: npm publish --access=public
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
