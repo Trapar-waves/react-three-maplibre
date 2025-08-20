@@ -54,19 +54,177 @@ npm -v
 
 ### Installation
 
-Run script
+1. Create a new project using the template:
 
 ```bash
 pnpm create trapar-waves
 ```
 
-Install dependencies
+2. Navigate to your project directory and install dependencies:
 
 ```bash
-npm install
-yarn install
+cd your-project-name
 pnpm install
+# or
+npm install
+# or
+yarn install
 ```
+
+### Development
+
+Start the development server with hot reloading:
+
+```bash
+pnpm dev
+# or
+npm run dev
+# or
+yarn dev
+```
+
+The application will be available at `http://localhost:3000` by default.
+
+### Building for Production
+
+To create a production build:
+
+```bash
+pnpm build
+# or
+npm run build
+# or
+yarn build
+```
+
+Preview the production build locally:
+
+```bash
+pnpm preview
+# or
+npm run preview
+# or
+yarn preview
+```
+
+## 📦 Usage
+
+This library is designed to be used as a template for creating geospatial 3D visualization applications. It provides a foundational setup with React, Three.js, MapLibre GL, and AntV L7.
+
+### Basic Example
+
+Here's a simple example of how to use the components provided by this template:
+
+```tsx
+// App.tsx
+import type { ReactNode } from "react";
+import type { MapRef } from "react-map-gl/maplibre";
+import { PointLayer, Scene } from "@antv/l7";
+import { MapLibre } from "@antv/l7-maps";
+import { Box, Stats } from "@react-three/drei";
+import { extend } from "@react-three/fiber";
+import { useRef } from "react";
+import Map from "react-map-gl/maplibre";
+import { Canvas } from "react-three-map/maplibre";
+import { LineMaterial, LineSegments2, LineSegmentsGeometry } from "three-stdlib";
+
+extend({ LineSegmentsGeometry, LineMaterial, LineSegments2 });
+
+declare module "@react-three/fiber" {
+  interface ThreeElements {
+    lineSegmentsGeometry: ThreeElements["bufferGeometry"];
+    lineMaterial: ThreeElements["material"] & Partial<LineMaterial>;
+    lineSegments2: ThreeElements["object3D"] & { children?: ReactNode };
+  }
+}
+
+const latLon = {
+  latitude: 31.215175,
+  longitude: 121.417463,
+};
+const MAPTILER_KEY = import.meta.env.PUBLIC_MAPTILER_KEY;
+
+function App() {
+  const ref = useRef<HTMLDivElement>(null!);
+  const mapRef = useRef<MapRef>(null!);
+  function initL7() {
+    if (mapRef.current) {
+      const scene = new Scene({
+        id: "map",
+        map: new MapLibre({
+          mapInstance: mapRef.current.getMap(),
+        }),
+      });
+      scene.on("loaded", () => {
+        fetch("/BElVQFEFvpAKzddxFZxJ.txt")
+          .then(res => res.text())
+          .then((data) => {
+            const pointLayer = new PointLayer({
+              blend: "additive",
+            })
+              .source(data, {
+                parser: {
+                  type: "csv",
+                  y: "lat",
+                  x: "lng",
+                },
+              })
+              .size(0.5)
+              .color("#080298");
+
+            scene.addLayer(pointLayer);
+          });
+      });
+    }
+  }
+  return (
+    <div className="h-screen w-screen relative overflow-hidden" ref={ref}>
+      <Map
+        id="map"
+        ref={mapRef}
+        initialViewState={{
+          ...latLon,
+          zoom: 11,
+          pitch: 64.88,
+        }}
+        mapStyle={`https://api.maptiler.com/maps/streets/style.json?key=${MAPTILER_KEY}`}
+        onLoad={initL7}
+      >
+        <Stats className="stats" parent={ref} />
+
+        <Canvas {...latLon}>
+          <hemisphereLight
+            args={["#ffffff", "#60666C"]}
+            position={[1, 4.5, 3]}
+          />
+          <object3D scale={500}>
+            <Box position={[-1.2, 1, 0]} />
+            <Box position={[1.2, 1, 0]} />
+          </object3D>
+        </Canvas>
+      </Map>
+    </div>
+  );
+}
+
+export default App;
+```
+
+This example demonstrates:
+- Creating a MapLibre GL map with `react-map-gl`
+- Integrating AntV L7 for geospatial data visualization
+- Using React Three Fiber and Drei for 3D rendering
+- Positioning 3D objects relative to the map using `react-three-map`
+
+### Environment Variables
+
+To use map services like MapTiler, you'll need to set up environment variables. Create a `.env` file in your project root:
+
+```
+PUBLIC_MAPTILER_KEY=your_maptiler_api_key_here
+```
+
+Make sure to add `.env` to your `.gitignore` to keep your keys secure.
 
 ## 🤝 Contributing
 
@@ -77,6 +235,8 @@ Contributions are welcome and greatly appreciated! Please follow these steps to 
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
+
+Please ensure your code follows the existing style and passes all tests.
 
 ## 👤 Author
 
