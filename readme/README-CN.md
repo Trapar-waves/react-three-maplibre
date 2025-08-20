@@ -54,19 +54,177 @@ npm -v
 
 ### 安装步骤
 
-运行脚本
+1. 使用模板创建新项目：
 
 ```bash
 pnpm create trapar-waves
 ```
 
-安装依赖
+2. 进入项目目录并安装依赖：
 
 ```bash
-npm install
-yarn install
+cd your-project-name
 pnpm install
+# or
+npm install
+# or
+yarn install
 ```
+
+### 开发
+
+启动带热重载的开发服务器：
+
+```bash
+pnpm dev
+# or
+npm run dev
+# or
+yarn dev
+```
+
+默认情况下，应用程序将在 `http://localhost:3000` 可用。
+
+### 构建生产版本
+
+创建生产构建：
+
+```bash
+pnpm build
+# or
+npm run build
+# or
+yarn build
+```
+
+在本地预览生产构建：
+
+```bash
+pnpm preview
+# or
+npm run preview
+# or
+yarn preview
+```
+
+## 📦 使用方法
+
+该库被设计为用于创建地理空间3D可视化应用程序的模板。它提供了一个基础设置，包括 React、Three.js、MapLibre GL 和 AntV L7。
+
+### 基本示例
+
+以下是一个如何使用此模板提供的组件的简单示例：
+
+```tsx
+// App.tsx
+import type { ReactNode } from "react";
+import type { MapRef } from "react-map-gl/maplibre";
+import { PointLayer, Scene } from "@antv/l7";
+import { MapLibre } from "@antv/l7-maps";
+import { Box, Stats } from "@react-three/drei";
+import { extend } from "@react-three/fiber";
+import { useRef } from "react";
+import Map from "react-map-gl/maplibre";
+import { Canvas } from "react-three-map/maplibre";
+import { LineMaterial, LineSegments2, LineSegmentsGeometry } from "three-stdlib";
+
+extend({ LineSegmentsGeometry, LineMaterial, LineSegments2 });
+
+declare module "@react-three/fiber" {
+  interface ThreeElements {
+    lineSegmentsGeometry: ThreeElements["bufferGeometry"];
+    lineMaterial: ThreeElements["material"] & Partial<LineMaterial>;
+    lineSegments2: ThreeElements["object3D"] & { children?: ReactNode };
+  }
+}
+
+const latLon = {
+  latitude: 31.215175,
+  longitude: 121.417463,
+};
+const MAPTILER_KEY = import.meta.env.PUBLIC_MAPTILER_KEY;
+
+function App() {
+  const ref = useRef<HTMLDivElement>(null!);
+  const mapRef = useRef<MapRef>(null!);
+  function initL7() {
+    if (mapRef.current) {
+      const scene = new Scene({
+        id: "map",
+        map: new MapLibre({
+          mapInstance: mapRef.current.getMap(),
+        }),
+      });
+      scene.on("loaded", () => {
+        fetch("/BElVQFEFvpAKzddxFZxJ.txt")
+          .then(res => res.text())
+          .then((data) => {
+            const pointLayer = new PointLayer({
+              blend: "additive",
+            })
+              .source(data, {
+                parser: {
+                  type: "csv",
+                  y: "lat",
+                  x: "lng",
+                },
+              })
+              .size(0.5)
+              .color("#080298");
+
+            scene.addLayer(pointLayer);
+          });
+      });
+    }
+  }
+  return (
+    <div className="h-screen w-screen relative overflow-hidden" ref={ref}>
+      <Map
+        id="map"
+        ref={mapRef}
+        initialViewState={{
+          ...latLon,
+          zoom: 11,
+          pitch: 64.88,
+        }}
+        mapStyle={`https://api.maptiler.com/maps/streets/style.json?key=${MAPTILER_KEY}`}
+        onLoad={initL7}
+      >
+        <Stats className="stats" parent={ref} />
+
+        <Canvas {...latLon}>
+          <hemisphereLight
+            args={["#ffffff", "#60666C"]}
+            position={[1, 4.5, 3]}
+          />
+          <object3D scale={500}>
+            <Box position={[-1.2, 1, 0]} />
+            <Box position={[1.2, 1, 0]} />
+          </object3D>
+        </Canvas>
+      </Map>
+    </div>
+  );
+}
+
+export default App;
+```
+
+这个示例演示了：
+- 使用 `react-map-gl` 创建 MapLibre GL 地图
+- 集成 AntV L7 进行地理空间数据可视化
+- 使用 React Three Fiber 和 Drei 进行 3D 渲染
+- 使用 `react-three-map` 将 3D 对象相对于地图进行定位
+
+### 环境变量
+
+要使用 MapTiler 等地图服务，您需要设置环境变量。在项目根目录创建一个 `.env` 文件：
+
+```
+PUBLIC_MAPTILER_KEY=your_maptiler_api_key_here
+```
+
+确保将 `.env` 添加到 `.gitignore` 中以保证密钥安全。
 
 ## 🤝 贡献指南
 
@@ -77,6 +235,8 @@ pnpm install
 3. 提交您的更改（`git commit -m 'Add some amazing feature'`）
 4. 推送到分支（`git push origin feature/amazing-feature`）
 5. 打开Pull Request
+
+请确保您的代码遵循现有风格并通过所有测试。
 
 ## 👤 Author
 
