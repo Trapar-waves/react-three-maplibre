@@ -45,7 +45,7 @@
     "maplibre-gl": "^5.8.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "react-map-gl": "^8.0.4",
+    "react-map-gl": "^8.1.0",
     "react-three-map": "^1.0.0",
     "three": "^0.180.0",
     "three-stdlib": "^2.36.0"
