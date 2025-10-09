@@ -44,7 +44,7 @@ importers:
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^5.4.1
-        version: 5.4.1(@eslint-react/eslint-plugin@2.0.6(eslint@9.37.0(jiti@2.6.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@1.0.2(eslint@9.37.0(jiti@2.6.0)))(eslint-plugin-react-hooks@6.1.1(eslint@9.37.0(jiti@2.6.0)))(eslint-plugin-react-refresh@0.4.23(eslint@9.37.0(jiti@2.6.0)))(eslint@9.37.0(jiti@2.6.0))(typescript@5.9.3)
+        version: 5.4.1(@eslint-react/eslint-plugin@2.0.6(eslint@9.37.0(jiti@2.6.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@1.0.2(eslint@9.37.0(jiti@2.6.0)))(eslint-plugin-react-hooks@7.0.0(eslint@9.37.0(jiti@2.6.0)))(eslint-plugin-react-refresh@0.4.23(eslint@9.37.0(jiti@2.6.0)))(eslint@9.37.0(jiti@2.6.0))(typescript@5.9.3)
       '@eslint-react/eslint-plugin':
         specifier: ^2.0.6
         version: 2.0.6(eslint@9.37.0(jiti@2.6.0))(typescript@5.9.3)
@@ -79,8 +79,8 @@ importers:
         specifier: ^1.0.2
         version: 1.0.2(eslint@9.37.0(jiti@2.6.0))
       eslint-plugin-react-hooks:
-        specifier: ^6.1.1
-        version: 6.1.1(eslint@9.37.0(jiti@2.6.0))
+        specifier: ^7.0.0
+        version: 7.0.0(eslint@9.37.0(jiti@2.6.0))
       eslint-plugin-react-refresh:
         specifier: ^0.4.23
         version: 0.4.23(eslint@9.37.0(jiti@2.6.0))
@@ -1540,8 +1540,8 @@ packages:
       eslint: ^9.36.0
       typescript: ^5.9.3
 
-  eslint-plugin-react-hooks@6.1.1:
-    resolution: {integrity: sha512-St9EKZzOAQF704nt2oJvAKZHjhrpg25ClQoaAlHmPZuajFldVLqRDW4VBNAS01NzeiQF0m0qhG1ZA807K6aVaQ==}
+  eslint-plugin-react-hooks@7.0.0:
+    resolution: {integrity: sha512-fNXaOwvKwq2+pXiRpXc825Vd63+KM4DLL40Rtlycb8m7fYpp6efrTp1sa6ZbP/Ap58K2bEKFXRmhURE+CJAQWw==}
     engines: {node: '>=18'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
@@ -1840,6 +1840,12 @@ packages:
   has-flag@4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
+
+  hermes-estree@0.25.1:
+    resolution: {integrity: sha512-0wUoCcLp+5Ev5pDW2OriHC2MJCbwLwuRx+gAqMTOkGKJJiBCLjtrvy4PWUGn6MIVefecRpzoOZ/UV6iGdOr+Cw==}
+
+  hermes-parser@0.25.1:
+    resolution: {integrity: sha512-6pEjquH3rqaI6cYAXYPcz9MS4rY6R4ngRgrgfDshRptUZIc3lw0MCIJIGDj9++mfySOuPTHB4nrSW99BCvOPIA==}
 
   hls.js@1.6.1:
     resolution: {integrity: sha512-7GOkcqn0Y9EqU2OJZlzkwxj9Uynuln7URvr7dRjgqNJNZ5UbbjL/v1BjAvQogy57Psdd/ek1u2s6IDEFYlabrA==}
@@ -3013,7 +3019,7 @@ snapshots:
 
   '@amap/amap-jsapi-loader@1.0.1': {}
 
-  '@antfu/eslint-config@5.4.1(@eslint-react/eslint-plugin@2.0.6(eslint@9.37.0(jiti@2.6.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@1.0.2(eslint@9.37.0(jiti@2.6.0)))(eslint-plugin-react-hooks@6.1.1(eslint@9.37.0(jiti@2.6.0)))(eslint-plugin-react-refresh@0.4.23(eslint@9.37.0(jiti@2.6.0)))(eslint@9.37.0(jiti@2.6.0))(typescript@5.9.3)':
+  '@antfu/eslint-config@5.4.1(@eslint-react/eslint-plugin@2.0.6(eslint@9.37.0(jiti@2.6.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@1.0.2(eslint@9.37.0(jiti@2.6.0)))(eslint-plugin-react-hooks@7.0.0(eslint@9.37.0(jiti@2.6.0)))(eslint-plugin-react-refresh@0.4.23(eslint@9.37.0(jiti@2.6.0)))(eslint@9.37.0(jiti@2.6.0))(typescript@5.9.3)':
     dependencies:
       '@antfu/install-pkg': 1.1.0
       '@clack/prompts': 0.11.0
@@ -3055,7 +3061,7 @@ snapshots:
     optionalDependencies:
       '@eslint-react/eslint-plugin': 2.0.6(eslint@9.37.0(jiti@2.6.0))(typescript@5.9.3)
       eslint-plugin-format: 1.0.2(eslint@9.37.0(jiti@2.6.0))
-      eslint-plugin-react-hooks: 6.1.1(eslint@9.37.0(jiti@2.6.0))
+      eslint-plugin-react-hooks: 7.0.0(eslint@9.37.0(jiti@2.6.0))
       eslint-plugin-react-refresh: 0.4.23(eslint@9.37.0(jiti@2.6.0))
     transitivePeerDependencies:
       - '@eslint/json'
@@ -4775,11 +4781,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-react-hooks@6.1.1(eslint@9.37.0(jiti@2.6.0)):
+  eslint-plugin-react-hooks@7.0.0(eslint@9.37.0(jiti@2.6.0)):
     dependencies:
       '@babel/core': 7.28.4
       '@babel/parser': 7.28.4
       eslint: 9.37.0(jiti@2.6.0)
+      hermes-parser: 0.25.1
       zod: 4.1.11
       zod-validation-error: 3.5.3(zod@4.1.11)
     transitivePeerDependencies:
@@ -5139,6 +5146,12 @@ snapshots:
   hammerjs@2.0.8: {}
 
   has-flag@4.0.0: {}
+
+  hermes-estree@0.25.1: {}
+
+  hermes-parser@0.25.1:
+    dependencies:
+      hermes-estree: 0.25.1
 
   hls.js@1.6.1: {}
 
