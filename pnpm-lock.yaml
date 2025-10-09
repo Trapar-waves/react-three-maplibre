@@ -55,11 +55,11 @@ importers:
         specifier: ^1.0.6
         version: 1.0.6(tailwindcss@4.1.14)
       '@rsbuild/core':
-        specifier: ^1.5.14
-        version: 1.5.14
+        specifier: ^1.5.16
+        version: 1.5.16
       '@rsbuild/plugin-react':
         specifier: ^1.4.1
-        version: 1.4.1(@rsbuild/core@1.5.14)
+        version: 1.4.1(@rsbuild/core@1.5.16)
       '@tailwindcss/postcss':
         specifier: ^4.1.14
         version: 4.1.14
@@ -625,8 +625,8 @@ packages:
       react-native:
         optional: true
 
-  '@rsbuild/core@1.5.14':
-    resolution: {integrity: sha512-fWxuvqaCnyl/t3mROMF33vrFy9lX5NXNTDpF4hOJ4X0ajTYOKHFk2BYiUfVTJbtDGig+S+NeWwD31su204XwAg==}
+  '@rsbuild/core@1.5.16':
+    resolution: {integrity: sha512-AMvyPmpyAF5RfSY70oWiByP/h0mbi3KOgHUsuYapWXtfPTYM/fpvfuEgqc4DZI5YCzZsY5JcEAfG1EmR7I0AXw==}
     engines: {node: '>=18.12.0'}
     hasBin: true
 
@@ -1946,10 +1946,6 @@ packages:
     resolution: {integrity: sha512-KLViCmWx94zOvpLwSlsx6yOCeMhZYaxrJV87Po5k/FoZzcPSahvK5qJ7fYhS61sZi5ikmh2S3Hz55A2l3U69ng==}
     peerDependencies:
       react: ^19.0.0
-
-  jiti@2.6.0:
-    resolution: {integrity: sha512-VXe6RjJkBPj0ohtqaO8vSWP3ZhAKo66fKrFNCll4BTcwljPLz03pCbaNKfzGP5MbrCYcbJ7v0nOYYwUzTEIdXQ==}
-    hasBin: true
 
   jiti@2.6.1:
     resolution: {integrity: sha512-ekilCSN1jwRvIbgeg/57YFh8qQDNbwDb9xT/qu2DAHbFFZUicIl4ygVaAvzveMhMVr3LnpSKTNnwt8PoOfmKhQ==}
@@ -3813,7 +3809,7 @@ snapshots:
       - '@types/react'
       - immer
 
-  '@rsbuild/core@1.5.14':
+  '@rsbuild/core@1.5.16':
     dependencies:
       '@rspack/core': 1.5.8(@swc/helpers@0.5.17)
       '@rspack/lite-tapable': 1.0.1
@@ -3821,9 +3817,9 @@ snapshots:
       core-js: 3.45.1
       jiti: 2.6.1
 
-  '@rsbuild/plugin-react@1.4.1(@rsbuild/core@1.5.14)':
+  '@rsbuild/plugin-react@1.4.1(@rsbuild/core@1.5.16)':
     dependencies:
-      '@rsbuild/core': 1.5.14
+      '@rsbuild/core': 1.5.16
       '@rspack/plugin-react-refresh': 1.5.1(react-refresh@0.17.0)
       react-refresh: 0.17.0
     transitivePeerDependencies:
@@ -3908,7 +3904,7 @@ snapshots:
     dependencies:
       '@jridgewell/remapping': 2.3.5
       enhanced-resolve: 5.18.3
-      jiti: 2.6.0
+      jiti: 2.6.1
       lightningcss: 1.30.1
       magic-string: 0.30.19
       source-map-js: 1.2.1
@@ -5236,8 +5232,6 @@ snapshots:
       react: 19.2.0
     transitivePeerDependencies:
       - '@types/react'
-
-  jiti@2.6.0: {}
 
   jiti@2.6.1: {}
 
