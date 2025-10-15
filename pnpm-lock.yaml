@@ -55,11 +55,11 @@ importers:
         specifier: ^1.0.6
         version: 1.0.6(tailwindcss@4.1.14)
       '@rsbuild/core':
-        specifier: ^1.5.16
-        version: 1.5.16
+        specifier: ^1.5.17
+        version: 1.5.17
       '@rsbuild/plugin-react':
         specifier: ^1.4.1
-        version: 1.4.1(@rsbuild/core@1.5.16)
+        version: 1.4.1(@rsbuild/core@1.5.17)
       '@tailwindcss/postcss':
         specifier: ^4.1.14
         version: 4.1.14
@@ -621,8 +621,8 @@ packages:
       react-native:
         optional: true
 
-  '@rsbuild/core@1.5.16':
-    resolution: {integrity: sha512-AMvyPmpyAF5RfSY70oWiByP/h0mbi3KOgHUsuYapWXtfPTYM/fpvfuEgqc4DZI5YCzZsY5JcEAfG1EmR7I0AXw==}
+  '@rsbuild/core@1.5.17':
+    resolution: {integrity: sha512-tHa4puv+pEooQvSewu/K5sm270nkVPcP07Ioz1c+fbFCrFpiZWV5XumgznilS80097glUrieN+9xTbIHGXjThQ==}
     engines: {node: '>=18.12.0'}
     hasBin: true
 
@@ -1252,8 +1252,8 @@ packages:
   core-js-compat@3.44.0:
     resolution: {integrity: sha512-JepmAj2zfl6ogy34qfWtcE7nHKAJnKsQFRn++scjVS2bZFllwptzw61BZcZFYBPpUznLfAvh0LGhxKppk04ClA==}
 
-  core-js@3.45.1:
-    resolution: {integrity: sha512-L4NPsJlCfZsPeXukyzHFlg/i7IIVwHSItR0wg0FLNqYClJ4MQYTYLbC7EkjKYRLZF2iof2MUgN0EGy7MdQFChg==}
+  core-js@3.46.0:
+    resolution: {integrity: sha512-vDMm9B0xnqqZ8uSBpZ8sNtRtOdmfShrvT6h2TuQGLs0Is+cR0DYbj/KWP6ALVNbWPpqA/qPLoOuppJN07humpA==}
 
   cross-env@7.0.3:
     resolution: {integrity: sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==}
@@ -3789,17 +3789,17 @@ snapshots:
       - '@types/react'
       - immer
 
-  '@rsbuild/core@1.5.16':
+  '@rsbuild/core@1.5.17':
     dependencies:
       '@rspack/core': 1.5.8(@swc/helpers@0.5.17)
       '@rspack/lite-tapable': 1.0.1
       '@swc/helpers': 0.5.17
-      core-js: 3.45.1
+      core-js: 3.46.0
       jiti: 2.6.1
 
-  '@rsbuild/plugin-react@1.4.1(@rsbuild/core@1.5.16)':
+  '@rsbuild/plugin-react@1.4.1(@rsbuild/core@1.5.17)':
     dependencies:
-      '@rsbuild/core': 1.5.16
+      '@rsbuild/core': 1.5.17
       '@rspack/plugin-react-refresh': 1.5.1(react-refresh@0.17.0)
       react-refresh: 0.17.0
     transitivePeerDependencies:
@@ -4433,7 +4433,7 @@ snapshots:
     dependencies:
       browserslist: 4.25.1
 
-  core-js@3.45.1: {}
+  core-js@3.46.0: {}
 
   cross-env@7.0.3:
     dependencies:
