@@ -48,7 +48,7 @@
     "react-map-gl": "^8.1.0",
     "react-three-map": "^1.0.0",
     "three": "^0.181.1",
-    "three-stdlib": "^2.36.0"
+    "three-stdlib": "^2.36.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.2.0",
