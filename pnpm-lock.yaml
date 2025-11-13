@@ -55,11 +55,11 @@ importers:
         specifier: ^1.1.0
         version: 1.1.0(tailwindcss@4.1.17)
       '@rsbuild/core':
-        specifier: ^1.6.3
-        version: 1.6.3
+        specifier: ^1.6.5
+        version: 1.6.5
       '@rsbuild/plugin-react':
         specifier: ^1.4.2
-        version: 1.4.2(@rsbuild/core@1.6.3)
+        version: 1.4.2(@rsbuild/core@1.6.5)
       '@tailwindcss/postcss':
         specifier: ^4.1.17
         version: 4.1.17
@@ -613,8 +613,8 @@ packages:
       react-native:
         optional: true
 
-  '@rsbuild/core@1.6.3':
-    resolution: {integrity: sha512-93/j5w+nyzfTjHfch2ram+Y6Og3NUcl46nsrKojD3scBR9nSjYHjJM27pQNi0Oq7Io7vQpTMvxwuSaG7AShfRw==}
+  '@rsbuild/core@1.6.5':
+    resolution: {integrity: sha512-YLWdnd6O27Bo2mWIUKC2ZF0XL9AO0A1zxBQVbAIR08Nq4uRBs6PJGiqpKoVF8Kez0I5VNwPmRwymc6Qhw+PfjQ==}
     engines: {node: '>=18.12.0'}
     hasBin: true
 
@@ -4036,7 +4036,7 @@ snapshots:
       - '@types/react'
       - immer
 
-  '@rsbuild/core@1.6.3':
+  '@rsbuild/core@1.6.5':
     dependencies:
       '@rspack/core': 1.6.1(@swc/helpers@0.5.17)
       '@rspack/lite-tapable': 1.0.1
@@ -4044,9 +4044,9 @@ snapshots:
       core-js: 3.46.0
       jiti: 2.6.1
 
-  '@rsbuild/plugin-react@1.4.2(@rsbuild/core@1.6.3)':
+  '@rsbuild/plugin-react@1.4.2(@rsbuild/core@1.6.5)':
     dependencies:
-      '@rsbuild/core': 1.6.3
+      '@rsbuild/core': 1.6.5
       '@rspack/plugin-react-refresh': 1.5.2(react-refresh@0.18.0)
       react-refresh: 0.18.0
     transitivePeerDependencies:
