@@ -40,7 +40,7 @@
   "dependencies": {
     "@antv/l7": "^2.23.0",
     "@antv/l7-maps": "^2.23.0",
-    "@react-three/drei": "^10.7.6",
+    "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.4.0",
     "maplibre-gl": "^5.12.0",
     "react": "^19.2.0",
