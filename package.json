@@ -38,7 +38,7 @@
     "postinstall": "husky"
   },
   "dependencies": {
-    "@antv/l7": "^2.23.0",
+    "@antv/l7": "^2.23.1",
     "@antv/l7-maps": "^2.23.1",
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.4.0",
