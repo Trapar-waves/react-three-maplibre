@@ -62,7 +62,7 @@
     "@types/react-dom": "^19.2.3",
     "@types/three": "^0.182.0",
     "eslint": "^9.39.2",
-    "eslint-plugin-format": "^1.1.0",
+    "eslint-plugin-format": "^1.2.0",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.25",
     "husky": "^9.1.7",
