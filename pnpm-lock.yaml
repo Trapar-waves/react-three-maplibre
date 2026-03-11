@@ -12,8 +12,8 @@ importers:
         specifier: ^2.23.2
         version: 2.23.2
       '@antv/l7-maps':
-        specifier: ^2.23.2
-        version: 2.23.2
+        specifier: ^2.24.1
+        version: 2.24.1
       '@react-three/drei':
         specifier: ^10.7.7
         version: 10.7.7(@react-three/fiber@9.5.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.183.2))(@types/react@19.2.14)(@types/three@0.183.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.183.2)
@@ -188,14 +188,23 @@ packages:
   '@antv/l7-core@2.23.2':
     resolution: {integrity: sha512-+M4kjBe62UQ+xjH+XQNFs/EaNuySNrnYfUNKOs3lv7mrz1S/n3993FX7sSoyoqPbMAeTrO3BVf8kkA7vlY5dQw==}
 
+  '@antv/l7-core@2.24.1':
+    resolution: {integrity: sha512-+s4jn4am3KPBgdfeX6O0M4wdC7BEZQbfI3pJkJfj9Wgu0gH8BOeb7icJKlW7xabLAmX9NdXnRJHPukPvW1JKUg==}
+
   '@antv/l7-layers@2.23.2':
     resolution: {integrity: sha512-3F9kx3ot7JXsP8Ef3Ayi+pTgaPxo5mFItB6PHjTUY36EQlsaT1xGVaofPva0EI8LuKyZ58WzWNTATqbHuaga2w==}
 
   '@antv/l7-map@2.23.2':
     resolution: {integrity: sha512-BzG+5lh/wZK07cLaw8xYEv62AUcMkzWzeti6iS66HG2jP7UcF4zLp3TzXb5M9N6f/eS8M5+QiINlrbIXiDz0yw==}
 
+  '@antv/l7-map@2.24.1':
+    resolution: {integrity: sha512-p+V1sSdxLszaqSawItYPAJRX8g1ILmlOMpKtswlQ5d0VOZQfhR+5GFG6icRhYhHzfx3q1FfEKzthN0/2vX+4wA==}
+
   '@antv/l7-maps@2.23.2':
     resolution: {integrity: sha512-xF+tt09DUxscbapx06UnJSthJgbxC4TReF8HNLXyQcnL1A1v3qc1Oxcyjuz1svwbs4UKnkpNJovOyx1Alif0Qg==}
+
+  '@antv/l7-maps@2.24.1':
+    resolution: {integrity: sha512-YLfkDZj1HEf563eU8X5CsL8qu1HoVFq51WDkKsYwjhUcETCQ6DIQAippRhAzTFmYIKodaSJnjd2MGi6A+5ZT2A==}
 
   '@antv/l7-renderer@2.23.2':
     resolution: {integrity: sha512-81UAEq+RVKW7Nu1C/Jl2hW5grIywvLwIoiajxhSd9FtZv17Yqk4DI5QC+0dqfuLX9G0t4PY5yjvwLFnycNXo1A==}
@@ -208,6 +217,9 @@ packages:
 
   '@antv/l7-utils@2.23.2':
     resolution: {integrity: sha512-8fiugga/Id9/s3uUpcilIJESNltAIWG+7u1oEzUOIWOLxe5QeESAXBt48sJtle2w+uukg7+z14fJRJ/xU3VHjw==}
+
+  '@antv/l7-utils@2.24.1':
+    resolution: {integrity: sha512-91JyTCJ9diaaHML0X/wnwmFlo6RBN83abPgG6egvuRS8uPWWsKONdSs14gCcEUC1/X/UyLhNyhoa0aDX8VKkbg==}
 
   '@antv/l7@2.23.2':
     resolution: {integrity: sha512-QDvd5Vw69HUG8hOEgybRzpAUsZ9fFuF/b4Fud/ZxIcEhUigUReMjllL3DVqQzUhW2cH/Qkt6jO07yAqw+oJIMg==}
@@ -3201,6 +3213,17 @@ snapshots:
       hammerjs: 2.0.8
       viewport-mercator-project: 6.2.3
 
+  '@antv/l7-core@2.24.1':
+    dependencies:
+      '@antv/async-hook': 2.2.9
+      '@antv/l7-utils': 2.24.1
+      '@babel/runtime': 7.27.0
+      '@mapbox/tiny-sdf': 1.2.5
+      '@turf/helpers': 6.5.0
+      eventemitter3: 4.0.7
+      gl-matrix: 3.4.4
+      viewport-mercator-project: 6.2.3
+
   '@antv/l7-layers@2.23.2':
     dependencies:
       '@antv/async-hook': 2.2.9
@@ -3235,12 +3258,35 @@ snapshots:
       eventemitter3: 4.0.7
       gl-matrix: 3.4.4
 
+  '@antv/l7-map@2.24.1':
+    dependencies:
+      '@antv/l7-utils': 2.24.1
+      '@babel/runtime': 7.27.0
+      '@mapbox/point-geometry': 0.1.0
+      '@mapbox/unitbezier': 0.0.1
+      eventemitter3: 4.0.7
+      gl-matrix: 3.4.4
+
   '@antv/l7-maps@2.23.2':
     dependencies:
       '@amap/amap-jsapi-loader': 1.0.1
       '@antv/l7-core': 2.23.2
       '@antv/l7-map': 2.23.2
       '@antv/l7-utils': 2.23.2
+      '@babel/runtime': 7.27.0
+      eventemitter3: 4.0.7
+      gl-matrix: 3.4.4
+      mapbox-gl: 1.13.3
+      maplibre-gl: 3.6.2
+      pmtiles: 2.11.0
+      viewport-mercator-project: 6.2.3
+
+  '@antv/l7-maps@2.24.1':
+    dependencies:
+      '@amap/amap-jsapi-loader': 1.0.1
+      '@antv/l7-core': 2.24.1
+      '@antv/l7-map': 2.24.1
+      '@antv/l7-utils': 2.24.1
       '@babel/runtime': 7.27.0
       eventemitter3: 4.0.7
       gl-matrix: 3.4.4
@@ -3298,6 +3344,16 @@ snapshots:
       gl-matrix: 3.4.4
       lodash: 4.17.21
       web-worker-helper: 0.0.3
+
+  '@antv/l7-utils@2.24.1':
+    dependencies:
+      '@babel/runtime': 7.27.0
+      '@turf/bbox': 6.5.0
+      '@turf/bbox-polygon': 6.5.0
+      '@turf/helpers': 6.5.0
+      earcut: 2.2.4
+      eventemitter3: 4.0.7
+      gl-matrix: 3.4.4
 
   '@antv/l7@2.23.2':
     dependencies:
