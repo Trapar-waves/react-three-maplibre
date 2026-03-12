@@ -12,8 +12,8 @@ importers:
         specifier: ^2.24.1
         version: 2.24.1
       '@antv/l7-maps':
-        specifier: ^2.24.1
-        version: 2.24.1
+        specifier: ^2.25.1
+        version: 2.25.1
       '@react-three/drei':
         specifier: ^10.7.7
         version: 10.7.7(@react-three/fiber@9.5.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.183.2))(@types/react@19.2.14)(@types/three@0.183.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.183.2)
@@ -188,14 +188,23 @@ packages:
   '@antv/l7-core@2.24.1':
     resolution: {integrity: sha512-+s4jn4am3KPBgdfeX6O0M4wdC7BEZQbfI3pJkJfj9Wgu0gH8BOeb7icJKlW7xabLAmX9NdXnRJHPukPvW1JKUg==}
 
+  '@antv/l7-core@2.25.1':
+    resolution: {integrity: sha512-b39bKr3X3+ar4nbA9JYbrfiI/YAo11lmKtUKy/PE/fIDfNmue+D7QmmUsyvijwTp7Vin/dDGjXBrjjVQfZJy6A==}
+
   '@antv/l7-layers@2.24.1':
     resolution: {integrity: sha512-kzZ+bFXcN8aZzPBfHygnlCo0YrRnoz0Mzn4qUoAstgWx+c4FTs63+2s/Y8hPEvIRsB+eUFBxKMKe6qBgZMOdog==}
 
   '@antv/l7-map@2.24.1':
     resolution: {integrity: sha512-p+V1sSdxLszaqSawItYPAJRX8g1ILmlOMpKtswlQ5d0VOZQfhR+5GFG6icRhYhHzfx3q1FfEKzthN0/2vX+4wA==}
 
+  '@antv/l7-map@2.25.1':
+    resolution: {integrity: sha512-mlW0ecDk7Gyhpci50jbiGPraY/whPHVhnPrAVoqzy9iSkGCQUdIyEUtuyMSYCAP+RQ5jtHInCO1s4ZIzSP7YIQ==}
+
   '@antv/l7-maps@2.24.1':
     resolution: {integrity: sha512-YLfkDZj1HEf563eU8X5CsL8qu1HoVFq51WDkKsYwjhUcETCQ6DIQAippRhAzTFmYIKodaSJnjd2MGi6A+5ZT2A==}
+
+  '@antv/l7-maps@2.25.1':
+    resolution: {integrity: sha512-9XBoMmvq+ArzbPWWOJJ/o45cpi/aze4ju9ejEdpVjlteMvM4tw4khjorsLxq87rSQ7iXOVh2CJM2ZWAb7rzJ/w==}
 
   '@antv/l7-renderer@2.24.1':
     resolution: {integrity: sha512-l0QL9I0i/6LHdfoL2s19dopfdhA9h1xXMhHHwpJPNW2BRjaFh0SQlIUUmYLiBEMey2a6YHPHfvSsFq8fu6iPTQ==}
@@ -208,6 +217,9 @@ packages:
 
   '@antv/l7-utils@2.24.1':
     resolution: {integrity: sha512-91JyTCJ9diaaHML0X/wnwmFlo6RBN83abPgG6egvuRS8uPWWsKONdSs14gCcEUC1/X/UyLhNyhoa0aDX8VKkbg==}
+
+  '@antv/l7-utils@2.25.1':
+    resolution: {integrity: sha512-yYk0BnblsKPrUZMEpZgxQrdKeUrFATCQ0vy2aoOqTpP5OWq9lb3KfrzuEDva3i1h3cvVAjvmdYpJ4qn15lSKkQ==}
 
   '@antv/l7@2.24.1':
     resolution: {integrity: sha512-zU3yFJYAaM63IWk4qM9Q5EHCicZxM0kLgtDFLb8eSfdWiwG1eC05PGY2SXYe/9ytGkWjytcMIJ6ueU1xhFUhUg==}
@@ -3129,6 +3141,17 @@ snapshots:
       gl-matrix: 3.4.4
       viewport-mercator-project: 6.2.3
 
+  '@antv/l7-core@2.25.1':
+    dependencies:
+      '@antv/async-hook': 2.2.9
+      '@antv/l7-utils': 2.25.1
+      '@babel/runtime': 7.27.0
+      '@mapbox/tiny-sdf': 1.2.5
+      '@turf/helpers': 6.5.0
+      eventemitter3: 4.0.7
+      gl-matrix: 3.4.4
+      viewport-mercator-project: 6.2.3
+
   '@antv/l7-layers@2.24.1':
     dependencies:
       '@antv/async-hook': 2.2.9
@@ -3156,12 +3179,35 @@ snapshots:
       eventemitter3: 4.0.7
       gl-matrix: 3.4.4
 
+  '@antv/l7-map@2.25.1':
+    dependencies:
+      '@antv/l7-utils': 2.25.1
+      '@babel/runtime': 7.27.0
+      '@mapbox/point-geometry': 0.1.0
+      '@mapbox/unitbezier': 0.0.1
+      eventemitter3: 4.0.7
+      gl-matrix: 3.4.4
+
   '@antv/l7-maps@2.24.1':
     dependencies:
       '@amap/amap-jsapi-loader': 1.0.1
       '@antv/l7-core': 2.24.1
       '@antv/l7-map': 2.24.1
       '@antv/l7-utils': 2.24.1
+      '@babel/runtime': 7.27.0
+      eventemitter3: 4.0.7
+      gl-matrix: 3.4.4
+      mapbox-gl: 1.13.3
+      maplibre-gl: 3.6.2
+      pmtiles: 2.11.0
+      viewport-mercator-project: 6.2.3
+
+  '@antv/l7-maps@2.25.1':
+    dependencies:
+      '@amap/amap-jsapi-loader': 1.0.1
+      '@antv/l7-core': 2.25.1
+      '@antv/l7-map': 2.25.1
+      '@antv/l7-utils': 2.25.1
       '@babel/runtime': 7.27.0
       eventemitter3: 4.0.7
       gl-matrix: 3.4.4
@@ -3206,6 +3252,16 @@ snapshots:
       supercluster: 7.1.5
 
   '@antv/l7-utils@2.24.1':
+    dependencies:
+      '@babel/runtime': 7.27.0
+      '@turf/bbox': 6.5.0
+      '@turf/bbox-polygon': 6.5.0
+      '@turf/helpers': 6.5.0
+      earcut: 2.2.4
+      eventemitter3: 4.0.7
+      gl-matrix: 3.4.4
+
+  '@antv/l7-utils@2.25.1':
     dependencies:
       '@babel/runtime': 7.27.0
       '@turf/bbox': 6.5.0
