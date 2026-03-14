@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@antv/l7':
-        specifier: ^2.25.1
-        version: 2.25.1
+        specifier: ^2.25.2
+        version: 2.25.2
       '@antv/l7-maps':
         specifier: ^2.25.2
         version: 2.25.2
@@ -182,47 +182,35 @@ packages:
   '@antv/g-device-api@1.6.13':
     resolution: {integrity: sha512-lTvlSHYDZyWJnAR1W8DOQLwUo32VpRopbS/BPQqStcOV6FqaC+u5YjT50KbJ+oBWcorpzfknhICRwEA3Xm8t9Q==}
 
-  '@antv/l7-component@2.25.1':
-    resolution: {integrity: sha512-TZw5EIRbu3M461IpaLW2RSUrX29iHQh+eURO1yt+z5UOGJIaPxzRX4XmdNJhuDFcfgo6RS4zyHDxjhbqeVPBbQ==}
-
-  '@antv/l7-core@2.25.1':
-    resolution: {integrity: sha512-b39bKr3X3+ar4nbA9JYbrfiI/YAo11lmKtUKy/PE/fIDfNmue+D7QmmUsyvijwTp7Vin/dDGjXBrjjVQfZJy6A==}
+  '@antv/l7-component@2.25.2':
+    resolution: {integrity: sha512-Cx+DKTGXPbNthGbpLu/GKPRd+sslfDXGwLDlM8L5sgnelRkglIGD5bC83WwwsF+1uBLe3Sk2HLm/jqYQ/hQdwg==}
 
   '@antv/l7-core@2.25.2':
     resolution: {integrity: sha512-tvKl5so8aQBeS0pwawodJ/i8xBoL5trake5x9YQ9cVCFDU5Dz8m4cpfDlIxeJxb8j2ZzIVeKQobHyezVEph8Sw==}
 
-  '@antv/l7-layers@2.25.1':
-    resolution: {integrity: sha512-YFABGhlJijmtiSBzZtNq+I8Cf2/XQdC9MKpjZXSinsUeSpRZJBOYneaF484Ii5a6RMy160ZaLK9xaYHPFb9/dQ==}
-
-  '@antv/l7-map@2.25.1':
-    resolution: {integrity: sha512-mlW0ecDk7Gyhpci50jbiGPraY/whPHVhnPrAVoqzy9iSkGCQUdIyEUtuyMSYCAP+RQ5jtHInCO1s4ZIzSP7YIQ==}
+  '@antv/l7-layers@2.25.2':
+    resolution: {integrity: sha512-mxRii8AyW9TVCRbYZm8zrfB7YZWwG+OjtrY8NMj6skKs6C5KbPpqskAnD4R+7j0nACQmXvK5LRaFN+6xwdrrJQ==}
 
   '@antv/l7-map@2.25.2':
     resolution: {integrity: sha512-kNqtQkLali2ymHbg0vvHolkZyJGSRnHTnLYMIKwbjYi5OCIs4VQc9wHm1keRBzgGZFnv436SYmbXMo46onmhnQ==}
 
-  '@antv/l7-maps@2.25.1':
-    resolution: {integrity: sha512-9XBoMmvq+ArzbPWWOJJ/o45cpi/aze4ju9ejEdpVjlteMvM4tw4khjorsLxq87rSQ7iXOVh2CJM2ZWAb7rzJ/w==}
-
   '@antv/l7-maps@2.25.2':
     resolution: {integrity: sha512-khgvT2YQRylC/yIAfimwERimdeAVMwXG7KWwE+vTUHndKWNVGdijJF8PK6jhYhq7RQsc2kdK2A51WV1WWw3gig==}
 
-  '@antv/l7-renderer@2.25.1':
-    resolution: {integrity: sha512-d6Wg+Q1pfYhPT4vwTHElTU/rnZXI3O6IJTUSNY6fD83/YIbyhmHftxwaGOHkZjDPBFkgtqTmdYAcbiL4MSHOeQ==}
+  '@antv/l7-renderer@2.25.2':
+    resolution: {integrity: sha512-VktpQdY60aZAS/b+usvTknDVWiXXU+RsxsDdKMkkkLrHurjkDLZnPEvmMBNAA15ehvMaU/4xcj362CkCnl4bpA==}
 
-  '@antv/l7-scene@2.25.1':
-    resolution: {integrity: sha512-J6XDIFUnst4kSecm7HrV9UoTlMvUplelwcVzwZ6SimisrKe5TpGMOPal47eT5L8QXGVZL0RFWkYBNTDlTq1YXA==}
+  '@antv/l7-scene@2.25.2':
+    resolution: {integrity: sha512-0ZgRQTqzxw3TeF5tbAe1PA4QT2Txj7kwNYc9XmfyTwYLwBYrcgiCwwFkY4UCZdYfUEH5tzjyF6MGBKGSZ/vNjA==}
 
-  '@antv/l7-source@2.25.1':
-    resolution: {integrity: sha512-5Qdsz/3FEKNwCyzKThI3abmGzgjRsqB8KD2UPzDSYNoW1c3n2OUosdIuq8pxY7tfeNDN8PXLzI6RRAGFYNbN5g==}
-
-  '@antv/l7-utils@2.25.1':
-    resolution: {integrity: sha512-yYk0BnblsKPrUZMEpZgxQrdKeUrFATCQ0vy2aoOqTpP5OWq9lb3KfrzuEDva3i1h3cvVAjvmdYpJ4qn15lSKkQ==}
+  '@antv/l7-source@2.25.2':
+    resolution: {integrity: sha512-WDSY5+ZH6sZnTWcNc60pgdaxigdwmVEjycsjZHH+9ya2n8eLIfogRwhvQZf27X3pSLueMjt7hmcAgim0+7xAKA==}
 
   '@antv/l7-utils@2.25.2':
     resolution: {integrity: sha512-LXCf5B10y6ift/t1L+XWAME7ZZpHYvh3/7ZWtBk9MvNdyNWoDo6W2ApOKJrm40ZeRJfCUolGWAyWjL8Vt0pRsQ==}
 
-  '@antv/l7@2.25.1':
-    resolution: {integrity: sha512-pjXdM7bIqejikBBrQfQX/UFWSuT/IVLpg49P4cSip+6bT3V8xS2xkPqId7yno+FfMdKPFK9yrYSngJDeFcUK+g==}
+  '@antv/l7@2.25.2':
+    resolution: {integrity: sha512-uGIWpd/NexqO7t7h8GR7wW05ne5RbDW8UwnHwXLhWNSxG2A27Kv/EWADCOqSxuigAGr51Qd9+GkTBSfbucQe4Q==}
 
   '@antv/util@3.3.10':
     resolution: {integrity: sha512-basGML3DFA3O87INnzvDStjzS+n0JLEhRnRsDzP9keiXz8gT1z/fTdmJAZFOzMMWxy+HKbi7NbSt0+8vz/OsBQ==}
@@ -3177,25 +3165,14 @@ snapshots:
       gl-matrix: 3.4.4
       tslib: 2.8.1
 
-  '@antv/l7-component@2.25.1':
+  '@antv/l7-component@2.25.2':
     dependencies:
-      '@antv/l7-core': 2.25.1
-      '@antv/l7-layers': 2.25.1
-      '@antv/l7-utils': 2.25.1
+      '@antv/l7-core': 2.25.2
+      '@antv/l7-layers': 2.25.2
+      '@antv/l7-utils': 2.25.2
       '@babel/runtime': 7.27.0
       eventemitter3: 4.0.7
       supercluster: 7.1.5
-
-  '@antv/l7-core@2.25.1':
-    dependencies:
-      '@antv/async-hook': 2.2.9
-      '@antv/l7-utils': 2.25.1
-      '@babel/runtime': 7.27.0
-      '@mapbox/tiny-sdf': 1.2.5
-      '@turf/helpers': 6.5.0
-      eventemitter3: 4.0.7
-      gl-matrix: 3.4.4
-      viewport-mercator-project: 6.2.3
 
   '@antv/l7-core@2.25.2':
     dependencies:
@@ -3209,13 +3186,13 @@ snapshots:
       hammerjs: 2.0.8
       viewport-mercator-project: 6.2.3
 
-  '@antv/l7-layers@2.25.1':
+  '@antv/l7-layers@2.25.2':
     dependencies:
       '@antv/async-hook': 2.2.9
-      '@antv/l7-core': 2.25.1
-      '@antv/l7-maps': 2.25.1
-      '@antv/l7-source': 2.25.1
-      '@antv/l7-utils': 2.25.1
+      '@antv/l7-core': 2.25.2
+      '@antv/l7-maps': 2.25.2
+      '@antv/l7-source': 2.25.2
+      '@antv/l7-utils': 2.25.2
       '@babel/runtime': 7.27.0
       '@mapbox/martini': 0.2.0
       '@turf/clone': 6.5.0
@@ -3227,15 +3204,6 @@ snapshots:
       eventemitter3: 4.0.7
       gl-matrix: 3.4.4
 
-  '@antv/l7-map@2.25.1':
-    dependencies:
-      '@antv/l7-utils': 2.25.1
-      '@babel/runtime': 7.27.0
-      '@mapbox/point-geometry': 0.1.0
-      '@mapbox/unitbezier': 0.0.1
-      eventemitter3: 4.0.7
-      gl-matrix: 3.4.4
-
   '@antv/l7-map@2.25.2':
     dependencies:
       '@antv/l7-utils': 2.25.2
@@ -3244,20 +3212,6 @@ snapshots:
       '@mapbox/unitbezier': 0.0.1
       eventemitter3: 4.0.7
       gl-matrix: 3.4.4
-
-  '@antv/l7-maps@2.25.1':
-    dependencies:
-      '@amap/amap-jsapi-loader': 1.0.1
-      '@antv/l7-core': 2.25.1
-      '@antv/l7-map': 2.25.1
-      '@antv/l7-utils': 2.25.1
-      '@babel/runtime': 7.27.0
-      eventemitter3: 4.0.7
-      gl-matrix: 3.4.4
-      mapbox-gl: 1.13.3
-      maplibre-gl: 3.6.2
-      pmtiles: 2.11.0
-      viewport-mercator-project: 6.2.3
 
   '@antv/l7-maps@2.25.2':
     dependencies:
@@ -3273,30 +3227,30 @@ snapshots:
       pmtiles: 2.11.0
       viewport-mercator-project: 6.2.3
 
-  '@antv/l7-renderer@2.25.1':
+  '@antv/l7-renderer@2.25.2':
     dependencies:
       '@antv/g-device-api': 1.6.13
-      '@antv/l7-core': 2.25.1
-      '@antv/l7-utils': 2.25.1
+      '@antv/l7-core': 2.25.2
+      '@antv/l7-utils': 2.25.2
       '@babel/runtime': 7.27.0
       regl: 1.6.1
 
-  '@antv/l7-scene@2.25.1':
+  '@antv/l7-scene@2.25.2':
     dependencies:
-      '@antv/l7-component': 2.25.1
-      '@antv/l7-core': 2.25.1
-      '@antv/l7-layers': 2.25.1
-      '@antv/l7-maps': 2.25.1
-      '@antv/l7-renderer': 2.25.1
-      '@antv/l7-utils': 2.25.1
+      '@antv/l7-component': 2.25.2
+      '@antv/l7-core': 2.25.2
+      '@antv/l7-layers': 2.25.2
+      '@antv/l7-maps': 2.25.2
+      '@antv/l7-renderer': 2.25.2
+      '@antv/l7-utils': 2.25.2
       '@babel/runtime': 7.27.0
       eventemitter3: 4.0.7
 
-  '@antv/l7-source@2.25.1':
+  '@antv/l7-source@2.25.2':
     dependencies:
       '@antv/async-hook': 2.2.9
-      '@antv/l7-core': 2.25.1
-      '@antv/l7-utils': 2.25.1
+      '@antv/l7-core': 2.25.2
+      '@antv/l7-utils': 2.25.2
       '@babel/runtime': 7.27.0
       '@mapbox/geojson-rewind': 0.5.2
       '@mapbox/vector-tile': 1.3.1
@@ -3308,16 +3262,6 @@ snapshots:
       pbf: 3.3.0
       supercluster: 7.1.5
 
-  '@antv/l7-utils@2.25.1':
-    dependencies:
-      '@babel/runtime': 7.27.0
-      '@turf/bbox': 6.5.0
-      '@turf/bbox-polygon': 6.5.0
-      '@turf/helpers': 6.5.0
-      earcut: 2.2.4
-      eventemitter3: 4.0.7
-      gl-matrix: 3.4.4
-
   '@antv/l7-utils@2.25.2':
     dependencies:
       '@babel/runtime': 7.27.0
@@ -3328,15 +3272,15 @@ snapshots:
       eventemitter3: 4.0.7
       gl-matrix: 3.4.4
 
-  '@antv/l7@2.25.1':
+  '@antv/l7@2.25.2':
     dependencies:
-      '@antv/l7-component': 2.25.1
-      '@antv/l7-core': 2.25.1
-      '@antv/l7-layers': 2.25.1
-      '@antv/l7-maps': 2.25.1
-      '@antv/l7-scene': 2.25.1
-      '@antv/l7-source': 2.25.1
-      '@antv/l7-utils': 2.25.1
+      '@antv/l7-component': 2.25.2
+      '@antv/l7-core': 2.25.2
+      '@antv/l7-layers': 2.25.2
+      '@antv/l7-maps': 2.25.2
+      '@antv/l7-scene': 2.25.2
+      '@antv/l7-source': 2.25.2
+      '@antv/l7-utils': 2.25.2
       '@babel/runtime': 7.27.0
 
   '@antv/util@3.3.10':
