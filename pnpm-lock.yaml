@@ -43,8 +43,8 @@ importers:
         version: 2.36.1(three@0.183.2)
     devDependencies:
       '@antfu/eslint-config':
-        specifier: ^7.7.2
-        version: 7.7.2(@eslint-react/eslint-plugin@3.0.0(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/rule-tester@8.56.1(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.57.0(typescript@5.9.3))(@typescript-eslint/utils@8.57.0(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3))(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@2.0.1(eslint@10.0.3(jiti@2.6.1)))(eslint-plugin-react-hooks@7.0.1(eslint@10.0.3(jiti@2.6.1)))(eslint-plugin-react-refresh@0.5.2(eslint@10.0.3(jiti@2.6.1)))(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3)
+        specifier: ^7.7.3
+        version: 7.7.3(@eslint-react/eslint-plugin@3.0.0(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/rule-tester@8.56.1(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.57.0(typescript@5.9.3))(@typescript-eslint/utils@8.57.0(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3))(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@2.0.1(eslint@10.0.3(jiti@2.6.1)))(eslint-plugin-react-hooks@7.0.1(eslint@10.0.3(jiti@2.6.1)))(eslint-plugin-react-refresh@0.5.2(eslint@10.0.3(jiti@2.6.1)))(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3)
       '@eslint-react/eslint-plugin':
         specifier: ^3.0.0
         version: 3.0.0(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3)
@@ -109,8 +109,8 @@ packages:
   '@amap/amap-jsapi-loader@1.0.1':
     resolution: {integrity: sha512-nPyLKt7Ow/ThHLkSvn2etQlUzqxmTVgK7bIgwdBRTg2HK5668oN7xVxkaiRe3YZEzGzfV2XgH5Jmu2T73ljejw==}
 
-  '@antfu/eslint-config@7.7.2':
-    resolution: {integrity: sha512-CGCcwASry9hk8cOYl82sfTsqmma4DyDfmQSaOJ9p8OtJlVMouDV0MCueDZzUu7iHl+DraSSN6J6sXSkzG6LzcQ==}
+  '@antfu/eslint-config@7.7.3':
+    resolution: {integrity: sha512-BtroDxTvmWtvr3yJkdWVCvwsKlnEdkreoeOyrdNezc/W5qaiQNf2xjcsQ3N5Yy0x27h+0WFfW8rG8YlVioG6dw==}
     hasBin: true
     peerDependencies:
       '@angular-eslint/eslint-plugin': ^21.1.0
@@ -2994,7 +2994,7 @@ snapshots:
 
   '@amap/amap-jsapi-loader@1.0.1': {}
 
-  '@antfu/eslint-config@7.7.2(@eslint-react/eslint-plugin@3.0.0(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/rule-tester@8.56.1(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.57.0(typescript@5.9.3))(@typescript-eslint/utils@8.57.0(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3))(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@2.0.1(eslint@10.0.3(jiti@2.6.1)))(eslint-plugin-react-hooks@7.0.1(eslint@10.0.3(jiti@2.6.1)))(eslint-plugin-react-refresh@0.5.2(eslint@10.0.3(jiti@2.6.1)))(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3)':
+  '@antfu/eslint-config@7.7.3(@eslint-react/eslint-plugin@3.0.0(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/rule-tester@8.56.1(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.57.0(typescript@5.9.3))(@typescript-eslint/utils@8.57.0(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3))(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@2.0.1(eslint@10.0.3(jiti@2.6.1)))(eslint-plugin-react-hooks@7.0.1(eslint@10.0.3(jiti@2.6.1)))(eslint-plugin-react-refresh@0.5.2(eslint@10.0.3(jiti@2.6.1)))(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3)':
     dependencies:
       '@antfu/install-pkg': 1.1.0
       '@clack/prompts': 1.1.0
