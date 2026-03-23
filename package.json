@@ -53,7 +53,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^7.7.3",
     "@eslint-react/eslint-plugin": "^3.0.0",
-    "@iconify/json": "^2.2.451",
+    "@iconify/json": "^2.2.453",
     "@iconify/tailwind4": "^1.2.3",
     "@rsbuild/core": "^1.7.3",
     "@rsbuild/plugin-react": "^1.4.6",
