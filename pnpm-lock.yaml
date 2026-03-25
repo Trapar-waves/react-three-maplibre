@@ -21,8 +21,8 @@ importers:
         specifier: ^9.5.0
         version: 9.5.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.183.2)
       maplibre-gl:
-        specifier: ^5.21.0
-        version: 5.21.0
+        specifier: ^5.21.1
+        version: 5.21.1
       react:
         specifier: ^19.2.4
         version: 19.2.4
@@ -31,10 +31,10 @@ importers:
         version: 19.2.4(react@19.2.4)
       react-map-gl:
         specifier: ^8.1.0
-        version: 8.1.0(mapbox-gl@3.20.0)(maplibre-gl@5.21.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 8.1.0(mapbox-gl@3.20.0)(maplibre-gl@5.21.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       react-three-map:
         specifier: ^1.0.0
-        version: 1.0.0(@react-three/fiber@9.5.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.183.2))(mapbox-gl@3.20.0)(maplibre-gl@5.21.0)(react-map-gl@8.1.0(mapbox-gl@3.20.0)(maplibre-gl@5.21.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)(three@0.183.2)
+        version: 1.0.0(@react-three/fiber@9.5.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.183.2))(mapbox-gl@3.20.0)(maplibre-gl@5.21.1)(react-map-gl@8.1.0(mapbox-gl@3.20.0)(maplibre-gl@5.21.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)(three@0.183.2)
       three:
         specifier: ^0.183.2
         version: 0.183.2
@@ -2183,8 +2183,8 @@ packages:
     resolution: {integrity: sha512-krg2KFIdOpLPngONDhP6ixCoWl5kbdMINP0moMSJFVX7wX1Clm2M9hlNKXS8vBGlVWwR5R3ZfI6IPrYz7c+aCQ==}
     engines: {node: '>=16.14.0', npm: '>=8.1.0'}
 
-  maplibre-gl@5.21.0:
-    resolution: {integrity: sha512-n0v4J/Ge0EG8ix/z3TY3ragtJYMqzbtSnj1riOC0OwQbzwp0lUF2maS1ve1z8HhitQCKtZZiZJhb8to36aMMfQ==}
+  maplibre-gl@5.21.1:
+    resolution: {integrity: sha512-zto1RTnFkOpOO1bm93ElCXF1huey2N4LvXaGLMFcYAu9txh0OhGIdX1q3LZLkrMKgMxMeYduaQo+DVNzg098fg==}
     engines: {node: '>=16.14.0', npm: '>=8.1.0'}
 
   markdown-table@3.0.4:
@@ -4229,13 +4229,13 @@ snapshots:
     optionalDependencies:
       mapbox-gl: 3.20.0
 
-  '@vis.gl/react-maplibre@8.1.0(maplibre-gl@5.21.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@vis.gl/react-maplibre@8.1.0(maplibre-gl@5.21.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
       '@maplibre/maplibre-gl-style-spec': 19.3.3
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
     optionalDependencies:
-      maplibre-gl: 5.21.0
+      maplibre-gl: 5.21.1
 
   '@vitest/eslint-plugin@1.6.10(eslint@10.1.0(jiti@2.6.1))(typescript@5.9.3)':
     dependencies:
@@ -5333,7 +5333,7 @@ snapshots:
       tinyqueue: 2.0.3
       vt-pbf: 3.1.3
 
-  maplibre-gl@5.21.0:
+  maplibre-gl@5.21.1:
     dependencies:
       '@mapbox/jsonlint-lines-primitives': 2.0.2
       '@mapbox/point-geometry': 1.1.0
@@ -5869,27 +5869,27 @@ snapshots:
       react: 19.2.4
       scheduler: 0.27.0
 
-  react-map-gl@8.1.0(mapbox-gl@3.20.0)(maplibre-gl@5.21.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4):
+  react-map-gl@8.1.0(mapbox-gl@3.20.0)(maplibre-gl@5.21.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4):
     dependencies:
       '@vis.gl/react-mapbox': 8.1.0(mapbox-gl@3.20.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
-      '@vis.gl/react-maplibre': 8.1.0(maplibre-gl@5.21.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      '@vis.gl/react-maplibre': 8.1.0(maplibre-gl@5.21.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
     optionalDependencies:
       mapbox-gl: 3.20.0
-      maplibre-gl: 5.21.0
+      maplibre-gl: 5.21.1
 
   react-refresh@0.18.0: {}
 
-  react-three-map@1.0.0(@react-three/fiber@9.5.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.183.2))(mapbox-gl@3.20.0)(maplibre-gl@5.21.0)(react-map-gl@8.1.0(mapbox-gl@3.20.0)(maplibre-gl@5.21.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)(three@0.183.2):
+  react-three-map@1.0.0(@react-three/fiber@9.5.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.183.2))(mapbox-gl@3.20.0)(maplibre-gl@5.21.1)(react-map-gl@8.1.0(mapbox-gl@3.20.0)(maplibre-gl@5.21.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)(three@0.183.2):
     dependencies:
       '@react-three/fiber': 9.5.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.183.2)
       react: 19.2.4
-      react-map-gl: 8.1.0(mapbox-gl@3.20.0)(maplibre-gl@5.21.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      react-map-gl: 8.1.0(mapbox-gl@3.20.0)(maplibre-gl@5.21.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       three: 0.183.2
     optionalDependencies:
       mapbox-gl: 3.20.0
-      maplibre-gl: 5.21.0
+      maplibre-gl: 5.21.1
 
   react-use-measure@2.1.7(react-dom@19.2.4(react@19.2.4))(react@19.2.4):
     dependencies:
