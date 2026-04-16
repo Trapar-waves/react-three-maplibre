@@ -47,7 +47,7 @@
     "react-dom": "^19.2.5",
     "react-map-gl": "^8.1.1",
     "react-three-map": "^1.0.0",
-    "three": "^0.183.2",
+    "three": "^0.184.0",
     "three-stdlib": "^2.36.1"
   },
   "devDependencies": {
@@ -60,7 +60,7 @@
     "@tailwindcss/postcss": "^4.2.2",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@types/three": "^0.183.1",
+    "@types/three": "^0.184.0",
     "eslint": "^10.2.0",
     "eslint-plugin-format": "^2.0.1",
     "eslint-plugin-react-hooks": "^7.0.1",
