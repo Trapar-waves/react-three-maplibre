@@ -24,7 +24,7 @@ jobs:
         with:
           registry-url: https://registry.npmjs.org/
           node-version: lts/*
-          cache: "pnpm"
+          cache: pnpm
       - name: Install dependencies
         run: pnpm install
       - run: npx changelogithub # or changelogithub@0.12 to ensure a stable result
@@ -40,7 +40,7 @@ jobs:
         with:
           node-version: 24.15.0
           registry-url: https://registry.npmjs.org/
-          cache: "pnpm"
+          cache: pnpm
       - name: Install dependencies
         run: pnpm install
       - name: Update npm

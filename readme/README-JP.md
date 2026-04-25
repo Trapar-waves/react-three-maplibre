@@ -211,6 +211,7 @@ export default App;
 ```
 
 この例では以下を示しています：
+
 - `react-map-gl` を使用して MapLibre GL マップを作成する
 - 地理空間データの可視化のために AntV L7 を統合する
 - 3D レンダリングのために React Three Fiber と Drei を使用する
