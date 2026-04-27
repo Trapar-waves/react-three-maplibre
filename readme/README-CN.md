@@ -142,7 +142,8 @@ const latLon = {
   latitude: 31.215175,
   longitude: 121.417463,
 };
-const MAPTILER_KEY = import.meta.env.PUBLIC_MAPTILER_KEY;
+const MAP_STYLE_URL =
+  "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json";
 
 function App() {
   const ref = useRef<HTMLDivElement>(null!);
@@ -187,7 +188,7 @@ function App() {
           zoom: 11,
           pitch: 64.88,
         }}
-        mapStyle={`https://api.maptiler.com/maps/streets/style.json?key=${MAPTILER_KEY}`}
+        mapStyle={MAP_STYLE_URL}
         onLoad={initL7}
       >
         <Stats className="stats" parent={ref} />
@@ -217,15 +218,9 @@ export default App;
 - 使用 React Three Fiber 和 Drei 进行 3D 渲染
 - 使用 `react-three-map` 将 3D 对象相对于地图进行定位
 
-### 环境变量
+### 地图底图
 
-要使用 MapTiler 等地图服务，您需要设置环境变量。在项目根目录创建一个 `.env` 文件：
-
-```
-PUBLIC_MAPTILER_KEY=your_maptiler_api_key_here
-```
-
-确保将 `.env` 添加到 `.gitignore` 中以保证密钥安全。
+模板默认使用无需 API Key 的 Carto GL 样式（见 `src/App.tsx` 中的 `MAP_STYLE_URL`）。若改用 MapTiler 等需鉴权的服务，请自行设置 `mapStyle` 并通过 `.env` / CI 密钥管理凭据。
 
 ## 🤝 贡献指南
 

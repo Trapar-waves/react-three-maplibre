@@ -142,7 +142,8 @@ const latLon = {
   latitude: 31.215175,
   longitude: 121.417463,
 };
-const MAPTILER_KEY = import.meta.env.PUBLIC_MAPTILER_KEY;
+const MAP_STYLE_URL =
+  "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json";
 
 function App() {
   const ref = useRef<HTMLDivElement>(null!);
@@ -187,7 +188,7 @@ function App() {
           zoom: 11,
           pitch: 64.88,
         }}
-        mapStyle={`https://api.maptiler.com/maps/streets/style.json?key=${MAPTILER_KEY}`}
+        mapStyle={MAP_STYLE_URL}
         onLoad={initL7}
       >
         <Stats className="stats" parent={ref} />
@@ -217,15 +218,9 @@ export default App;
 - Использование React Three Fiber и Drei для 3D-рендеринга
 - Позиционирование 3D-объектов относительно карты с помощью `react-three-map`
 
-### Переменные окружения
+### Подложка карты
 
-Для использования сервисов карт, таких как MapTiler, вам нужно настроить переменные окружения. Создайте файл `.env` в корне вашего проекта:
-
-```
-PUBLIC_MAPTILER_KEY=your_maptiler_api_key_here
-```
-
-Обязательно добавьте `.env` в ваш `.gitignore`, чтобы ваши ключи оставались в безопасности.
+В шаблоне по умолчанию используется стиль Carto GL без API-ключа (`MAP_STYLE_URL` в `src/App.tsx`). Для другого провайдера (например, MapTiler) задайте `mapStyle` и храните ключи в `.env` / CI.
 
 ## 🤝 Участие в разработке
 

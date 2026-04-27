@@ -25,6 +25,22 @@
 - **Map Interactivity:** Implements `react-map-gl` for interactive map controls and client-side navigation in geospatial contexts.
 - **AntV Enhancements:** Incorporates `@antv/l7-maps` for additional map layering capabilities and visualization tools.
 
+## GitHub Pages
+
+Pushing a version tag matching `v*` runs [`.github/workflows/pages.yml`](./.github/workflows/pages.yml), which builds with `BASE_PATH=/<repository-name>/`, copies `dist/index.html` to `dist/404.html` for SPA routing, and deploys to GitHub Pages. In the repository **Settings → Pages**, set **Source** to **GitHub Actions** once.
+
+The demo map uses [Carto Basemaps](https://carto.com/basemaps/) public MapLibre GL styles (**no API key** required for local builds or GitHub Pages).
+
+```bash
+BASE_PATH=/react-three-maplibre/ pnpm run build && pnpm preview
+```
+
+PowerShell:
+
+```powershell
+$env:BASE_PATH="/react-three-maplibre/"; pnpm run build; pnpm preview
+```
+
 ## 💻 Tech Stack
 
 - **Framework/Library:** React
@@ -142,7 +158,8 @@ const latLon = {
   latitude: 31.215175,
   longitude: 121.417463,
 };
-const MAPTILER_KEY = import.meta.env.PUBLIC_MAPTILER_KEY;
+const MAP_STYLE_URL =
+  "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json";
 
 function App() {
   const ref = useRef<HTMLDivElement>(null!);
@@ -187,7 +204,7 @@ function App() {
           zoom: 11,
           pitch: 64.88,
         }}
-        mapStyle={`https://api.maptiler.com/maps/streets/style.json?key=${MAPTILER_KEY}`}
+        mapStyle={MAP_STYLE_URL}
         onLoad={initL7}
       >
         <Stats className="stats" parent={ref} />
@@ -217,15 +234,9 @@ This example demonstrates:
 - Using React Three Fiber and Drei for 3D rendering
 - Positioning 3D objects relative to the map using `react-three-map`
 
-### Environment Variables
+### Map basemap
 
-To use map services like MapTiler, you'll need to set up environment variables. Create a `.env` file in your project root:
-
-```
-PUBLIC_MAPTILER_KEY=your_maptiler_api_key_here
-```
-
-Make sure to add `.env` to your `.gitignore` to keep your keys secure.
+The template ships with a key-free Carto GL style (`MAP_STYLE_URL` in `src/App.tsx`). To switch providers (e.g. MapTiler), point `mapStyle` at your style JSON and manage API keys via `.env` / CI secrets yourself.
 
 ## 🤝 Contributing
 
