@@ -1,6 +1,6 @@
-import path from "node:path";
 import process from "node:process";
 import { defineConfig, loadEnv } from "@rsbuild/core";
+import { pluginLess } from "@rsbuild/plugin-less";
 import { pluginReact } from "@rsbuild/plugin-react";
 import { RsdoctorRspackPlugin } from "@rsdoctor/rspack-plugin";
 import tailwind from "@tailwindcss/postcss";
@@ -33,7 +33,7 @@ export default defineConfig({
   performance: {
     ...(enableRsdoctor ? { buildCache: false } : {}),
   },
-  plugins: [pluginReact()],
+  plugins: [pluginReact(), pluginLess()],
   source: {
     define: publicVars,
   },
@@ -44,24 +44,7 @@ export default defineConfig({
       },
     },
     rspack: [
-      (config, { appendRules }) => {
-        appendRules([
-          {
-            test: /\.less$/i,
-            type: "css",
-            use: [
-              {
-                loader: "less-loader",
-                options: {
-                  lessOptions: {
-                    javascriptEnabled: true,
-                    paths: [path.join(process.cwd(), "node_modules")],
-                  },
-                },
-              },
-            ],
-          },
-        ]);
+      (config) => {
         if (enableTurboConsole) {
           config.plugins.push(TurboConsole());
         }

@@ -158,8 +158,8 @@ const latLon = {
   latitude: 31.215175,
   longitude: 121.417463,
 };
-const MAP_STYLE_URL =
-  "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json";
+const MAP_STYLE_URL
+  = "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json";
 
 function App() {
   const ref = useRef<HTMLDivElement>(null!);
