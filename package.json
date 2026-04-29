@@ -42,7 +42,7 @@
     "@antv/l7": "^2.25.4",
     "@antv/l7-maps": "^2.25.4",
     "@react-three/drei": "^10.7.7",
-    "@react-three/fiber": "^9.6.0",
+    "@react-three/fiber": "^9.6.1",
     "maplibre-gl": "^5.24.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
