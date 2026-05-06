@@ -74,6 +74,6 @@
     "mapbox-gl": "^3.23.1",
     "tailwindcss": "^4.2.4",
     "typescript": "^6.0.3",
-    "unplugin-turbo-console": "^2.3.1"
+    "unplugin-turbo-console": "^2.3.2"
   }
 }
