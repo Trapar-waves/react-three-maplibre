@@ -5,3 +5,6 @@ trustPolicy: off
 onlyBuiltDependencies:
   - "@tailwindcss/oxide"
   - core-js
+
+allowBuilds:
+  core-js: true
