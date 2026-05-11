@@ -63,7 +63,7 @@
     "@tailwindcss/postcss": "^4.2.4",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@types/three": "^0.184.0",
+    "@types/three": "^0.184.1",
     "cross-env": "^10.1.0",
     "eslint": "^10.3.0",
     "eslint-plugin-format": "^2.0.1",
