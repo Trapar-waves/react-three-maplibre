@@ -49,23 +49,23 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0(eslint@10.3.0(jiti@2.6.1))(typescript@6.0.3)
       '@iconify/json':
-        specifier: ^2.2.470
-        version: 2.2.470
+        specifier: ^2.2.471
+        version: 2.2.471
       '@iconify/tailwind4':
         specifier: ^1.2.3
         version: 1.2.3(tailwindcss@4.2.4)
       '@rsbuild/core':
         specifier: ^2.0.3
-        version: 2.0.3(core-js@3.47.0)
+        version: 2.0.3
       '@rsbuild/plugin-less':
         specifier: ^1.6.3
-        version: 1.6.3(@rsbuild/core@2.0.3(core-js@3.47.0))
+        version: 1.6.3(@rsbuild/core@2.0.3)
       '@rsbuild/plugin-react':
         specifier: ^2.0.0
-        version: 2.0.0(@rsbuild/core@2.0.3(core-js@3.47.0))
+        version: 2.0.0(@rsbuild/core@2.0.3)
       '@rsdoctor/rspack-plugin':
         specifier: ^1.5.9
-        version: 1.5.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.3(core-js@3.47.0))
+        version: 1.5.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.3)
       '@tailwindcss/postcss':
         specifier: ^4.2.4
         version: 4.2.4
@@ -463,8 +463,8 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@iconify/json@2.2.470':
-    resolution: {integrity: sha512-8VgSitlCUvHL1vrFvwvM3L1sHakYHFM8txGDmnTQXQ3rYtkpvdyY3L/5ew/LWPOa2/a4Fvh3O43jhi5qajySrw==}
+  '@iconify/json@2.2.471':
+    resolution: {integrity: sha512-9ZJ4l71MOGVQa/DJxPI5XJ49D5Ax+wOvCCw4ZPcGemP34rtWWFAPsfu2QyQLjEvedbrVmEJcomam3N0SsNgWDA==}
 
   '@iconify/tailwind4@1.2.3':
     resolution: {integrity: sha512-z8SKiMHRASJKF/IY//87MF88lcB7ulxh8vlhQXXLWsBkNtOh6ese9R41MyGpQeqXdRvQVt+/fX2glQtHFjQ+MA==}
@@ -1686,9 +1686,6 @@ packages:
 
   core-js-compat@3.49.0:
     resolution: {integrity: sha512-VQXt1jr9cBz03b331DFDCCP90b3fanciLkgiOoy8SBHy06gNf+vQ1A3WFLqG7I8TipYIKeYK9wxd0tUrvHcOZA==}
-
-  core-js@3.47.0:
-    resolution: {integrity: sha512-c3Q2VVkGAUyupsjRnaNX6u8Dq2vAdzm9iuPj5FW0fRxzlxgq9Q39MDq10IvmQSpLgHQNyQzQmOo6bgGHmH3NNg==}
 
   cors@2.8.6:
     resolution: {integrity: sha512-tJtZBBHA6vjIAaF6EnIaq6laBBP9aq/Y3ouVJjEfoHbRBcHBAHYcMh/w8LDrk2PvIMMq8gmopa5D4V8RmbrxGw==}
@@ -4158,7 +4155,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@iconify/json@2.2.470':
+  '@iconify/json@2.2.471':
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 2.0.3
@@ -4481,16 +4478,14 @@ snapshots:
       - '@types/react'
       - immer
 
-  '@rsbuild/core@2.0.3(core-js@3.47.0)':
+  '@rsbuild/core@2.0.3':
     dependencies:
       '@rspack/core': 2.0.1(@swc/helpers@0.5.21)
       '@swc/helpers': 0.5.21
-    optionalDependencies:
-      core-js: 3.47.0
     transitivePeerDependencies:
       - '@module-federation/runtime-tools'
 
-  '@rsbuild/plugin-check-syntax@1.6.1(@rsbuild/core@2.0.3(core-js@3.47.0))':
+  '@rsbuild/plugin-check-syntax@1.6.1(@rsbuild/core@2.0.3)':
     dependencies:
       acorn: 8.16.0
       browserslist-to-es-version: 1.4.1
@@ -4498,34 +4493,34 @@ snapshots:
       picocolors: 1.1.1
       source-map: 0.7.6
     optionalDependencies:
-      '@rsbuild/core': 2.0.3(core-js@3.47.0)
+      '@rsbuild/core': 2.0.3
 
-  '@rsbuild/plugin-less@1.6.3(@rsbuild/core@2.0.3(core-js@3.47.0))':
+  '@rsbuild/plugin-less@1.6.3(@rsbuild/core@2.0.3)':
     dependencies:
       deepmerge: 4.3.1
       less: 4.6.4
       less-loader: 12.3.2(less@4.6.4)
       reduce-configs: 1.1.2
     optionalDependencies:
-      '@rsbuild/core': 2.0.3(core-js@3.47.0)
+      '@rsbuild/core': 2.0.3
     transitivePeerDependencies:
       - '@rspack/core'
       - webpack
 
-  '@rsbuild/plugin-react@2.0.0(@rsbuild/core@2.0.3(core-js@3.47.0))':
+  '@rsbuild/plugin-react@2.0.0(@rsbuild/core@2.0.3)':
     dependencies:
       '@rspack/plugin-react-refresh': 2.0.0(react-refresh@0.18.0)
       react-refresh: 0.18.0
     optionalDependencies:
-      '@rsbuild/core': 2.0.3(core-js@3.47.0)
+      '@rsbuild/core': 2.0.3
     transitivePeerDependencies:
       - '@rspack/core'
 
   '@rsdoctor/client@1.5.9': {}
 
-  '@rsdoctor/core@1.5.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.3(core-js@3.47.0))':
+  '@rsdoctor/core@1.5.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.3)':
     dependencies:
-      '@rsbuild/plugin-check-syntax': 1.6.1(@rsbuild/core@2.0.3(core-js@3.47.0))
+      '@rsbuild/plugin-check-syntax': 1.6.1(@rsbuild/core@2.0.3)
       '@rsdoctor/graph': 1.5.9
       '@rsdoctor/sdk': 1.5.9
       '@rsdoctor/types': 1.5.9
@@ -4558,9 +4553,9 @@ snapshots:
       - '@rspack/core'
       - webpack
 
-  '@rsdoctor/rspack-plugin@1.5.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.3(core-js@3.47.0))':
+  '@rsdoctor/rspack-plugin@1.5.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.3)':
     dependencies:
-      '@rsdoctor/core': 1.5.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.3(core-js@3.47.0))
+      '@rsdoctor/core': 1.5.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.3)
       '@rsdoctor/graph': 1.5.9
       '@rsdoctor/sdk': 1.5.9
       '@rsdoctor/types': 1.5.9
@@ -5345,9 +5340,6 @@ snapshots:
   core-js-compat@3.49.0:
     dependencies:
       browserslist: 4.28.2
-
-  core-js@3.47.0:
-    optional: true
 
   cors@2.8.6:
     dependencies:
