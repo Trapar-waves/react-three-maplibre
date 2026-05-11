@@ -59,7 +59,7 @@
     "@rsbuild/core": "^2.0.3",
     "@rsbuild/plugin-less": "^1.6.3",
     "@rsbuild/plugin-react": "^2.0.0",
-    "@rsdoctor/rspack-plugin": "^1.5.9",
+    "@rsdoctor/rspack-plugin": "^1.5.10",
     "@tailwindcss/postcss": "^4.2.4",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
