@@ -56,7 +56,7 @@
     "@eslint-react/eslint-plugin": "^5.8.1",
     "@iconify/json": "^2.2.474",
     "@iconify/tailwind4": "^1.2.3",
-    "@rsbuild/core": "^2.0.6",
+    "@rsbuild/core": "^2.0.7",
     "@rsbuild/plugin-less": "^1.6.3",
     "@rsbuild/plugin-react": "^2.0.0",
     "@rsdoctor/rspack-plugin": "^1.5.11",
