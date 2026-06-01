@@ -12,8 +12,8 @@ importers:
         specifier: ^2.28.10
         version: 2.28.10
       '@antv/l7-maps':
-        specifier: ^2.28.11
-        version: 2.28.11
+        specifier: ^2.28.12
+        version: 2.28.12
       '@react-three/drei':
         specifier: ^10.7.7
         version: 10.7.7(@react-three/fiber@9.6.1(@types/react@19.2.15)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(three@0.184.0))(@types/react@19.2.15)(@types/three@0.184.1)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(three@0.184.0)
@@ -197,8 +197,8 @@ packages:
   '@antv/l7-core@2.28.10':
     resolution: {integrity: sha512-xX5UQ8a9UdkmNcUVczrSTWsQaZiV/57bm74k84/hBqqKK6Pz4kSBrDt4bHdnFC8Wo4lW5H2L0wKWV14B/AbEIA==}
 
-  '@antv/l7-core@2.28.11':
-    resolution: {integrity: sha512-fQH/zbn0CmydPrDlsUVcg+6ZV9tRJl871AkzkY3EIOLYx7S+pHBrnM/EPKHm1A8GMlCbNzO0LABdk3S/3b80Ww==}
+  '@antv/l7-core@2.28.12':
+    resolution: {integrity: sha512-HyBThom6rralMISQpisTcPXs3Tn0MMCZMd9HyEceIDgUKECpwjKvBclbgKtKziONNilGLncjiRSKCfk9OMzy/Q==}
 
   '@antv/l7-layers@2.28.10':
     resolution: {integrity: sha512-sUOm/y+6oLrCKaiQKTTRHFJ9dtIAeCCsWEvHCsE3f3r6rDnWBzd6DZZKoD9x3mOmoGL7McD8HgbF++MPcwZ0+A==}
@@ -206,14 +206,14 @@ packages:
   '@antv/l7-map@2.28.10':
     resolution: {integrity: sha512-16nY/fUFUFh8XrpGXU6+ng98t8aSmZ2yKm9nLhazivwbWFbA2k1YE8M+/1q2sHqqvLDRvcL8OsNfFtIhUeVUew==}
 
-  '@antv/l7-map@2.28.11':
-    resolution: {integrity: sha512-nEzDUp6GAl6ZNMP8Ud/OkT01V3K2trq3iHTPDvp1m70JCnB5NVtf2y3DXxGjOK0TlkTL/Xm3SpjKF8jOlEPy8Q==}
+  '@antv/l7-map@2.28.12':
+    resolution: {integrity: sha512-MOxqTNqtmQ84nRxLYsVCBSYffhHzX+mF8A/otij0mAZiiALkH0tG6ywxyYv8+6BamQXtTN/RgLBYq1HAWaHEGA==}
 
   '@antv/l7-maps@2.28.10':
     resolution: {integrity: sha512-NM8A0gVHq/ofMzQ4c/Rq9amNB66prtUci9sUOj79EbZhQrgsLLn+N28C0wgWv89+e7Vi/Ky57ehzQolkXcchKQ==}
 
-  '@antv/l7-maps@2.28.11':
-    resolution: {integrity: sha512-nyzG/oKjeiVDwl3sB2DAfjNvf4AZrr+L/OsLBT2kMIvYrIvYwaCYf382TyDL3XG5vpyPY0KAWFA2bvAB1ed9VQ==}
+  '@antv/l7-maps@2.28.12':
+    resolution: {integrity: sha512-9HaqHos/wEa0QbW8rP7dDRk2aH47bc6a/qPTk8kHuV4CpajFR1cTL7jnJrdMD3fs310xnI6PQH3cihTceZk9Dw==}
 
   '@antv/l7-renderer@2.28.10':
     resolution: {integrity: sha512-WbnVW3ayIJn6LMLwX51nAuJP0TYxWoyiREri4ky4aiZOgeYbOAnKM4ZCO8I8QjrkQS75pLPycTbBPsP5MGBrkw==}
@@ -227,8 +227,8 @@ packages:
   '@antv/l7-utils@2.28.10':
     resolution: {integrity: sha512-iGHfCV7xp/ZThJdp3fSTGnH8WPxWv2n/zi5oBudmuSnj/NXkiof2MlyKDIHz0V2vvYE3M0zsVritYmfY7GIHzw==}
 
-  '@antv/l7-utils@2.28.11':
-    resolution: {integrity: sha512-SFuPt0YNE/pwXMHv4OlLQg0ho0jImFDhEMo7FekJlefst5j+c4ZRAnOcFu08qlO91tS2k8XY7UToIq6YCpllYA==}
+  '@antv/l7-utils@2.28.12':
+    resolution: {integrity: sha512-cn/F0xjqWIJCTMFBMrM3g50lrgkKRSTUOdR+E5xDMBDwLgTitHCHn/sfDDpb7K3nSvKZPbatjTfWdxN/185P4Q==}
 
   '@antv/l7@2.28.10':
     resolution: {integrity: sha512-j1T6tWh+iyWJr9gdza9iQrpA4QfmnoQM8g561kHSg8zQu/W9Po+WXtAgZ025i0QF8OBbb+cOYbWjJpnpSae/lA==}
@@ -3744,10 +3744,10 @@ snapshots:
       hammerjs: 2.0.8
       viewport-mercator-project: 6.2.3
 
-  '@antv/l7-core@2.28.11':
+  '@antv/l7-core@2.28.12':
     dependencies:
       '@antv/async-hook': 2.2.9
-      '@antv/l7-utils': 2.28.11
+      '@antv/l7-utils': 2.28.12
       '@babel/runtime': 7.29.2
       '@mapbox/tiny-sdf': 1.2.5
       '@turf/helpers': 6.5.0
@@ -3783,9 +3783,9 @@ snapshots:
       eventemitter3: 4.0.7
       gl-matrix: 3.4.4
 
-  '@antv/l7-map@2.28.11':
+  '@antv/l7-map@2.28.12':
     dependencies:
-      '@antv/l7-utils': 2.28.11
+      '@antv/l7-utils': 2.28.12
       '@babel/runtime': 7.29.2
       '@mapbox/point-geometry': 0.1.0
       '@mapbox/unitbezier': 0.0.1
@@ -3806,12 +3806,12 @@ snapshots:
       pmtiles: 2.11.0
       viewport-mercator-project: 6.2.3
 
-  '@antv/l7-maps@2.28.11':
+  '@antv/l7-maps@2.28.12':
     dependencies:
       '@amap/amap-jsapi-loader': 1.0.1
-      '@antv/l7-core': 2.28.11
-      '@antv/l7-map': 2.28.11
-      '@antv/l7-utils': 2.28.11
+      '@antv/l7-core': 2.28.12
+      '@antv/l7-map': 2.28.12
+      '@antv/l7-utils': 2.28.12
       '@babel/runtime': 7.29.2
       eventemitter3: 4.0.7
       gl-matrix: 3.4.4
@@ -3865,7 +3865,7 @@ snapshots:
       eventemitter3: 4.0.7
       gl-matrix: 3.4.4
 
-  '@antv/l7-utils@2.28.11':
+  '@antv/l7-utils@2.28.12':
     dependencies:
       '@babel/runtime': 7.29.2
       '@turf/bbox': 6.5.0
