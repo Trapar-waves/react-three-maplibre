@@ -12,8 +12,8 @@ importers:
         specifier: ^2.28.12
         version: 2.28.13
       '@antv/l7-maps':
-        specifier: ^2.28.12
-        version: 2.28.12
+        specifier: ^2.28.13
+        version: 2.28.13
       '@react-three/drei':
         specifier: ^10.7.7
         version: 10.7.7(@react-three/fiber@9.6.1(@types/react@19.2.15)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(three@0.184.0))(@types/react@19.2.15)(@types/three@0.184.1)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(three@0.184.0)
@@ -194,23 +194,14 @@ packages:
   '@antv/l7-component@2.28.13':
     resolution: {integrity: sha512-+qG7o/E6/QzbSkfzSU92p+kdkQYpEWWgRsKyzaGppl97KW5b0+sKSW2kj/xUAVTxEChCi9ObRV61+2ocpqCLFw==}
 
-  '@antv/l7-core@2.28.12':
-    resolution: {integrity: sha512-HyBThom6rralMISQpisTcPXs3Tn0MMCZMd9HyEceIDgUKECpwjKvBclbgKtKziONNilGLncjiRSKCfk9OMzy/Q==}
-
   '@antv/l7-core@2.28.13':
     resolution: {integrity: sha512-cFBhhjR3/HFtEM0NIgch8IET5+ToCOacTaqTIH9+g68up7VBeUT6xTxNJ7ieK2dVZgqM2RJQVSz7HwRA96gB/g==}
 
   '@antv/l7-layers@2.28.13':
     resolution: {integrity: sha512-n98/UDXLm1GhindnxJnuuPVqLbtxMxlM1JjrzgG00Yke2TOc2XK2p3aH14l0oOy7rnnLCw1BoXCUbEGekXBvqw==}
 
-  '@antv/l7-map@2.28.12':
-    resolution: {integrity: sha512-MOxqTNqtmQ84nRxLYsVCBSYffhHzX+mF8A/otij0mAZiiALkH0tG6ywxyYv8+6BamQXtTN/RgLBYq1HAWaHEGA==}
-
   '@antv/l7-map@2.28.13':
     resolution: {integrity: sha512-kT7J94LuYeZyoytdLpUCe790o/Blk0z609W53S9CUUSFUd/UCdDERgIYtbX71Rk4gZLOBoc9fi0MMUhZOi7JHg==}
-
-  '@antv/l7-maps@2.28.12':
-    resolution: {integrity: sha512-9HaqHos/wEa0QbW8rP7dDRk2aH47bc6a/qPTk8kHuV4CpajFR1cTL7jnJrdMD3fs310xnI6PQH3cihTceZk9Dw==}
 
   '@antv/l7-maps@2.28.13':
     resolution: {integrity: sha512-FzkZM1bxs4JG1kh+U9JFLgEqrVma4Ne5UC9V/k7+bQ6t5aK9LMZpSTURnltOErpxwLIm0N4exqNvug4LNXfOIg==}
@@ -223,9 +214,6 @@ packages:
 
   '@antv/l7-source@2.28.13':
     resolution: {integrity: sha512-ohWTRx5hILLE9vpDE71NmC6RE7KoN7Fsha2aMvXJs8lK6iM+0foWfRcvZLuWHeF/hbNH5/brZ4SVRVHJV+R/rw==}
-
-  '@antv/l7-utils@2.28.12':
-    resolution: {integrity: sha512-cn/F0xjqWIJCTMFBMrM3g50lrgkKRSTUOdR+E5xDMBDwLgTitHCHn/sfDDpb7K3nSvKZPbatjTfWdxN/185P4Q==}
 
   '@antv/l7-utils@2.28.13':
     resolution: {integrity: sha512-0NDJ7dm3X6CsPBiBSejumfQS82vo/eRxcQHAQ2/csouUHovKJTBqbOt4IG70xdLS/zitarwHE6JidIfkP8Rl4Q==}
@@ -3736,18 +3724,6 @@ snapshots:
       eventemitter3: 4.0.7
       supercluster: 7.1.5
 
-  '@antv/l7-core@2.28.12':
-    dependencies:
-      '@antv/async-hook': 2.2.9
-      '@antv/l7-utils': 2.28.12
-      '@babel/runtime': 7.29.2
-      '@mapbox/tiny-sdf': 1.2.5
-      '@turf/helpers': 6.5.0
-      eventemitter3: 4.0.7
-      gl-matrix: 3.4.4
-      hammerjs: 2.0.8
-      viewport-mercator-project: 6.2.3
-
   '@antv/l7-core@2.28.13':
     dependencies:
       '@antv/async-hook': 2.2.9
@@ -3778,15 +3754,6 @@ snapshots:
       eventemitter3: 4.0.7
       gl-matrix: 3.4.4
 
-  '@antv/l7-map@2.28.12':
-    dependencies:
-      '@antv/l7-utils': 2.28.12
-      '@babel/runtime': 7.29.2
-      '@mapbox/point-geometry': 0.1.0
-      '@mapbox/unitbezier': 0.0.1
-      eventemitter3: 4.0.7
-      gl-matrix: 3.4.4
-
   '@antv/l7-map@2.28.13':
     dependencies:
       '@antv/l7-utils': 2.28.13
@@ -3795,20 +3762,6 @@ snapshots:
       '@mapbox/unitbezier': 0.0.1
       eventemitter3: 4.0.7
       gl-matrix: 3.4.4
-
-  '@antv/l7-maps@2.28.12':
-    dependencies:
-      '@amap/amap-jsapi-loader': 1.0.1
-      '@antv/l7-core': 2.28.12
-      '@antv/l7-map': 2.28.12
-      '@antv/l7-utils': 2.28.12
-      '@babel/runtime': 7.29.2
-      eventemitter3: 4.0.7
-      gl-matrix: 3.4.4
-      mapbox-gl: 1.13.3
-      maplibre-gl: 3.6.2
-      pmtiles: 2.11.0
-      viewport-mercator-project: 6.2.3
 
   '@antv/l7-maps@2.28.13':
     dependencies:
@@ -3858,16 +3811,6 @@ snapshots:
       geojson-vt: 3.2.1
       pbf: 3.3.0
       supercluster: 7.1.5
-
-  '@antv/l7-utils@2.28.12':
-    dependencies:
-      '@babel/runtime': 7.29.2
-      '@turf/bbox': 6.5.0
-      '@turf/bbox-polygon': 6.5.0
-      '@turf/helpers': 6.5.0
-      earcut: 2.2.4
-      eventemitter3: 4.0.7
-      gl-matrix: 3.4.4
 
   '@antv/l7-utils@2.28.13':
     dependencies:
