@@ -12,8 +12,8 @@ importers:
         specifier: ^2.28.13
         version: 2.28.13
       '@antv/l7-maps':
-        specifier: ^2.28.13
-        version: 2.28.13
+        specifier: ^2.28.14
+        version: 2.28.14
       '@react-three/drei':
         specifier: ^10.7.7
         version: 10.7.7(@react-three/fiber@9.6.1(@types/react@19.2.16)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(three@0.184.0))(@types/react@19.2.16)(@types/three@0.184.1)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(three@0.184.0)
@@ -197,14 +197,23 @@ packages:
   '@antv/l7-core@2.28.13':
     resolution: {integrity: sha512-cFBhhjR3/HFtEM0NIgch8IET5+ToCOacTaqTIH9+g68up7VBeUT6xTxNJ7ieK2dVZgqM2RJQVSz7HwRA96gB/g==}
 
+  '@antv/l7-core@2.28.14':
+    resolution: {integrity: sha512-w6CcCOtLA3ClqMJbufpdFvkMssE71ahauFm+YnGvDig1Vlz/EsKSs651vRwhDiOjxBvKwicnoeCmVUwVqRjF+Q==}
+
   '@antv/l7-layers@2.28.13':
     resolution: {integrity: sha512-n98/UDXLm1GhindnxJnuuPVqLbtxMxlM1JjrzgG00Yke2TOc2XK2p3aH14l0oOy7rnnLCw1BoXCUbEGekXBvqw==}
 
   '@antv/l7-map@2.28.13':
     resolution: {integrity: sha512-kT7J94LuYeZyoytdLpUCe790o/Blk0z609W53S9CUUSFUd/UCdDERgIYtbX71Rk4gZLOBoc9fi0MMUhZOi7JHg==}
 
+  '@antv/l7-map@2.28.14':
+    resolution: {integrity: sha512-9vnV//LFl+kNy/oMIDK3imfg4Td5oKIiXsvbMVVIjPOjqA/ZuWTFqcq4i0ZXiKOhsFYrmS7diCE7ijxn/CH7kQ==}
+
   '@antv/l7-maps@2.28.13':
     resolution: {integrity: sha512-FzkZM1bxs4JG1kh+U9JFLgEqrVma4Ne5UC9V/k7+bQ6t5aK9LMZpSTURnltOErpxwLIm0N4exqNvug4LNXfOIg==}
+
+  '@antv/l7-maps@2.28.14':
+    resolution: {integrity: sha512-dB2bXUjPOnOnXjwqTqcY2LcJ7SwDDCo0WzY2r37/ShS4KZAxXu99r+T9VTcAH7s6cNmC/0HneNqGe/xFEod2Dg==}
 
   '@antv/l7-renderer@2.28.13':
     resolution: {integrity: sha512-u9CJCNaTHcIyRwXQzNcrJNilGw4JuGRc1bfGb5+kx0N0vzReECnPDZpHr/D2i8SxvYALTFE0ktGg75vw86akzQ==}
@@ -217,6 +226,9 @@ packages:
 
   '@antv/l7-utils@2.28.13':
     resolution: {integrity: sha512-0NDJ7dm3X6CsPBiBSejumfQS82vo/eRxcQHAQ2/csouUHovKJTBqbOt4IG70xdLS/zitarwHE6JidIfkP8Rl4Q==}
+
+  '@antv/l7-utils@2.28.14':
+    resolution: {integrity: sha512-vaVLHt5Y3sBqsN75vkxYED2jLBSXWiOvvHnE1kIY4Z73zyRDgmDsHCU0JD0Fvzy0SpouGRRsxAp2fV0eSO6LHA==}
 
   '@antv/l7@2.28.13':
     resolution: {integrity: sha512-Xx9n9SezHVXe6v1jbh6lCFbb8VCuAl3YmWYMLYhJ31P/Rlm+7hB6oPHSZ8WrP6YfPa0qMrs2xcaEJsZn0wIV7Q==}
@@ -3736,6 +3748,18 @@ snapshots:
       hammerjs: 2.0.8
       viewport-mercator-project: 6.2.3
 
+  '@antv/l7-core@2.28.14':
+    dependencies:
+      '@antv/async-hook': 2.2.9
+      '@antv/l7-utils': 2.28.14
+      '@babel/runtime': 7.29.2
+      '@mapbox/tiny-sdf': 1.2.5
+      '@turf/helpers': 6.5.0
+      eventemitter3: 4.0.7
+      gl-matrix: 3.4.4
+      hammerjs: 2.0.8
+      viewport-mercator-project: 6.2.3
+
   '@antv/l7-layers@2.28.13':
     dependencies:
       '@antv/async-hook': 2.2.9
@@ -3763,12 +3787,35 @@ snapshots:
       eventemitter3: 4.0.7
       gl-matrix: 3.4.4
 
+  '@antv/l7-map@2.28.14':
+    dependencies:
+      '@antv/l7-utils': 2.28.14
+      '@babel/runtime': 7.29.2
+      '@mapbox/point-geometry': 0.1.0
+      '@mapbox/unitbezier': 0.0.1
+      eventemitter3: 4.0.7
+      gl-matrix: 3.4.4
+
   '@antv/l7-maps@2.28.13':
     dependencies:
       '@amap/amap-jsapi-loader': 1.0.1
       '@antv/l7-core': 2.28.13
       '@antv/l7-map': 2.28.13
       '@antv/l7-utils': 2.28.13
+      '@babel/runtime': 7.29.2
+      eventemitter3: 4.0.7
+      gl-matrix: 3.4.4
+      mapbox-gl: 1.13.3
+      maplibre-gl: 3.6.2
+      pmtiles: 2.11.0
+      viewport-mercator-project: 6.2.3
+
+  '@antv/l7-maps@2.28.14':
+    dependencies:
+      '@amap/amap-jsapi-loader': 1.0.1
+      '@antv/l7-core': 2.28.14
+      '@antv/l7-map': 2.28.14
+      '@antv/l7-utils': 2.28.14
       '@babel/runtime': 7.29.2
       eventemitter3: 4.0.7
       gl-matrix: 3.4.4
@@ -3813,6 +3860,16 @@ snapshots:
       supercluster: 7.1.5
 
   '@antv/l7-utils@2.28.13':
+    dependencies:
+      '@babel/runtime': 7.29.2
+      '@turf/bbox': 6.5.0
+      '@turf/bbox-polygon': 6.5.0
+      '@turf/helpers': 6.5.0
+      earcut: 2.2.4
+      eventemitter3: 4.0.7
+      gl-matrix: 3.4.4
+
+  '@antv/l7-utils@2.28.14':
     dependencies:
       '@babel/runtime': 7.29.2
       '@turf/bbox': 6.5.0
