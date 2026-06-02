@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@antv/l7':
-        specifier: ^2.28.12
+        specifier: ^2.28.13
         version: 2.28.13
       '@antv/l7-maps':
         specifier: ^2.28.13
