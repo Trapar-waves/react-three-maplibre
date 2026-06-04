@@ -55,17 +55,17 @@ importers:
         specifier: ^1.2.3
         version: 1.2.3(tailwindcss@4.3.0)
       '@rsbuild/core':
-        specifier: ^2.0.10
-        version: 2.0.10
+        specifier: ^2.0.11
+        version: 2.0.11
       '@rsbuild/plugin-less':
         specifier: ^1.6.4
-        version: 1.6.4(@rsbuild/core@2.0.10)
+        version: 1.6.4(@rsbuild/core@2.0.11)
       '@rsbuild/plugin-react':
         specifier: ^2.0.1
-        version: 2.0.1(@rsbuild/core@2.0.10)
+        version: 2.0.1(@rsbuild/core@2.0.11)
       '@rsdoctor/rspack-plugin':
         specifier: ^1.5.12
-        version: 1.5.12(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.10)
+        version: 1.5.12(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.11)
       '@tailwindcss/postcss':
         specifier: ^4.3.0
         version: 4.3.0
@@ -900,8 +900,8 @@ packages:
       react-native:
         optional: true
 
-  '@rsbuild/core@2.0.10':
-    resolution: {integrity: sha512-PYPBAeHrlMG4X2mACVhDNuOI9LokNIEhljJLSOWi8TEG4WYa5hDPWGmwdkw+2i5PaqLUBZkKTv1cVEXuayV4Zg==}
+  '@rsbuild/core@2.0.11':
+    resolution: {integrity: sha512-Mpp/viUSkVdSWJkFipdZxM2nUztrBwSnMm6Q86bPzLHtHnXqQ3VFpSMlA4wWRyySNddP6s6efKiVpx0ZOCf7Gg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -4512,14 +4512,14 @@ snapshots:
       - '@types/react'
       - immer
 
-  '@rsbuild/core@2.0.10':
+  '@rsbuild/core@2.0.11':
     dependencies:
       '@rspack/core': 2.0.6(@swc/helpers@0.5.23)
       '@swc/helpers': 0.5.23
     transitivePeerDependencies:
       - '@module-federation/runtime-tools'
 
-  '@rsbuild/plugin-check-syntax@1.6.1(@rsbuild/core@2.0.10)':
+  '@rsbuild/plugin-check-syntax@1.6.1(@rsbuild/core@2.0.11)':
     dependencies:
       acorn: 8.16.0
       browserslist-to-es-version: 1.4.1
@@ -4527,34 +4527,34 @@ snapshots:
       picocolors: 1.1.1
       source-map: 0.7.6
     optionalDependencies:
-      '@rsbuild/core': 2.0.10
+      '@rsbuild/core': 2.0.11
 
-  '@rsbuild/plugin-less@1.6.4(@rsbuild/core@2.0.10)':
+  '@rsbuild/plugin-less@1.6.4(@rsbuild/core@2.0.11)':
     dependencies:
       deepmerge: 4.3.1
       less: 4.6.4
       less-loader: 12.3.3(less@4.6.4)
       reduce-configs: 1.1.2
     optionalDependencies:
-      '@rsbuild/core': 2.0.10
+      '@rsbuild/core': 2.0.11
     transitivePeerDependencies:
       - '@rspack/core'
       - webpack
 
-  '@rsbuild/plugin-react@2.0.1(@rsbuild/core@2.0.10)':
+  '@rsbuild/plugin-react@2.0.1(@rsbuild/core@2.0.11)':
     dependencies:
       '@rspack/plugin-react-refresh': 2.0.0(react-refresh@0.18.0)
       react-refresh: 0.18.0
     optionalDependencies:
-      '@rsbuild/core': 2.0.10
+      '@rsbuild/core': 2.0.11
     transitivePeerDependencies:
       - '@rspack/core'
 
   '@rsdoctor/client@1.5.12': {}
 
-  '@rsdoctor/core@1.5.12(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.10)':
+  '@rsdoctor/core@1.5.12(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.11)':
     dependencies:
-      '@rsbuild/plugin-check-syntax': 1.6.1(@rsbuild/core@2.0.10)
+      '@rsbuild/plugin-check-syntax': 1.6.1(@rsbuild/core@2.0.11)
       '@rsdoctor/graph': 1.5.12
       '@rsdoctor/sdk': 1.5.12
       '@rsdoctor/types': 1.5.12
@@ -4587,9 +4587,9 @@ snapshots:
       - '@rspack/core'
       - webpack
 
-  '@rsdoctor/rspack-plugin@1.5.12(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.10)':
+  '@rsdoctor/rspack-plugin@1.5.12(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.11)':
     dependencies:
-      '@rsdoctor/core': 1.5.12(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.10)
+      '@rsdoctor/core': 1.5.12(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.11)
       '@rsdoctor/graph': 1.5.12
       '@rsdoctor/sdk': 1.5.12
       '@rsdoctor/types': 1.5.12
