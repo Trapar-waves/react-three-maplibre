@@ -49,7 +49,7 @@ importers:
         specifier: ^5.8.16
         version: 5.9.0(eslint@10.5.0(jiti@2.7.0))(typescript@6.0.3)
       '@iconify/json':
-        specifier: ^2.2.484
+        specifier: ^2.2.486
         version: 2.2.486
       '@iconify/tailwind4':
         specifier: ^1.2.3
