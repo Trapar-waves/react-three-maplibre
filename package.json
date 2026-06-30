@@ -60,7 +60,7 @@
     "@rsbuild/plugin-less": "^2.0.0",
     "@rsbuild/plugin-react": "^2.1.0",
     "@rsdoctor/rspack-plugin": "^1.5.16",
-    "@tailwindcss/postcss": "^4.3.1",
+    "@tailwindcss/postcss": "^4.3.2",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@types/three": "^0.185.0",
@@ -72,7 +72,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^17.0.8",
     "mapbox-gl": "^3.25.0",
-    "tailwindcss": "^4.3.1",
+    "tailwindcss": "^4.3.2",
     "typescript": "^6.0.3",
     "unplugin-turbo-console": "^2.3.2"
   }
