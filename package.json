@@ -73,7 +73,7 @@
     "lint-staged": "^17.1.0",
     "mapbox-gl": "^3.26.0",
     "tailwindcss": "^4.3.3",
-    "typescript": "^6.0.3",
+    "typescript": "^7.0.2",
     "unplugin-turbo-console": "^2.3.3"
   }
 }
