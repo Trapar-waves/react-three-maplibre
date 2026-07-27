@@ -100,7 +100,7 @@ importers:
         specifier: ^17.2.0
         version: 17.2.0
       mapbox-gl:
-        specifier: ^3.26.0
+        specifier: ^3.27.0
         version: 3.27.0
       tailwindcss:
         specifier: ^4.3.3
