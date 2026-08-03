@@ -30,7 +30,7 @@ importers:
         specifier: ^19.2.8
         version: 19.2.8(react@19.2.8)
       react-map-gl:
-        specifier: ^8.1.1
+        specifier: ^8.1.2
         version: 8.1.2(mapbox-gl@3.27.0)(maplibre-gl@6.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       react-three-map:
         specifier: ^1.0.1
