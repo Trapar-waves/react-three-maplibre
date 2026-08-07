@@ -71,7 +71,7 @@
     "eslint-plugin-react-refresh": "^0.5.3",
     "husky": "^9.1.7",
     "lint-staged": "^17.3.0",
-    "mapbox-gl": "^3.27.0",
+    "mapbox-gl": "^3.28.0",
     "tailwindcss": "^4.3.3",
     "typescript": "^7.0.2",
     "unplugin-turbo-console": "^2.3.3"
