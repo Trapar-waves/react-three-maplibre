@@ -44,7 +44,7 @@ importers:
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^9.3.0
-        version: 9.3.0(@eslint-react/eslint-plugin@5.18.3(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@typescript-eslint/typescript-estree@8.66.0(typescript@7.0.2))(@typescript-eslint/utils@8.66.0(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@vue/compiler-sfc@3.5.40)(eslint-plugin-format@2.0.1(eslint@10.8.1(jiti@2.7.0)))(eslint-plugin-react-refresh@0.5.3(eslint@10.8.1(jiti@2.7.0)))(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)
+        version: 9.3.0(@eslint-react/eslint-plugin@5.18.3(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@typescript-eslint/typescript-estree@8.66.0(typescript@7.0.2))(@typescript-eslint/utils@8.66.0(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@vue/compiler-sfc@3.5.40)(eslint-plugin-format@2.0.1(eslint@10.8.1(jiti@2.7.0)))(eslint-plugin-react-refresh@0.5.4(eslint@10.8.1(jiti@2.7.0)))(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)
       '@eslint-react/eslint-plugin':
         specifier: ^5.18.3
         version: 5.18.3(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)
@@ -91,8 +91,8 @@ importers:
         specifier: ^7.1.1
         version: 7.1.1(eslint@10.8.1(jiti@2.7.0))
       eslint-plugin-react-refresh:
-        specifier: ^0.5.3
-        version: 0.5.3(eslint@10.8.1(jiti@2.7.0))
+        specifier: ^0.5.4
+        version: 0.5.4(eslint@10.8.1(jiti@2.7.0))
       husky:
         specifier: ^9.1.7
         version: 9.1.7
@@ -2146,8 +2146,8 @@ packages:
       eslint: '*'
       typescript: '*'
 
-  eslint-plugin-react-refresh@0.5.3:
-    resolution: {integrity: sha512-5EMmLCV98Pi4o/f/3DP/v/tNqLHMIc9I8LKClNDWhZ9JTho89/kQcitCXQBMG7sAfVRK0Ie3T2EDOzp1YXYiVA==}
+  eslint-plugin-react-refresh@0.5.4:
+    resolution: {integrity: sha512-7bqTKz7T0r+HKWFarNXByDE9/5+73wI2ru+M3zuqGbR7s/b/5/pQJXZoufWlrngqGqoZto73ZkGumCdLxk+4rw==}
     peerDependencies:
       eslint: ^9 || ^10
 
@@ -3749,7 +3749,7 @@ snapshots:
 
   '@amap/amap-jsapi-loader@1.0.1': {}
 
-  '@antfu/eslint-config@9.3.0(@eslint-react/eslint-plugin@5.18.3(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@typescript-eslint/typescript-estree@8.66.0(typescript@7.0.2))(@typescript-eslint/utils@8.66.0(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@vue/compiler-sfc@3.5.40)(eslint-plugin-format@2.0.1(eslint@10.8.1(jiti@2.7.0)))(eslint-plugin-react-refresh@0.5.3(eslint@10.8.1(jiti@2.7.0)))(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)':
+  '@antfu/eslint-config@9.3.0(@eslint-react/eslint-plugin@5.18.3(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@typescript-eslint/typescript-estree@8.66.0(typescript@7.0.2))(@typescript-eslint/utils@8.66.0(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@vue/compiler-sfc@3.5.40)(eslint-plugin-format@2.0.1(eslint@10.8.1(jiti@2.7.0)))(eslint-plugin-react-refresh@0.5.4(eslint@10.8.1(jiti@2.7.0)))(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)':
     dependencies:
       '@antfu/install-pkg': 2.0.1
       '@clack/prompts': 1.7.0
@@ -3791,7 +3791,7 @@ snapshots:
     optionalDependencies:
       '@eslint-react/eslint-plugin': 5.18.3(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)
       eslint-plugin-format: 2.0.1(eslint@10.8.1(jiti@2.7.0))
-      eslint-plugin-react-refresh: 0.5.3(eslint@10.8.1(jiti@2.7.0))
+      eslint-plugin-react-refresh: 0.5.4(eslint@10.8.1(jiti@2.7.0))
     transitivePeerDependencies:
       - '@eslint/json'
       - '@typescript-eslint/typescript-estree'
@@ -5889,7 +5889,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-react-refresh@0.5.3(eslint@10.8.1(jiti@2.7.0)):
+  eslint-plugin-react-refresh@0.5.4(eslint@10.8.1(jiti@2.7.0)):
     dependencies:
       eslint: 10.8.1(jiti@2.7.0)
 
