@@ -9,17 +9,17 @@
 
 ---
 
-[English](../README.md) | [中文](/readme/README-CN.md) | [日本語](/readme/README-JP.md)
+[English](../README.md) | [中文](./README-CN.md) | [日本語](./README-JP.md)
 
 > Библиотека на базе React, интегрирующая Three.js, MapLibre и AntV для расширенной геопространственной 3D-визуализации.
 
-## ✨ Особенности
+## ✨ Возможности
 
 - **Геопространственная визуализация:** Комбинирует `@antv/l7` и `maplibre-gl` для мощного рендеринга геопространственных данных с пользовательскими слоями карт.
 - **3D-рендеринг с React:** Использует `@react-three/fiber` и `@react-three/drei` для интеграции Three.js в рабочий процесс на базе React для декларативного управления 3D-сценами.
 - **Интеграция настраиваемого UI:** Обеспечивает бесперебойную интеграцию с React (`react`, `react-dom`) для создания интерактивных геопространственных приложений.
 - **Стилизация с упором на утилиты:** Применяет `tailwindcss` для гибкой и быстрой стилизации компонентов и макетов.
-- **Типовая безопасность:** Использует TypeScript для обеспечения типовой безопасности и улучшения опыта разработчика во время разработки.
+- **Типобезопасность:** Использует TypeScript для обеспечения типобезопасности и улучшения опыта разработчика во время разработки.
 - **Быстрый рабочий процесс разработки:** Использует `rsbuild` для оптимизированных сборок и эффективной производительности сервера разработки.
 - **Богатая библиотека компонентов:** Интегрируется с `three-stdlib` и `@react-three/drei` для переиспользуемых утилит и компонентов Three.js.
 - **Интерактивность карт:** Реализует `react-map-gl` для интерактивных элементов управления картами и навигации на клиентской стороне в геопространственных контекстах.
@@ -27,84 +27,53 @@
 
 ## 💻 Технологический стек
 
-- **Фреймворк/Библиотека:** React
-- **UI-тулкит/Стилизация:** Tailwind CSS
-- **3D-рендеринг:** Three.js (`@react-three/fiber`, `@react-three/drei`)
-- **Геопространственные библиотеки:** MapLibre GL, AntV L7
-- **Инструмент сборки:** Rsbuild
-- **Язык:** TypeScript
+- **Фреймворк/библиотека:** `React`
+- **UI-тулкит/стилизация:** `Tailwind CSS`
+- **3D-рендеринг:** `Three.js` (`@react-three/fiber`, `@react-three/drei`)
+- **Геопространственные библиотеки:** `MapLibre GL`, `AntV L7`
+- **Инструмент сборки:** `Rsbuild`
+- **Язык:** `TypeScript`
 
-Полный список зависимостей см. в [package.json](package.json).
+Полный список зависимостей смотрите в [package.json](../package.json).
 
 ## 🚀 Начало работы
 
-Следуйте этим инструкциям, чтобы запустить проект локально.
-
 ### Предварительные требования
 
-Убедитесь, что у вас установлены следующие компоненты:
-
-- Node.js (рекомендуется версия >= 18.x)
-- Пакетный менеджер (npm, yarn или pnpm)
-
-```bash
-node -v
-npm -v
-```
+- Node.js (рекомендуется >= 18.x)
+- Менеджер пакетов (npm, yarn или pnpm)
 
 ### Установка
 
 1. Создайте новый проект с помощью шаблона:
 
-```bash
-pnpm create trapar-waves
+   ```bash
+   pnpm create trapar-waves
+   ```
+
+2. Перейдите в директорию проекта и установите зависимости:
+
+   ```bash
+   pnpm install
+   ```
+
+3. Запустите сервер разработки:
+
+   ```bash
+   pnpm dev
+   ```
+
+## 📁 Структура проекта
+
 ```
-
-2. Перейдите в каталог вашего проекта и установите зависимости:
-
-```bash
-cd your-project-name
-pnpm install
-# or
-npm install
-# or
-yarn install
-```
-
-### Разработка
-
-Запустите сервер разработки с горячей перезагрузкой:
-
-```bash
-pnpm dev
-# or
-npm run dev
-# or
-yarn dev
-```
-
-Приложение будет доступно по адресу `http://localhost:3000` по умолчанию.
-
-### Сборка для продакшена
-
-Чтобы создать сборку для продакшена:
-
-```bash
-pnpm build
-# or
-npm run build
-# or
-yarn build
-```
-
-Предварительный просмотр сборки продакшена локально:
-
-```bash
-pnpm preview
-# or
-npm run preview
-# or
-yarn preview
+├── public/             # Статические ресурсы
+├── src/                # Исходный код
+│   ├── App.tsx         # Основной компонент приложения
+│   └── index.tsx       # Точка входа
+├── rsbuild.config.ts   # Конфигурация Rsbuild
+├── tsconfig.json       # Конфигурация TypeScript
+├── eslint.config.js    # Конфигурация ESLint
+└── package.json        # Зависимости и скрипты проекта
 ```
 
 ## 📦 Использование
@@ -232,15 +201,16 @@ export default App;
 4. Отправьте изменения в ветку (`git push origin feature/amazing-feature`)
 5. Откройте Pull Request
 
-Пожалуйста, убедитесь, что ваш код соответствует существующему стилю и проходит все тесты.
+## 📄 Лицензия
 
-## 👤 Author
+MIT License © 2025 Trapar Waves
 
-- **Rikka:** (admin@rikka.cc)
-- **GitHub Profile:** [Muromi-Rikka](https://github.com/Muromi-Rikka)
+## 👤 Автор
 
-## 🔗 Links
+- **Rikka:** [admin@rikka.cc](mailto:admin@rikka.cc)
+- **Профиль GitHub:** [Muromi-Rikka](https://github.com/Muromi-Rikka)
+
+## 🔗 Ссылки
 
 - **Репозиторий:** [https://github.com/Trapar-waves/react-three-maplibre](https://github.com/Trapar-waves/react-three-maplibre)
-- **Домашняя страница:** [https://github.com/Trapar-waves/react-three-maplibre](https://github.com/Trapar-waves/react-three-maplibre)
-- **Проблемы:** [https://github.com/Trapar-waves/react-three-maplibre/issues](https://github.com/Trapar-waves/react-three-maplibre/issues)
+- **Issues:** [https://github.com/Trapar-waves/react-three-maplibre/issues](https://github.com/Trapar-waves/react-three-maplibre/issues)

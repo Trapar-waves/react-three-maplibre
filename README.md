@@ -9,7 +9,7 @@
 
 ---
 
-[中文](/readme/README-CN.md) | [日本語](/readme/README-JP.md) | [Русский язык](/readme/README-RU.md)
+[中文](./readme/README-CN.md) | [日本語](./readme/README-JP.md) | [Русский язык](./readme/README-RU.md)
 
 > A React-based library integrating Three.js, MapLibre, and AntV for advanced geospatial 3D visualizations.
 
@@ -43,84 +43,53 @@ $env:BASE_PATH="/react-three-maplibre/"; pnpm run build; pnpm preview
 
 ## 💻 Tech Stack
 
-- **Framework/Library:** React
-- **UI Toolkit/Styling:** Tailwind CSS
-- **3D Rendering:** Three.js (`@react-three/fiber`, `@react-three/drei`)
-- **Geospatial Libraries:** MapLibre GL, AntV L7
-- **Build Tool:** Rsbuild
-- **Language:** TypeScript
+- **Framework/Library:** `React`
+- **UI Toolkit/Styling:** `Tailwind CSS`
+- **3D Rendering:** `Three.js` (`@react-three/fiber`, `@react-three/drei`)
+- **Geospatial Libraries:** `MapLibre GL`, `AntV L7`
+- **Build Tool:** `Rsbuild`
+- **Language:** `TypeScript`
 
-See the [package.json](package.json) for a full list of dependencies.
+See the [package.json](./package.json) for a full list of dependencies.
 
 ## 🚀 Getting Started
 
-Follow these instructions to get the project running locally.
-
 ### Prerequisites
-
-Ensure you have the following installed:
 
 - Node.js (>= 18.x recommended)
 - Package manager (npm, yarn, or pnpm)
-
-```bash
-node -v
-npm -v
-```
 
 ### Installation
 
 1. Create a new project using the template:
 
-```bash
-pnpm create trapar-waves
-```
+   ```bash
+   pnpm create trapar-waves
+   ```
 
 2. Navigate to your project directory and install dependencies:
 
-```bash
-cd your-project-name
-pnpm install
-# or
-npm install
-# or
-yarn install
+   ```bash
+   pnpm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   pnpm dev
+   ```
+
+## 📁 Project Structure
+
 ```
-
-### Development
-
-Start the development server with hot reloading:
-
-```bash
-pnpm dev
-# or
-npm run dev
-# or
-yarn dev
-```
-
-The application will be available at `http://localhost:3000` by default.
-
-### Building for Production
-
-To create a production build:
-
-```bash
-pnpm build
-# or
-npm run build
-# or
-yarn build
-```
-
-Preview the production build locally:
-
-```bash
-pnpm preview
-# or
-npm run preview
-# or
-yarn preview
+├── public/             # Static assets
+├── src/                # Source code
+│   ├── App.tsx         # Main application component
+│   └── index.tsx       # Entry point
+├── rsbuild.config.ts   # Rsbuild configuration
+├── tsconfig.json       # TypeScript configuration
+├── eslint.config.js    # ESLint configuration
+└── package.json        # Project dependencies and scripts
 ```
 
 ## 📦 Usage
@@ -248,15 +217,16 @@ Contributions are welcome and greatly appreciated! Please follow these steps to 
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-Please ensure your code follows the existing style and passes all tests.
+## 📄 License
+
+MIT License © 2025 Trapar Waves
 
 ## 👤 Author
 
-- **Rikka:** (admin@rikka.cc)
+- **Rikka:** [admin@rikka.cc](mailto:admin@rikka.cc)
 - **GitHub Profile:** [Muromi-Rikka](https://github.com/Muromi-Rikka)
 
 ## 🔗 Links
 
 - **Repository:** [https://github.com/Trapar-waves/react-three-maplibre](https://github.com/Trapar-waves/react-three-maplibre)
-- **Homepage:** [https://github.com/Trapar-waves/react-three-maplibre](https://github.com/Trapar-waves/react-three-maplibre)
 - **Issues:** [https://github.com/Trapar-waves/react-three-maplibre/issues](https://github.com/Trapar-waves/react-three-maplibre/issues)

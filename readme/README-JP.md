@@ -9,107 +9,76 @@
 
 ---
 
-[English](../README.md) | [中文](/readme/README-CN.md) | [Русский язык](/readme/README-RU.md)
+[English](../README.md) | [中文](./README-CN.md) | [Русский язык](./README-RU.md)
 
-> Three.js、MapLibre、AntVを統合したReactベースのライブラリで、高度な地理空間3D可視化を実現します。
+> Three.js、MapLibre、AntV を統合した React ベースのライブラリで、高度な地理空間 3D 可視化を実現します。
 
 ## ✨ 特徴
 
-- **地理空間可視化:** `@antv/l7`と`maplibre-gl`を組み合わせ、カスタムマップレイヤーを使用した強力な地理空間データレンダリングを実現します。
-- **Reactによる3Dレンダリング:** `@react-three/fiber`と`@react-three/drei`を活用し、Three.jsをReactベースのワークフローに統合し、宣言型3Dシーン管理を実現します。
-- **カスタマイズ可能なUI統合:** React（`react`、`react-dom`）とのシームレスな統合を提供し、インタラクティブな地理空間アプリケーションを構築します。
-- **ユーティリティファーストのスタイリング:** `tailwindcss`を採用し、コンポーネントとレイアウトの柔軟で迅速なスタイリングを実現します。
-- **型安全性:** TypeScriptを使用して型安全性を確保し、開発中の開発者エクスペリエンスを向上させます。
-- **高速開発ワークフロー:** `rsbuild`を活用して最適化されたビルドと効率的な開発サーバーパフォーマンスを実現します。
-- **充実したコンポーネントライブラリ:** `three-stdlib`および`@react-three/drei`と統合し、再利用可能なThree.jsユーティリティとコンポーネントを提供します。
-- **マップインタラクティビティ:** `react-map-gl`を実装し、地理空間コンテキストにおけるインタラクティブなマップコントロールとクライアント側ナビゲーションを提供します。
-- **AntV拡張機能:** `@antv/l7-maps`を組み込み、追加のマップレイヤリング機能と可視化ツールを提供します。
+- **地理空間可視化：** `@antv/l7` と `maplibre-gl` を組み合わせ、カスタムマップレイヤーを使用した強力な地理空間データレンダリングを実現します。
+- **React による 3D レンダリング：** `@react-three/fiber` と `@react-three/drei` を活用し、Three.js を React ベースのワークフローに統合し、宣言型 3D シーン管理を実現します。
+- **カスタマイズ可能な UI 統合：** React（`react`、`react-dom`）とのシームレスな統合を提供し、インタラクティブな地理空間アプリケーションを構築します。
+- **ユーティリティファーストのスタイリング：** `tailwindcss` を採用し、コンポーネントとレイアウトの柔軟で迅速なスタイリングを実現します。
+- **型安全性：** TypeScript を使用して型安全性を確保し、開発中の開発者エクスペリエンスを向上させます。
+- **高速開発ワークフロー：** `rsbuild` を活用して最適化されたビルドと効率的な開発サーバーパフォーマンスを実現します。
+- **充実したコンポーネントライブラリ：** `three-stdlib` および `@react-three/drei` と統合し、再利用可能な Three.js ユーティリティとコンポーネントを提供します。
+- **マップインタラクティビティ：** `react-map-gl` を実装し、地理空間コンテキストにおけるインタラクティブなマップコントロールとクライアント側ナビゲーションを提供します。
+- **AntV 拡張機能：** `@antv/l7-maps` を組み込み、追加のマップレイヤリング機能と可視化ツールを提供します。
 
 ## 💻 技術スタック
 
-- **フレームワーク/ライブラリ:** React
-- **UIツールキット/スタイリング:** Tailwind CSS
-- **3Dレンダリング:** Three.js（`@react-three/fiber`、`@react-three/drei`）
-- **地理空間ライブラリ:** MapLibre GL、AntV L7
-- **ビルドツール:** Rsbuild
-- **言語:** TypeScript
+- **フレームワーク/ライブラリ：** `React`
+- **UI ツールキット/スタイリング：** `Tailwind CSS`
+- **3D レンダリング：** `Three.js`（`@react-three/fiber`、`@react-three/drei`）
+- **地理空間ライブラリ：** `MapLibre GL`、`AntV L7`
+- **ビルドツール：** `Rsbuild`
+- **言語：** `TypeScript`
 
-依存関係の完全なリストについては[package.json](package.json)を参照してください。
+依存関係の完全なリストについては [package.json](../package.json) を参照してください。
 
-## 🚀 始め方
-
-以下の手順に従ってプロジェクトをローカルで実行してください。
+## 🚀 はじめに
 
 ### 前提条件
 
-以下がインストールされていることを確認してください：
-
-- Node.js (推奨バージョン >= 18.x)
-- パッケージマネージャー (npm, yarn または pnpm)
-
-```bash
-node -v
-npm -v
-```
+- Node.js（>= 18.x 推奨）
+- パッケージマネージャー（npm、yarn、または pnpm）
 
 ### インストール
 
-1. テンプレートを使用して新しいプロジェクトを作成します：
+1. テンプレートを使用して新しいプロジェクトを作成：
 
-```bash
-pnpm create trapar-waves
+   ```bash
+   pnpm create trapar-waves
+   ```
+
+2. プロジェクトディレクトリに移動し、依存関係をインストール：
+
+   ```bash
+   pnpm install
+   ```
+
+3. 開発サーバーを起動：
+
+   ```bash
+   pnpm dev
+   ```
+
+## 📁 プロジェクト構造
+
 ```
-
-2. プロジェクトディレクトリに移動し、依存関係をインストールします：
-
-```bash
-cd your-project-name
-pnpm install
-# or
-npm install
-# or
-yarn install
-```
-
-### 開発
-
-ホットリロード付きの開発サーバーを起動します：
-
-```bash
-pnpm dev
-# or
-npm run dev
-# or
-yarn dev
-```
-
-アプリケーションはデフォルトで `http://localhost:3000` で利用可能です。
-
-### 本番用ビルド
-
-本番用のビルドを作成します：
-
-```bash
-pnpm build
-# or
-npm run build
-# or
-yarn build
-```
-
-ローカルで本番ビルドをプレビューします：
-
-```bash
-pnpm preview
-# or
-npm run preview
-# or
-yarn preview
+├── public/             # 静的アセット
+├── src/                # ソースコード
+│   ├── App.tsx         # メインアプリケーションコンポーネント
+│   └── index.tsx       # エントリーポイント
+├── rsbuild.config.ts   # Rsbuild 設定
+├── tsconfig.json       # TypeScript 設定
+├── eslint.config.js    # ESLint 設定
+└── package.json        # プロジェクトの依存関係とスクリプト
 ```
 
 ## 📦 使用方法
 
-このライブラリは、地理空間3D可視化アプリケーションを作成するためのテンプレートとして設計されています。React、Three.js、MapLibre GL、AntV L7を使用した基本的なセットアップを提供します。
+このライブラリは、地理空間 3D 可視化アプリケーションを作成するためのテンプレートとして設計されています。React、Three.js、MapLibre GL、AntV L7 を使用した基本的なセットアップを提供します。
 
 ### 基本的な例
 
@@ -222,25 +191,26 @@ export default App;
 
 テンプレートは API キー不要の Carto GL スタイル（`src/App.tsx` の `MAP_STYLE_URL`）を既定とします。MapTiler など別プロバイダへ切り替える場合は `mapStyle` を変更し、`.env` / CI で鍵を管理してください。
 
-## 🤝 コントリビューション
+## 🤝 コントリビュート
 
-貢献は歓迎され、非常に高く評価されています！貢献するには以下の手順に従ってください：
+コントリビュートを歓迎します！以下の手順に従ってコントリビュートしてください：
 
-1. リポジトリをフォークする
-2. 機能ブランチを作成する（`git checkout -b feature/amazing-feature`）
-3. 変更をコミットする（`git commit -m 'Add some amazing feature'`）
-4. ブランチにプッシュする（`git push origin feature/amazing-feature`）
-5. Pull Requestを開く
+1. リポジトリをフォーク
+2. 機能ブランチを作成（`git checkout -b feature/amazing-feature`）
+3. 変更をコミット（`git commit -m 'Add some amazing feature'`）
+4. ブランチにプッシュ（`git push origin feature/amazing-feature`）
+5. Pull Request を作成
 
-コードが既存のスタイルに従い、すべてのテストに合格することを確認してください。
+## 📄 ライセンス
 
-## 👤 Author
+MIT License © 2025 Trapar Waves
 
-- **Rikka:** (admin@rikka.cc)
-- **GitHub Profile:** [Muromi-Rikka](https://github.com/Muromi-Rikka)
+## 👤 作者
 
-## 🔗 Links
+- **Rikka：** [admin@rikka.cc](mailto:admin@rikka.cc)
+- **GitHub プロフィール：** [Muromi-Rikka](https://github.com/Muromi-Rikka)
 
-- **リポジトリ:** [https://github.com/Trapar-waves/react-three-maplibre](https://github.com/Trapar-waves/react-three-maplibre)
-- **ホームページ:** [https://github.com/Trapar-waves/react-three-maplibre](https://github.com/Trapar-waves/react-three-maplibre)
-- **イシュー:** [https://github.com/Trapar-waves/react-three-maplibre/issues](https://github.com/Trapar-waves/react-three-maplibre/issues)
+## 🔗 リンク
+
+- **リポジトリ：** [https://github.com/Trapar-waves/react-three-maplibre](https://github.com/Trapar-waves/react-three-maplibre)
+- **Issues：** [https://github.com/Trapar-waves/react-three-maplibre/issues](https://github.com/Trapar-waves/react-three-maplibre/issues)
