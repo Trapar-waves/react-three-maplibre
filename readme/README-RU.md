@@ -17,8 +17,6 @@
 
 ![Features](../assets/readme/headers/features.svg)
 
-## ✨ Возможности
-
 - **Геопространственная визуализация:** Комбинирует `@antv/l7` и `maplibre-gl` для мощного рендеринга геопространственных данных с пользовательскими слоями карт.
 - **3D-рендеринг с React:** Использует `@react-three/fiber` и `@react-three/drei` для интеграции Three.js в рабочий процесс на базе React для декларативного управления 3D-сценами.
 - **Интеграция настраиваемого UI:** Обеспечивает бесперебойную интеграцию с React (`react`, `react-dom`) для создания интерактивных геопространственных приложений.
@@ -31,8 +29,6 @@
 
 ![Tech Stack](../assets/readme/headers/tech-stack.svg)
 
-## 💻 Технологический стек
-
 - **Фреймворк/библиотека:** `React`
 - **UI-тулкит/стилизация:** `Tailwind CSS`
 - **3D-рендеринг:** `Three.js` (`@react-three/fiber`, `@react-three/drei`)
@@ -43,8 +39,6 @@
 Полный список зависимостей смотрите в [package.json](../package.json).
 
 ![Getting Started](../assets/readme/headers/getting-started.svg)
-
-## 🚀 Начало работы
 
 ### Предварительные требования
 
@@ -73,8 +67,6 @@
 
 ![Project Structure](../assets/readme/headers/project-structure.svg)
 
-## 📁 Структура проекта
-
 ```
 ├── public/             # Статические ресурсы
 ├── src/                # Исходный код
@@ -87,8 +79,6 @@
 ```
 
 ![Usage](../assets/readme/headers/usage.svg)
-
-## 📦 Использование
 
 Эта библиотека предназначена для использования в качестве шаблона для создания приложений геопространственной 3D-визуализации. Она предоставляет фундаментальную настройку с React, Three.js, MapLibre GL и AntV L7.
 
@@ -205,8 +195,6 @@ export default App;
 
 ![Contributing](../assets/readme/headers/contributing.svg)
 
-## 🤝 Участие в разработке
-
 Вклад в проект приветствуется и очень ценится! Чтобы внести вклад, следуйте этим шагам:
 
 1. Сделайте форк репозитория
@@ -216,8 +204,6 @@ export default App;
 5. Откройте Pull Request
 
 ![License](../assets/readme/headers/license.svg)
-
-## 📄 Лицензия
 
 MIT License © 2025 Trapar Waves
 

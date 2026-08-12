@@ -17,8 +17,6 @@
 
 ![Features](../assets/readme/headers/features.svg)
 
-## ✨ 特徴
-
 - **地理空間可視化：** `@antv/l7` と `maplibre-gl` を組み合わせ、カスタムマップレイヤーを使用した強力な地理空間データレンダリングを実現します。
 - **React による 3D レンダリング：** `@react-three/fiber` と `@react-three/drei` を活用し、Three.js を React ベースのワークフローに統合し、宣言型 3D シーン管理を実現します。
 - **カスタマイズ可能な UI 統合：** React（`react`、`react-dom`）とのシームレスな統合を提供し、インタラクティブな地理空間アプリケーションを構築します。
@@ -31,8 +29,6 @@
 
 ![Tech Stack](../assets/readme/headers/tech-stack.svg)
 
-## 💻 技術スタック
-
 - **フレームワーク/ライブラリ：** `React`
 - **UI ツールキット/スタイリング：** `Tailwind CSS`
 - **3D レンダリング：** `Three.js`（`@react-three/fiber`、`@react-three/drei`）
@@ -43,8 +39,6 @@
 依存関係の完全なリストについては [package.json](../package.json) を参照してください。
 
 ![Getting Started](../assets/readme/headers/getting-started.svg)
-
-## 🚀 はじめに
 
 ### 前提条件
 
@@ -73,8 +67,6 @@
 
 ![Project Structure](../assets/readme/headers/project-structure.svg)
 
-## 📁 プロジェクト構造
-
 ```
 ├── public/             # 静的アセット
 ├── src/                # ソースコード
@@ -87,8 +79,6 @@
 ```
 
 ![Usage](../assets/readme/headers/usage.svg)
-
-## 📦 使用方法
 
 このライブラリは、地理空間 3D 可視化アプリケーションを作成するためのテンプレートとして設計されています。React、Three.js、MapLibre GL、AntV L7 を使用した基本的なセットアップを提供します。
 
@@ -205,8 +195,6 @@ export default App;
 
 ![Contributing](../assets/readme/headers/contributing.svg)
 
-## 🤝 コントリビュート
-
 コントリビュートを歓迎します！以下の手順に従ってコントリビュートしてください：
 
 1. リポジトリをフォーク
@@ -216,8 +204,6 @@ export default App;
 5. Pull Request を作成
 
 ![License](../assets/readme/headers/license.svg)
-
-## 📄 ライセンス
 
 MIT License © 2025 Trapar Waves
 

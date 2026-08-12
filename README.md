@@ -17,8 +17,6 @@
 
 ![Features](assets/readme/headers/features.svg)
 
-## ✨ Features
-
 - **Geospatial Visualization:** Combines `@antv/l7` and `maplibre-gl` for powerful geospatial data rendering with custom map layers.
 - **3D Rendering with React:** Leverages `@react-three/fiber` and `@react-three/drei` to integrate Three.js into a React-based workflow for declarative 3D scene management.
 - **Customizable UI Integration:** Offers seamless integration with React (`react`, `react-dom`) for building interactive geospatial applications.
@@ -31,8 +29,6 @@
 
 ![Tech Stack](assets/readme/headers/tech-stack.svg)
 
-## 💻 Tech Stack
-
 - **Framework/Library:** `React`
 - **UI Toolkit/Styling:** `Tailwind CSS`
 - **3D Rendering:** `Three.js` (`@react-three/fiber`, `@react-three/drei`)
@@ -43,8 +39,6 @@
 See the [package.json](./package.json) for a full list of dependencies.
 
 ![Getting Started](assets/readme/headers/getting-started.svg)
-
-## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -73,8 +67,6 @@ See the [package.json](./package.json) for a full list of dependencies.
 
 ![Project Structure](assets/readme/headers/project-structure.svg)
 
-## 📁 Project Structure
-
 ```
 ├── public/             # Static assets
 ├── src/                # Source code
@@ -87,8 +79,6 @@ See the [package.json](./package.json) for a full list of dependencies.
 ```
 
 ![Usage](assets/readme/headers/usage.svg)
-
-## 📦 Usage
 
 This library is designed to be used as a template for creating geospatial 3D visualization applications. It provides a foundational setup with React, Three.js, MapLibre GL, and AntV L7.
 
@@ -209,8 +199,6 @@ Make sure to add `.env` to your `.gitignore` to keep your keys secure.
 
 ![Contributing](assets/readme/headers/contributing.svg)
 
-## 🤝 Contributing
-
 Contributions are welcome and greatly appreciated! Please follow these steps to contribute:
 
 1. Fork the repository
@@ -220,8 +208,6 @@ Contributions are welcome and greatly appreciated! Please follow these steps to 
 5. Open a Pull Request
 
 ![License](assets/readme/headers/license.svg)
-
-## 📄 License
 
 MIT License © 2025 Trapar Waves
 

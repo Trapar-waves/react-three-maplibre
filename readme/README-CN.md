@@ -17,8 +17,6 @@
 
 ![Features](../assets/readme/headers/features.svg)
 
-## ✨ 特性
-
 - **地理空间可视化：** 结合 `@antv/l7` 和 `maplibre-gl`，通过自定义地图图层实现强大的地理空间数据渲染。
 - **React 3D 渲染：** 利用 `@react-three/fiber` 和 `@react-three/drei` 将 Three.js 集成到基于 React 的工作流中，实现声明式 3D 场景管理。
 - **可定制 UI 集成：** 提供与 React（`react`、`react-dom`）的无缝集成，用于构建交互式地理空间应用。
@@ -31,8 +29,6 @@
 
 ![Tech Stack](../assets/readme/headers/tech-stack.svg)
 
-## 💻 技术栈
-
 - **框架/库：** `React`
 - **UI 工具包/样式：** `Tailwind CSS`
 - **3D 渲染：** `Three.js`（`@react-three/fiber`、`@react-three/drei`）
@@ -43,8 +39,6 @@
 查看 [package.json](../package.json) 获取完整的依赖列表。
 
 ![Getting Started](../assets/readme/headers/getting-started.svg)
-
-## 🚀 快速开始
 
 ### 前置条件
 
@@ -73,8 +67,6 @@
 
 ![Project Structure](../assets/readme/headers/project-structure.svg)
 
-## 📁 项目结构
-
 ```
 ├── public/             # 静态资源
 ├── src/                # 源代码
@@ -87,8 +79,6 @@
 ```
 
 ![Usage](../assets/readme/headers/usage.svg)
-
-## 📦 使用方法
 
 该库被设计为用于创建地理空间 3D 可视化应用程序的模板。它提供了一个基础设置，包括 React、Three.js、MapLibre GL 和 AntV L7。
 
@@ -205,8 +195,6 @@ export default App;
 
 ![Contributing](../assets/readme/headers/contributing.svg)
 
-## 🤝 贡献
-
 欢迎贡献，非常感谢！请按照以下步骤贡献：
 
 1. Fork 仓库
@@ -216,8 +204,6 @@ export default App;
 5. 创建 Pull Request
 
 ![License](../assets/readme/headers/license.svg)
-
-## 📄 许可证
 
 MIT License © 2025 Trapar Waves
 
