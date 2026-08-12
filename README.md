@@ -13,6 +13,10 @@
 
 > A React-based library integrating Three.js, MapLibre, and AntV for advanced geospatial 3D visualizations.
 
+![react-three-maplibre hero](assets/readme/hero.svg)
+
+![Features](assets/readme/headers/features.svg)
+
 ## ✨ Features
 
 - **Geospatial Visualization:** Combines `@antv/l7` and `maplibre-gl` for powerful geospatial data rendering with custom map layers.
@@ -25,21 +29,7 @@
 - **Map Interactivity:** Implements `react-map-gl` for interactive map controls and client-side navigation in geospatial contexts.
 - **AntV Enhancements:** Incorporates `@antv/l7-maps` for additional map layering capabilities and visualization tools.
 
-## GitHub Pages
-
-Pushing a version tag matching `v*` runs [`.github/workflows/pages.yml`](./.github/workflows/pages.yml), which builds with `BASE_PATH=/<repository-name>/`, copies `dist/index.html` to `dist/404.html` for SPA routing, and deploys to GitHub Pages. In the repository **Settings → Pages**, set **Source** to **GitHub Actions** once.
-
-The demo map uses [Carto Basemaps](https://carto.com/basemaps/) public MapLibre GL styles (**no API key** required for local builds or GitHub Pages).
-
-```bash
-BASE_PATH=/react-three-maplibre/ pnpm run build && pnpm preview
-```
-
-PowerShell:
-
-```powershell
-$env:BASE_PATH="/react-three-maplibre/"; pnpm run build; pnpm preview
-```
+![Tech Stack](assets/readme/headers/tech-stack.svg)
 
 ## 💻 Tech Stack
 
@@ -51,6 +41,8 @@ $env:BASE_PATH="/react-three-maplibre/"; pnpm run build; pnpm preview
 - **Language:** `TypeScript`
 
 See the [package.json](./package.json) for a full list of dependencies.
+
+![Getting Started](assets/readme/headers/getting-started.svg)
 
 ## 🚀 Getting Started
 
@@ -79,6 +71,8 @@ See the [package.json](./package.json) for a full list of dependencies.
    pnpm dev
    ```
 
+![Project Structure](assets/readme/headers/project-structure.svg)
+
 ## 📁 Project Structure
 
 ```
@@ -91,6 +85,8 @@ See the [package.json](./package.json) for a full list of dependencies.
 ├── eslint.config.js    # ESLint configuration
 └── package.json        # Project dependencies and scripts
 ```
+
+![Usage](assets/readme/headers/usage.svg)
 
 ## 📦 Usage
 
@@ -127,8 +123,7 @@ const latLon = {
   latitude: 31.215175,
   longitude: 121.417463,
 };
-const MAP_STYLE_URL
-  = "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json";
+const MAPTILER_KEY = import.meta.env.PUBLIC_MAPTILER_KEY;
 
 function App() {
   const ref = useRef<HTMLDivElement>(null!);
@@ -173,7 +168,7 @@ function App() {
           zoom: 11,
           pitch: 64.88,
         }}
-        mapStyle={MAP_STYLE_URL}
+        mapStyle={`https://api.maptiler.com/maps/streets/style.json?key=${MAPTILER_KEY}`}
         onLoad={initL7}
       >
         <Stats className="stats" parent={ref} />
@@ -197,15 +192,22 @@ export default App;
 ```
 
 This example demonstrates:
-
 - Creating a MapLibre GL map with `react-map-gl`
 - Integrating AntV L7 for geospatial data visualization
 - Using React Three Fiber and Drei for 3D rendering
 - Positioning 3D objects relative to the map using `react-three-map`
 
-### Map basemap
+### Environment Variables
 
-The template ships with a key-free Carto GL style (`MAP_STYLE_URL` in `src/App.tsx`). To switch providers (e.g. MapTiler), point `mapStyle` at your style JSON and manage API keys via `.env` / CI secrets yourself.
+To use map services like MapTiler, you'll need to set up environment variables. Create a `.env` file in your project root:
+
+```
+PUBLIC_MAPTILER_KEY=your_maptiler_api_key_here
+```
+
+Make sure to add `.env` to your `.gitignore` to keep your keys secure.
+
+![Contributing](assets/readme/headers/contributing.svg)
 
 ## 🤝 Contributing
 
@@ -216,6 +218,8 @@ Contributions are welcome and greatly appreciated! Please follow these steps to 
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
+
+![License](assets/readme/headers/license.svg)
 
 ## 📄 License
 

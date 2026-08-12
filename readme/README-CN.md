@@ -13,6 +13,10 @@
 
 > 一个基于 React 的库，集成了 Three.js、MapLibre 和 AntV，用于高级地理空间 3D 可视化。
 
+![react-three-maplibre hero](../assets/readme/hero.svg)
+
+![Features](../assets/readme/headers/features.svg)
+
 ## ✨ 特性
 
 - **地理空间可视化：** 结合 `@antv/l7` 和 `maplibre-gl`，通过自定义地图图层实现强大的地理空间数据渲染。
@@ -25,6 +29,8 @@
 - **地图交互性：** 实现 `react-map-gl`，用于地理空间环境中的交互式地图控制和客户端导航。
 - **AntV 增强功能：** 整合 `@antv/l7-maps`，提供额外的地图分层功能和可视化工具。
 
+![Tech Stack](../assets/readme/headers/tech-stack.svg)
+
 ## 💻 技术栈
 
 - **框架/库：** `React`
@@ -35,6 +41,8 @@
 - **语言：** `TypeScript`
 
 查看 [package.json](../package.json) 获取完整的依赖列表。
+
+![Getting Started](../assets/readme/headers/getting-started.svg)
 
 ## 🚀 快速开始
 
@@ -63,6 +71,8 @@
    pnpm dev
    ```
 
+![Project Structure](../assets/readme/headers/project-structure.svg)
+
 ## 📁 项目结构
 
 ```
@@ -75,6 +85,8 @@
 ├── eslint.config.js    # ESLint 配置
 └── package.json        # 项目依赖和脚本
 ```
+
+![Usage](../assets/readme/headers/usage.svg)
 
 ## 📦 使用方法
 
@@ -191,6 +203,8 @@ export default App;
 
 模板默认使用无需 API Key 的 Carto GL 样式（见 `src/App.tsx` 中的 `MAP_STYLE_URL`）。若改用 MapTiler 等需鉴权的服务，请自行设置 `mapStyle` 并通过 `.env` / CI 密钥管理凭据。
 
+![Contributing](../assets/readme/headers/contributing.svg)
+
 ## 🤝 贡献
 
 欢迎贡献，非常感谢！请按照以下步骤贡献：
@@ -200,6 +214,8 @@ export default App;
 3. 提交更改（`git commit -m 'Add some amazing feature'`）
 4. 推送到分支（`git push origin feature/amazing-feature`）
 5. 创建 Pull Request
+
+![License](../assets/readme/headers/license.svg)
 
 ## 📄 许可证
 

@@ -13,6 +13,10 @@
 
 > Three.js、MapLibre、AntV を統合した React ベースのライブラリで、高度な地理空間 3D 可視化を実現します。
 
+![react-three-maplibre hero](../assets/readme/hero.svg)
+
+![Features](../assets/readme/headers/features.svg)
+
 ## ✨ 特徴
 
 - **地理空間可視化：** `@antv/l7` と `maplibre-gl` を組み合わせ、カスタムマップレイヤーを使用した強力な地理空間データレンダリングを実現します。
@@ -25,6 +29,8 @@
 - **マップインタラクティビティ：** `react-map-gl` を実装し、地理空間コンテキストにおけるインタラクティブなマップコントロールとクライアント側ナビゲーションを提供します。
 - **AntV 拡張機能：** `@antv/l7-maps` を組み込み、追加のマップレイヤリング機能と可視化ツールを提供します。
 
+![Tech Stack](../assets/readme/headers/tech-stack.svg)
+
 ## 💻 技術スタック
 
 - **フレームワーク/ライブラリ：** `React`
@@ -35,6 +41,8 @@
 - **言語：** `TypeScript`
 
 依存関係の完全なリストについては [package.json](../package.json) を参照してください。
+
+![Getting Started](../assets/readme/headers/getting-started.svg)
 
 ## 🚀 はじめに
 
@@ -63,6 +71,8 @@
    pnpm dev
    ```
 
+![Project Structure](../assets/readme/headers/project-structure.svg)
+
 ## 📁 プロジェクト構造
 
 ```
@@ -75,6 +85,8 @@
 ├── eslint.config.js    # ESLint 設定
 └── package.json        # プロジェクトの依存関係とスクリプト
 ```
+
+![Usage](../assets/readme/headers/usage.svg)
 
 ## 📦 使用方法
 
@@ -191,6 +203,8 @@ export default App;
 
 テンプレートは API キー不要の Carto GL スタイル（`src/App.tsx` の `MAP_STYLE_URL`）を既定とします。MapTiler など別プロバイダへ切り替える場合は `mapStyle` を変更し、`.env` / CI で鍵を管理してください。
 
+![Contributing](../assets/readme/headers/contributing.svg)
+
 ## 🤝 コントリビュート
 
 コントリビュートを歓迎します！以下の手順に従ってコントリビュートしてください：
@@ -200,6 +214,8 @@ export default App;
 3. 変更をコミット（`git commit -m 'Add some amazing feature'`）
 4. ブランチにプッシュ（`git push origin feature/amazing-feature`）
 5. Pull Request を作成
+
+![License](../assets/readme/headers/license.svg)
 
 ## 📄 ライセンス
 

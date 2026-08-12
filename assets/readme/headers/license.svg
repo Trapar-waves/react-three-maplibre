@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 80" width="100%">
+  <title>License section header</title>
+  <defs>
+    <linearGradient id="bg-license-r3m" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#10B981;stop-opacity:0.08"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="80" fill="#FFFFFF"/>
+  <rect width="1200" height="80" fill="url(#bg-license-r3m)"/>
+  <rect x="0.5" y="0.5" width="1199" height="79" rx="8" ry="8" fill="none" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="0" y="76" width="1200" height="4" rx="2" fill="#10B981"/>
+  <text x="40" y="52" font-family="system-ui, sans-serif" font-size="36">📄</text>
+  <text x="90" y="54" font-family="system-ui, sans-serif" font-size="28" font-weight="bold" fill="#0F172A">License</text>
+</svg>

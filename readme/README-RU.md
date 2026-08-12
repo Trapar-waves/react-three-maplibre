@@ -13,6 +13,10 @@
 
 > Библиотека на базе React, интегрирующая Three.js, MapLibre и AntV для расширенной геопространственной 3D-визуализации.
 
+![react-three-maplibre hero](../assets/readme/hero.svg)
+
+![Features](../assets/readme/headers/features.svg)
+
 ## ✨ Возможности
 
 - **Геопространственная визуализация:** Комбинирует `@antv/l7` и `maplibre-gl` для мощного рендеринга геопространственных данных с пользовательскими слоями карт.
@@ -25,6 +29,8 @@
 - **Интерактивность карт:** Реализует `react-map-gl` для интерактивных элементов управления картами и навигации на клиентской стороне в геопространственных контекстах.
 - **Дополнения AntV:** Включает `@antv/l7-maps` для дополнительных возможностей слоев карт и инструментов визуализации.
 
+![Tech Stack](../assets/readme/headers/tech-stack.svg)
+
 ## 💻 Технологический стек
 
 - **Фреймворк/библиотека:** `React`
@@ -35,6 +41,8 @@
 - **Язык:** `TypeScript`
 
 Полный список зависимостей смотрите в [package.json](../package.json).
+
+![Getting Started](../assets/readme/headers/getting-started.svg)
 
 ## 🚀 Начало работы
 
@@ -63,6 +71,8 @@
    pnpm dev
    ```
 
+![Project Structure](../assets/readme/headers/project-structure.svg)
+
 ## 📁 Структура проекта
 
 ```
@@ -75,6 +85,8 @@
 ├── eslint.config.js    # Конфигурация ESLint
 └── package.json        # Зависимости и скрипты проекта
 ```
+
+![Usage](../assets/readme/headers/usage.svg)
 
 ## 📦 Использование
 
@@ -191,6 +203,8 @@ export default App;
 
 В шаблоне по умолчанию используется стиль Carto GL без API-ключа (`MAP_STYLE_URL` в `src/App.tsx`). Для другого провайдера (например, MapTiler) задайте `mapStyle` и храните ключи в `.env` / CI.
 
+![Contributing](../assets/readme/headers/contributing.svg)
+
 ## 🤝 Участие в разработке
 
 Вклад в проект приветствуется и очень ценится! Чтобы внести вклад, следуйте этим шагам:
@@ -200,6 +214,8 @@ export default App;
 3. Зафиксируйте свои изменения (`git commit -m 'Add some amazing feature'`)
 4. Отправьте изменения в ветку (`git push origin feature/amazing-feature`)
 5. Откройте Pull Request
+
+![License](../assets/readme/headers/license.svg)
 
 ## 📄 Лицензия
 
