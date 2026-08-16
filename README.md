@@ -40,7 +40,7 @@ See the [package.json](./package.json) for a full list of dependencies.
 
 ![Getting Started](assets/readme/headers/getting-started.svg)
 
-### Prerequisites
+## Prerequisites
 
 - Node.js (>= 18.x recommended)
 - Package manager (npm, yarn, or pnpm)
@@ -182,6 +182,7 @@ export default App;
 ```
 
 This example demonstrates:
+
 - Creating a MapLibre GL map with `react-map-gl`
 - Integrating AntV L7 for geospatial data visualization
 - Using React Three Fiber and Drei for 3D rendering

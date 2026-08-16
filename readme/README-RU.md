@@ -40,7 +40,7 @@
 
 ![Getting Started](../assets/readme/headers/getting-started.svg)
 
-### Предварительные требования
+## Предварительные требования
 
 - Node.js (рекомендуется >= 18.x)
 - Менеджер пакетов (npm, yarn или pnpm)

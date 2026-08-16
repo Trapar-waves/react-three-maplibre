@@ -40,7 +40,7 @@
 
 ![Getting Started](../assets/readme/headers/getting-started.svg)
 
-### 前提条件
+## 前提条件
 
 - Node.js（>= 18.x 推奨）
 - パッケージマネージャー（npm、yarn、または pnpm）

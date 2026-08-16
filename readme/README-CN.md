@@ -40,7 +40,7 @@
 
 ![Getting Started](../assets/readme/headers/getting-started.svg)
 
-### 前置条件
+## 前置条件
 
 - Node.js（推荐 >= 18.x）
 - 包管理器（npm、yarn 或 pnpm）
