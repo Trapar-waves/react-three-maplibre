@@ -1,21 +1,17 @@
-import antfu from "@antfu/eslint-config";
+import { rentonReact } from "@renton/eslint-config-react";
 
-export default antfu({
+export default rentonReact({
   stylistic: {
     quotes: "double",
     semi: true,
   },
-  markdown: true,
-  jsonc: true,
-  typescript: true,
-  yaml: true,
-  react: true,
-  formatters: {
-    markdown: "prettier",
+}, {
+  rules: {
+    "react/naming-convention-ref-name": "off",
   },
 }, {
-  name: "trapar/pnpm-workspace-yaml-trust-policy",
   files: ["pnpm-workspace.yaml"],
+  name: "trapar/pnpm-workspace-yaml-trust-policy",
   rules: {
     "pnpm/yaml-enforce-settings": "off",
   },

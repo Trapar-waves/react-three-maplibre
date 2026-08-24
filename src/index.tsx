@@ -1,10 +1,10 @@
 import ReactDOM from "react-dom/client";
-import App from "./App";
+import App from "./app";
 import "./global.css";
 
-const rootEl = document.getElementById("root");
-if (rootEl) {
-  const root = ReactDOM.createRoot(rootEl);
+const rootElement = document.querySelector("#root");
+if (rootElement) {
+  const root = ReactDOM.createRoot(rootElement);
   root.render(
     <App />,
   );
