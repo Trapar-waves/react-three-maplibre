@@ -122,7 +122,7 @@ importers:
         specifier: ^9.7.0
         version: 9.7.0(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(three@0.186.0)
       maplibre-gl:
-        specifier: ^6.6.0
+        specifier: ^6.8.0
         version: 6.8.0
       react:
         specifier: ^19.2.8
@@ -198,7 +198,7 @@ importers:
         specifier: ^9.1.7
         version: 9.1.7
       lint-staged:
-        specifier: ^17.4.1
+        specifier: ^17.5.0
         version: 17.5.0
       mapbox-gl:
         specifier: ^3.30.0
