@@ -179,7 +179,7 @@ importers:
         specifier: ^9.8.0
         version: 9.8.1(@types/react@19.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(three@0.186.1)
       maplibre-gl:
-        specifier: ^6.11.1
+        specifier: ^6.11.2
         version: 6.11.2
       react:
         specifier: ^19.3.0
