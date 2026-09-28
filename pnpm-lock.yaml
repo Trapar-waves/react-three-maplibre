@@ -255,7 +255,7 @@ importers:
         specifier: ^9.1.7
         version: 9.1.7
       lint-staged:
-        specifier: ^17.5.1
+        specifier: ^17.6.0
         version: 17.6.0
       mapbox-gl:
         specifier: ^3.31.0
