@@ -213,17 +213,17 @@ importers:
         specifier: ^1.1.0
         version: 1.1.0(@renton/eslint-config@1.1.0(@typescript-eslint/eslint-plugin@8.71.0(@typescript-eslint/parser@8.71.0(eslint@10.12.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.12.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/typescript-estree@8.71.1(typescript@6.0.3))(@typescript-eslint/utils@8.71.1(eslint@10.12.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.12.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.12.0(jiti@2.7.0))(tailwindcss@4.3.3)(typescript@6.0.3)
       '@rsbuild/core':
-        specifier: ^2.2.11
-        version: 2.2.11
+        specifier: ^2.2.12
+        version: 2.2.12
       '@rsbuild/plugin-less':
         specifier: ^2.0.1
-        version: 2.0.1(@rsbuild/core@2.2.11)(@rspack/core@2.2.8(@swc/helpers@0.5.23))
+        version: 2.0.1(@rsbuild/core@2.2.12)(@rspack/core@2.2.8(@swc/helpers@0.5.23))
       '@rsbuild/plugin-react':
         specifier: ^2.1.1
-        version: 2.1.1(@rsbuild/core@2.2.11)(@rspack/core@2.2.8(@swc/helpers@0.5.23))
+        version: 2.1.1(@rsbuild/core@2.2.12)(@rspack/core@2.2.8(@swc/helpers@0.5.23))
       '@rsdoctor/rspack-plugin':
         specifier: ^1.6.4
-        version: 1.6.4(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(@rsbuild/core@2.2.11)(@rspack/core@2.2.8(@swc/helpers@0.5.23))
+        version: 1.6.4(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(@rsbuild/core@2.2.12)(@rspack/core@2.2.8(@swc/helpers@0.5.23))
       '@tailwindcss/postcss':
         specifier: ^4.3.3
         version: 4.3.3
@@ -268,7 +268,7 @@ importers:
         version: 6.0.3
       unplugin-turbo-console:
         specifier: ^2.3.3
-        version: 2.3.3(@rsbuild/core@2.2.11)(@rspack/core@2.2.8(@swc/helpers@0.5.23))
+        version: 2.3.3(@rsbuild/core@2.2.12)(@rspack/core@2.2.8(@swc/helpers@0.5.23))
 
 packages:
 
@@ -1081,8 +1081,8 @@ packages:
     peerDependencies:
       eslint: ^9.0.0 || ^10.0.0
 
-  '@rsbuild/core@2.2.11':
-    resolution: {integrity: sha512-avPW0j6RaEbtV2mfl0AzTAJEimPX4Xj0pCcZyxNCrE9vkS91HmweM5V7XQj3kI5iTYfHRp9Y6To8RRHYLEvG7A==}
+  '@rsbuild/core@2.2.12':
+    resolution: {integrity: sha512-SnJ81Jf9ZGms8hUq0FGxrqlUxdHKV76VK9gxrEdtWLbTic+qRt0SIAsk5NdIr1tXFzqzQ6Fqeffs+K1EUuZEHw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -4836,14 +4836,14 @@ snapshots:
       - typescript
       - vitest
 
-  '@rsbuild/core@2.2.11':
+  '@rsbuild/core@2.2.12':
     dependencies:
       '@rspack/core': 2.2.8(@swc/helpers@0.5.23)
       '@swc/helpers': 0.5.23
     transitivePeerDependencies:
       - '@module-federation/runtime-tools'
 
-  '@rsbuild/plugin-check-syntax@1.6.1(@rsbuild/core@2.2.11)':
+  '@rsbuild/plugin-check-syntax@1.6.1(@rsbuild/core@2.2.12)':
     dependencies:
       acorn: 8.19.0
       browserslist-to-es-version: 1.4.2
@@ -4851,35 +4851,35 @@ snapshots:
       picocolors: 1.1.1
       source-map: 0.7.6
     optionalDependencies:
-      '@rsbuild/core': 2.2.11
+      '@rsbuild/core': 2.2.12
 
-  '@rsbuild/plugin-less@2.0.1(@rsbuild/core@2.2.11)(@rspack/core@2.2.8(@swc/helpers@0.5.23))':
+  '@rsbuild/plugin-less@2.0.1(@rsbuild/core@2.2.12)(@rspack/core@2.2.8(@swc/helpers@0.5.23))':
     dependencies:
       deepmerge: 4.3.1
       less: 4.9.1
       less-loader: 12.3.3(@rspack/core@2.2.8(@swc/helpers@0.5.23))(less@4.9.1)
       reduce-configs: 2.0.1
     optionalDependencies:
-      '@rsbuild/core': 2.2.11
+      '@rsbuild/core': 2.2.12
     transitivePeerDependencies:
       - '@rspack/core'
       - supports-color
       - webpack
 
-  '@rsbuild/plugin-react@2.1.1(@rsbuild/core@2.2.11)(@rspack/core@2.2.8(@swc/helpers@0.5.23))':
+  '@rsbuild/plugin-react@2.1.1(@rsbuild/core@2.2.12)(@rspack/core@2.2.8(@swc/helpers@0.5.23))':
     dependencies:
       '@rspack/plugin-react-refresh': 2.0.2(@rspack/core@2.2.8(@swc/helpers@0.5.23))(react-refresh@0.19.0)
       react-refresh: 0.19.0
     optionalDependencies:
-      '@rsbuild/core': 2.2.11
+      '@rsbuild/core': 2.2.12
     transitivePeerDependencies:
       - '@rspack/core'
 
   '@rsdoctor/client@1.6.4': {}
 
-  '@rsdoctor/core@1.6.4(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(@rsbuild/core@2.2.11)(@rspack/core@2.2.8(@swc/helpers@0.5.23))':
+  '@rsdoctor/core@1.6.4(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(@rsbuild/core@2.2.12)(@rspack/core@2.2.8(@swc/helpers@0.5.23))':
     dependencies:
-      '@rsbuild/plugin-check-syntax': 1.6.1(@rsbuild/core@2.2.11)
+      '@rsbuild/plugin-check-syntax': 1.6.1(@rsbuild/core@2.2.12)
       '@rsdoctor/graph': 1.6.4(@rspack/core@2.2.8(@swc/helpers@0.5.23))
       '@rsdoctor/sdk': 1.6.4(@rspack/core@2.2.8(@swc/helpers@0.5.23))
       '@rsdoctor/types': 1.6.4(@rspack/core@2.2.8(@swc/helpers@0.5.23))
@@ -4912,9 +4912,9 @@ snapshots:
       - '@rspack/core'
       - webpack
 
-  '@rsdoctor/rspack-plugin@1.6.4(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(@rsbuild/core@2.2.11)(@rspack/core@2.2.8(@swc/helpers@0.5.23))':
+  '@rsdoctor/rspack-plugin@1.6.4(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(@rsbuild/core@2.2.12)(@rspack/core@2.2.8(@swc/helpers@0.5.23))':
     dependencies:
-      '@rsdoctor/core': 1.6.4(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(@rsbuild/core@2.2.11)(@rspack/core@2.2.8(@swc/helpers@0.5.23))
+      '@rsdoctor/core': 1.6.4(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(@rsbuild/core@2.2.12)(@rspack/core@2.2.8(@swc/helpers@0.5.23))
       '@rsdoctor/graph': 1.6.4(@rspack/core@2.2.8(@swc/helpers@0.5.23))
       '@rsdoctor/sdk': 1.6.4(@rspack/core@2.2.8(@swc/helpers@0.5.23))
       '@rsdoctor/types': 1.6.4(@rspack/core@2.2.8(@swc/helpers@0.5.23))
@@ -7777,7 +7777,7 @@ snapshots:
 
   universalify@2.0.1: {}
 
-  unplugin-turbo-console@2.3.3(@rsbuild/core@2.2.11)(@rspack/core@2.2.8(@swc/helpers@0.5.23)):
+  unplugin-turbo-console@2.3.3(@rsbuild/core@2.2.12)(@rspack/core@2.2.8(@swc/helpers@0.5.23)):
     dependencies:
       alien-signals: 3.2.1
       estree-walker: 3.0.3
@@ -7788,7 +7788,7 @@ snapshots:
       mrmime: 2.0.1
       oxc-parser: 0.129.0
       pathe: 2.0.3
-      unplugin: 3.4.0(@rsbuild/core@2.2.11)(@rspack/core@2.2.8(@swc/helpers@0.5.23))
+      unplugin: 3.4.0(@rsbuild/core@2.2.12)(@rspack/core@2.2.8(@swc/helpers@0.5.23))
     transitivePeerDependencies:
       - '@rsbuild/core'
       - '@rspack/core'
@@ -7796,13 +7796,13 @@ snapshots:
       - rolldown
       - unloader
 
-  unplugin@3.4.0(@rsbuild/core@2.2.11)(@rspack/core@2.2.8(@swc/helpers@0.5.23)):
+  unplugin@3.4.0(@rsbuild/core@2.2.12)(@rspack/core@2.2.8(@swc/helpers@0.5.23)):
     dependencies:
       '@jridgewell/remapping': 2.3.5
       picomatch: 4.0.7
       webpack-virtual-modules: 0.6.2
     optionalDependencies:
-      '@rsbuild/core': 2.2.11
+      '@rsbuild/core': 2.2.12
       '@rspack/core': 2.2.8(@swc/helpers@0.5.23)
 
   update-browserslist-db@1.3.3(browserslist@4.29.3):
