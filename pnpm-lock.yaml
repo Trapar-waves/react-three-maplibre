@@ -201,7 +201,7 @@ importers:
         version: 2.36.1(three@0.186.1)
     devDependencies:
       '@eslint-react/eslint-plugin':
-        specifier: ^5.28.0
+        specifier: ^5.28.1
         version: 5.28.1(eslint@10.13.0(jiti@2.7.0))(typescript@6.0.3)
       '@iconify/json':
         specifier: ^2.2.544
