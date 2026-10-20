@@ -52,10 +52,9 @@
     "three-stdlib": "^2.36.1"
   },
   "devDependencies": {
-    "@eslint-react/eslint-plugin": "^5.28.2",
     "@iconify/json": "^2.2.545",
     "@iconify/tailwind4": "^1.2.3",
-    "@renton/eslint-config-react": "^1.1.0",
+    "@renton/eslint-config-react": "^1.2.0",
     "@rsbuild/core": "^2.2.14",
     "@rsbuild/plugin-less": "^2.0.1",
     "@rsbuild/plugin-react": "^2.1.1",
@@ -66,9 +65,6 @@
     "@types/three": "^0.186.0",
     "cross-env": "^10.1.0",
     "eslint": "^10.13.0",
-    "eslint-plugin-format": "^2.0.1",
-    "eslint-plugin-react-hooks": "^7.1.1",
-    "eslint-plugin-react-refresh": "^0.5.7",
     "husky": "^9.1.7",
     "lint-staged": "^17.6.0",
     "mapbox-gl": "^3.33.0",

@@ -9,7 +9,6 @@ import Map from "react-map-gl/maplibre";
 import { Canvas } from "react-three-map/maplibre";
 import { LineMaterial, LineSegments2, LineSegmentsGeometry } from "three-stdlib";
 
-// eslint-disable-next-line unicorn/no-top-level-side-effects -- R3F extend must run before render
 extend({ LineMaterial, LineSegments2, LineSegmentsGeometry });
 
 declare module "@react-three/fiber" {
