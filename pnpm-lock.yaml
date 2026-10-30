@@ -201,7 +201,7 @@ importers:
         version: 2.36.1(three@0.186.1)
     devDependencies:
       '@iconify/json':
-        specifier: ^2.2.549
+        specifier: ^2.2.550
         version: 2.2.550
       '@iconify/tailwind4':
         specifier: ^1.2.3
