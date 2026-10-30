@@ -1,5 +1,11 @@
+
 minimumReleaseAge: 0
-trustPolicy: off
+minimumReleaseAgeExcludePrune: true
+
+trustPolicy: no-downgrade
+trustPolicyExclude:
+  - semver
+
 shellEmulator: true
 
 allowBuilds:
@@ -8,4 +14,5 @@ allowBuilds:
 onlyBuiltDependencies:
   - "@tailwindcss/oxide"
   - core-js
+
 
