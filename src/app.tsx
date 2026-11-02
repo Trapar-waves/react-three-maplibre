@@ -31,7 +31,9 @@ const MAP_STYLE_URL = "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/sty
 
 function publicAssetUrl(filename: string): string {
   const base = (import.meta.env.BASE_URL ?? "/").replace(/\/$/, "");
-  const path = filename.startsWith("/") ? filename : `/${filename}`;
+  const path = filename.startsWith("/")
+    ? filename
+    : `/${filename}`;
   return `${base || ""}${path}`.replaceAll("//", "/");
 }
 
