@@ -207,8 +207,8 @@ importers:
         specifier: ^1.2.3
         version: 1.2.3(tailwindcss@4.3.4)
       '@renton/eslint-config-react':
-        specifier: ^1.2.1
-        version: 1.2.1(@renton/eslint-config@1.2.1(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/typescript-estree@8.72.1(typescript@6.0.3))(@typescript-eslint/utils@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(tailwindcss@4.3.4)(typescript@6.0.3)
+        specifier: ^2.0.0
+        version: 2.0.0(@renton/eslint-config@2.0.0(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/typescript-estree@8.72.1(typescript@6.0.3))(@typescript-eslint/utils@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(tailwindcss@4.3.4)(typescript@6.0.3)
       '@rsbuild/core':
         specifier: ^2.3.0
         version: 2.3.0
@@ -1053,28 +1053,31 @@ packages:
       react-native:
         optional: true
 
-  '@renton/eslint-config-frontend@1.2.1':
-    resolution: {integrity: sha512-HIDCDAtiodi8NpHKPWULd3VuTBgUPzgnLlFppMCtjqPjTzniZU79reELQE33y1F9/6NhowUkaKEuL6qWQfbFiQ==}
+  '@renton/eslint-config-frontend@2.0.0':
+    resolution: {integrity: sha512-eu0Xus2HB6QaRcKXNvNrfMwZ4Iyn2CoinXUS0puriWCOV8lJ6X2/In7ehaVC9p9aZsIzmg1ZXN4OXhDKfkMqpQ==}
     engines: {node: '>=24.0.0'}
     peerDependencies:
-      '@renton/eslint-config': 1.2.1
+      '@renton/eslint-config': 2.0.0
       eslint: ^9.0.0 || ^10.0.0
 
-  '@renton/eslint-config-react@1.2.1':
-    resolution: {integrity: sha512-PnFjCG+7vup4dTVv6pT64xlMdbojiQwUNErC7Vpne7yKZ6WdY3LA+mEVp8M9JlCsGsNhx/nvJ5YLZFkb8Vjz8g==}
+  '@renton/eslint-config-react@2.0.0':
+    resolution: {integrity: sha512-embk/Gb4k8gGHbnlVvUYYMKleYa7HTRydbF56e0vIVb2h6eTZHvQrb8rb/OGBegXsAae9u2U66ysc+JNsBOetg==}
     engines: {node: '>=24.0.0'}
     peerDependencies:
-      '@renton/eslint-config': 1.2.1
+      '@renton/eslint-config': 2.0.0
       eslint: ^9.0.0 || ^10.0.0
 
-  '@renton/eslint-config@1.2.1':
-    resolution: {integrity: sha512-WoG2JamsewBrhFDNVyji1LghU4fcAVFWEHVra9KAQcEjKt7q9YEZ+pXaVqgGE6OssJLj1Tqvwlc8nSUU0GJJcQ==}
+  '@renton/eslint-config@2.0.0':
+    resolution: {integrity: sha512-oLIejl2iVdZ9BlJvrxhVQ8NCxhSntNRa7KNJ4CmVI7fzD2YvD7vWYsBD6YZmUtp3lzNlOw/PPqvwdzW5UbHU1g==}
     engines: {node: '>=24.0.0'}
     peerDependencies:
+      '@e18e/eslint-plugin': '>=0.8.1'
       eslint: ^9.0.0 || ^10.0.0
       eslint-plugin-slop: '>=0.1.1'
       eslint-plugin-sonarjs: '>=4.0.0'
     peerDependenciesMeta:
+      '@e18e/eslint-plugin':
+        optional: true
       eslint-plugin-slop:
         optional: true
       eslint-plugin-sonarjs:
@@ -2071,8 +2074,8 @@ packages:
     peerDependencies:
       eslint: '*'
 
-  eslint-plugin-baseline-js@0.7.6:
-    resolution: {integrity: sha512-z2PEC/N6WSrcmYunFVutSKRqWURnXbdkyDboal4dztiYdC8OjaiaaJ1xDtWCV1lXR8VWbcxosICzPNz0N9enPQ==}
+  eslint-plugin-baseline-js@0.7.7:
+    resolution: {integrity: sha512-BACS9mwBXmtZaGzVeIlfKxjAw0KlJkZ9fBH3YYp6jKE6ZUMNkzrIwixuWnYtPEfDsD8EswCaK9FQLXKIMUuwgQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
       eslint: '>=9.29.0 <11'
@@ -2226,8 +2229,8 @@ packages:
       eslint:
         optional: true
 
-  eslint-plugin-regexp@3.3.2:
-    resolution: {integrity: sha512-hdkHQVDUtP3+U66PMZSQxw++mburJyJbFY8fu8lryMvJ2glo7xjq1Ov8A/uczxNU+IS87TFXUUBIJ7dxqgcJwg==}
+  eslint-plugin-regexp@3.3.3:
+    resolution: {integrity: sha512-bIpFf1uL9AB6MY5cDUXL2lrfuBA+/WLc1AwC+56OsHWo93zoKQ4EcAQ+wsOxq5ozLC9xfTYAb4Si+0w0Ll1hYA==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
     peerDependencies:
       eslint: '>=9.38.0'
@@ -4708,23 +4711,23 @@ snapshots:
       - '@types/react'
       - immer
 
-  '@renton/eslint-config-frontend@1.2.1(@renton/eslint-config@1.2.1(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/typescript-estree@8.72.1(typescript@6.0.3))(@typescript-eslint/utils@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(tailwindcss@4.3.4)(typescript@6.0.3)':
+  '@renton/eslint-config-frontend@2.0.0(@renton/eslint-config@2.0.0(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/typescript-estree@8.72.1(typescript@6.0.3))(@typescript-eslint/utils@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(tailwindcss@4.3.4)(typescript@6.0.3)':
     dependencies:
-      '@renton/eslint-config': 1.2.1(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/typescript-estree@8.72.1(typescript@6.0.3))(@typescript-eslint/utils@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3)
+      '@renton/eslint-config': 2.0.0(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/typescript-estree@8.72.1(typescript@6.0.3))(@typescript-eslint/utils@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3)
       eslint: 10.14.0(jiti@2.7.0)
-      eslint-plugin-baseline-js: 0.7.6(eslint@10.14.0(jiti@2.7.0))
+      eslint-plugin-baseline-js: 0.7.7(eslint@10.14.0(jiti@2.7.0))
       eslint-plugin-tailwindcss: 4.4.0(eslint@10.14.0(jiti@2.7.0))(tailwindcss@4.3.4)(typescript@6.0.3)
     transitivePeerDependencies:
       - supports-color
       - tailwindcss
       - typescript
 
-  '@renton/eslint-config-react@1.2.1(@renton/eslint-config@1.2.1(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/typescript-estree@8.72.1(typescript@6.0.3))(@typescript-eslint/utils@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(tailwindcss@4.3.4)(typescript@6.0.3)':
+  '@renton/eslint-config-react@2.0.0(@renton/eslint-config@2.0.0(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/typescript-estree@8.72.1(typescript@6.0.3))(@typescript-eslint/utils@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(tailwindcss@4.3.4)(typescript@6.0.3)':
     dependencies:
       '@eslint-react/eslint-plugin': 5.28.8(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3)
       '@next/eslint-plugin-next': 16.4.3(eslint@10.14.0(jiti@2.7.0))
-      '@renton/eslint-config': 1.2.1(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/typescript-estree@8.72.1(typescript@6.0.3))(@typescript-eslint/utils@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3)
-      '@renton/eslint-config-frontend': 1.2.1(@renton/eslint-config@1.2.1(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/typescript-estree@8.72.1(typescript@6.0.3))(@typescript-eslint/utils@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(tailwindcss@4.3.4)(typescript@6.0.3)
+      '@renton/eslint-config': 2.0.0(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/typescript-estree@8.72.1(typescript@6.0.3))(@typescript-eslint/utils@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3)
+      '@renton/eslint-config-frontend': 2.0.0(@renton/eslint-config@2.0.0(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/typescript-estree@8.72.1(typescript@6.0.3))(@typescript-eslint/utils@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(tailwindcss@4.3.4)(typescript@6.0.3)
       '@tanstack/eslint-plugin-query': 5.105.0(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3)
       '@tanstack/eslint-plugin-router': 1.162.0(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3)
       eslint: 10.14.0(jiti@2.7.0)
@@ -4735,7 +4738,7 @@ snapshots:
       - tailwindcss
       - typescript
 
-  '@renton/eslint-config@1.2.1(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/typescript-estree@8.72.1(typescript@6.0.3))(@typescript-eslint/utils@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3)':
+  '@renton/eslint-config@2.0.0(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/typescript-estree@8.72.1(typescript@6.0.3))(@typescript-eslint/utils@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3)':
     dependencies:
       '@antfu/install-pkg': 2.1.0
       '@clack/prompts': 1.8.1
@@ -4757,7 +4760,7 @@ snapshots:
       eslint-plugin-no-only-tests: 3.4.0
       eslint-plugin-perfectionist: 5.13.0(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3)
       eslint-plugin-pnpm: 1.9.1(eslint@10.14.0(jiti@2.7.0))
-      eslint-plugin-regexp: 3.3.2(eslint@10.14.0(jiti@2.7.0))
+      eslint-plugin-regexp: 3.3.3(eslint@10.14.0(jiti@2.7.0))
       eslint-plugin-unicorn: 78.0.0(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3)
       eslint-plugin-unused-imports: 4.4.1(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0))
       eslint-plugin-yml: 3.9.0(eslint@10.14.0(jiti@2.7.0))
@@ -5758,7 +5761,7 @@ snapshots:
     dependencies:
       eslint: 10.14.0(jiti@2.7.0)
 
-  eslint-plugin-baseline-js@0.7.6(eslint@10.14.0(jiti@2.7.0)):
+  eslint-plugin-baseline-js@0.7.7(eslint@10.14.0(jiti@2.7.0)):
     dependencies:
       eslint: 10.14.0(jiti@2.7.0)
       eslint-plugin-es-x: 9.7.0(eslint@10.14.0(jiti@2.7.0))
@@ -5998,7 +6001,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-regexp@3.3.2(eslint@10.14.0(jiti@2.7.0)):
+  eslint-plugin-regexp@3.3.3(eslint@10.14.0(jiti@2.7.0)):
     dependencies:
       '@eslint-community/eslint-utils': 4.10.1(eslint@10.14.0(jiti@2.7.0))
       '@eslint-community/regexpp': 4.12.2
