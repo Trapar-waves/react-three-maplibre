@@ -229,17 +229,17 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0(@renton/eslint-config@2.0.0(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/typescript-estree@8.72.1(typescript@6.0.3))(@typescript-eslint/utils@8.72.1(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.15.0(jiti@2.7.0))(tailwindcss@4.3.5)(typescript@6.0.3)
       '@rsbuild/core':
-        specifier: ^2.3.4
-        version: 2.3.4
+        specifier: ^2.3.5
+        version: 2.3.5
       '@rsbuild/plugin-less':
         specifier: ^2.0.1
-        version: 2.0.1(@rsbuild/core@2.3.4)(@rspack/core@2.3.4(@swc/helpers@0.5.24))
+        version: 2.0.1(@rsbuild/core@2.3.5)(@rspack/core@2.3.4(@swc/helpers@0.5.24))
       '@rsbuild/plugin-react':
         specifier: ^2.1.1
-        version: 2.1.1(@rsbuild/core@2.3.4)(@rspack/core@2.3.4(@swc/helpers@0.5.24))
+        version: 2.1.1(@rsbuild/core@2.3.5)(@rspack/core@2.3.4(@swc/helpers@0.5.24))
       '@rsdoctor/rspack-plugin':
         specifier: ^1.6.5
-        version: 1.6.5(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(@rsbuild/core@2.3.4)(@rspack/core@2.3.4(@swc/helpers@0.5.24))
+        version: 1.6.5(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(@rsbuild/core@2.3.5)(@rspack/core@2.3.4(@swc/helpers@0.5.24))
       '@tailwindcss/postcss':
         specifier: ^4.3.5
         version: 4.3.5
@@ -275,7 +275,7 @@ importers:
         version: 6.0.3
       unplugin-turbo-console:
         specifier: ^3.0.0
-        version: 3.0.0(@rsbuild/core@2.3.4)(@rspack/core@2.3.4(@swc/helpers@0.5.24))(srvx@1.0.8)
+        version: 3.0.0(@rsbuild/core@2.3.5)(@rspack/core@2.3.4(@swc/helpers@0.5.24))(srvx@1.0.8)
 
 packages:
 
@@ -1118,8 +1118,8 @@ packages:
   '@rolldown/pluginutils@1.0.1':
     resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
 
-  '@rsbuild/core@2.3.4':
-    resolution: {integrity: sha512-1P3nLh/uXOcNTJZxvymRzAmuz8SBiCqY2InliNxQTlS0mWtoXbrRBC/W7zfv3MATk/vPmzODAYoZ5oIULk3Ilg==}
+  '@rsbuild/core@2.3.5':
+    resolution: {integrity: sha512-V2/KL+aM0jR583khX8vJdlH3d5j6Tk1Z3luIKOlOG+jpnbBPqpEJCzxwTZnHcUjNypK3wAJFziusk3JAD0ANDw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -4854,14 +4854,14 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.1': {}
 
-  '@rsbuild/core@2.3.4':
+  '@rsbuild/core@2.3.5':
     dependencies:
       '@rspack/core': 2.3.4(@swc/helpers@0.5.24)
       '@swc/helpers': 0.5.24
     transitivePeerDependencies:
       - '@module-federation/runtime-tools'
 
-  '@rsbuild/plugin-check-syntax@1.6.1(@rsbuild/core@2.3.4)':
+  '@rsbuild/plugin-check-syntax@1.6.1(@rsbuild/core@2.3.5)':
     dependencies:
       acorn: 8.19.0
       browserslist-to-es-version: 1.4.2
@@ -4869,35 +4869,35 @@ snapshots:
       picocolors: 1.1.1
       source-map: 0.7.6
     optionalDependencies:
-      '@rsbuild/core': 2.3.4
+      '@rsbuild/core': 2.3.5
 
-  '@rsbuild/plugin-less@2.0.1(@rsbuild/core@2.3.4)(@rspack/core@2.3.4(@swc/helpers@0.5.24))':
+  '@rsbuild/plugin-less@2.0.1(@rsbuild/core@2.3.5)(@rspack/core@2.3.4(@swc/helpers@0.5.24))':
     dependencies:
       deepmerge: 4.3.1
       less: 4.9.1
       less-loader: 12.3.3(@rspack/core@2.3.4(@swc/helpers@0.5.24))(less@4.9.1)
       reduce-configs: 2.0.1
     optionalDependencies:
-      '@rsbuild/core': 2.3.4
+      '@rsbuild/core': 2.3.5
     transitivePeerDependencies:
       - '@rspack/core'
       - supports-color
       - webpack
 
-  '@rsbuild/plugin-react@2.1.1(@rsbuild/core@2.3.4)(@rspack/core@2.3.4(@swc/helpers@0.5.24))':
+  '@rsbuild/plugin-react@2.1.1(@rsbuild/core@2.3.5)(@rspack/core@2.3.4(@swc/helpers@0.5.24))':
     dependencies:
       '@rspack/plugin-react-refresh': 2.0.2(@rspack/core@2.3.4(@swc/helpers@0.5.24))(react-refresh@0.19.0)
       react-refresh: 0.19.0
     optionalDependencies:
-      '@rsbuild/core': 2.3.4
+      '@rsbuild/core': 2.3.5
     transitivePeerDependencies:
       - '@rspack/core'
 
   '@rsdoctor/client@1.6.5': {}
 
-  '@rsdoctor/core@1.6.5(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(@rsbuild/core@2.3.4)(@rspack/core@2.3.4(@swc/helpers@0.5.24))':
+  '@rsdoctor/core@1.6.5(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(@rsbuild/core@2.3.5)(@rspack/core@2.3.4(@swc/helpers@0.5.24))':
     dependencies:
-      '@rsbuild/plugin-check-syntax': 1.6.1(@rsbuild/core@2.3.4)
+      '@rsbuild/plugin-check-syntax': 1.6.1(@rsbuild/core@2.3.5)
       '@rsdoctor/graph': 1.6.5(@rspack/core@2.3.4(@swc/helpers@0.5.24))
       '@rsdoctor/sdk': 1.6.5(@rspack/core@2.3.4(@swc/helpers@0.5.24))
       '@rsdoctor/types': 1.6.5(@rspack/core@2.3.4(@swc/helpers@0.5.24))
@@ -4931,9 +4931,9 @@ snapshots:
       - '@rspack/core'
       - webpack
 
-  '@rsdoctor/rspack-plugin@1.6.5(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(@rsbuild/core@2.3.4)(@rspack/core@2.3.4(@swc/helpers@0.5.24))':
+  '@rsdoctor/rspack-plugin@1.6.5(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(@rsbuild/core@2.3.5)(@rspack/core@2.3.4(@swc/helpers@0.5.24))':
     dependencies:
-      '@rsdoctor/core': 1.6.5(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(@rsbuild/core@2.3.4)(@rspack/core@2.3.4(@swc/helpers@0.5.24))
+      '@rsdoctor/core': 1.6.5(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(@rsbuild/core@2.3.5)(@rspack/core@2.3.4(@swc/helpers@0.5.24))
       '@rsdoctor/graph': 1.6.5(@rspack/core@2.3.4(@swc/helpers@0.5.24))
       '@rsdoctor/sdk': 1.6.5(@rspack/core@2.3.4(@swc/helpers@0.5.24))
       '@rsdoctor/types': 1.6.5(@rspack/core@2.3.4(@swc/helpers@0.5.24))
@@ -7715,7 +7715,7 @@ snapshots:
 
   universalify@2.0.1: {}
 
-  unplugin-turbo-console@3.0.0(@rsbuild/core@2.3.4)(@rspack/core@2.3.4(@swc/helpers@0.5.24))(srvx@1.0.8):
+  unplugin-turbo-console@3.0.0(@rsbuild/core@2.3.5)(@rspack/core@2.3.4(@swc/helpers@0.5.24))(srvx@1.0.8):
     dependencies:
       '@devframes/service-open': 1.2.6(devframe@1.2.6(srvx@1.0.8))
       devframe: 1.2.6(srvx@1.0.8)
@@ -7725,7 +7725,7 @@ snapshots:
       mrmime: 2.0.1
       oxc-parser: 0.151.0
       pathe: 2.0.3
-      unplugin: 3.7.0(@rsbuild/core@2.3.4)(@rspack/core@2.3.4(@swc/helpers@0.5.24))
+      unplugin: 3.7.0(@rsbuild/core@2.3.5)(@rspack/core@2.3.4(@swc/helpers@0.5.24))
     transitivePeerDependencies:
       - '@devframes/agentic'
       - '@rsbuild/core'
@@ -7737,14 +7737,14 @@ snapshots:
       - srvx
       - unloader
 
-  unplugin@3.7.0(@rsbuild/core@2.3.4)(@rspack/core@2.3.4(@swc/helpers@0.5.24)):
+  unplugin@3.7.0(@rsbuild/core@2.3.5)(@rspack/core@2.3.4(@swc/helpers@0.5.24)):
     dependencies:
       '@jridgewell/remapping': 2.3.5
       '@rolldown/pluginutils': 1.0.1
       picomatch: 4.0.7
       webpack-virtual-modules: 0.6.2
     optionalDependencies:
-      '@rsbuild/core': 2.3.4
+      '@rsbuild/core': 2.3.5
       '@rspack/core': 2.3.4(@swc/helpers@0.5.24)
 
   update-browserslist-db@1.3.4(browserslist@4.29.5):
